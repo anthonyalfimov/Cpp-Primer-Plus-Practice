@@ -12,6 +12,8 @@
 		3A094319210F67CE00170020 /* Pointers101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A094317210F67CE00170020 /* Pointers101.cpp */; };
 		3A13E0BA2162290E0023EA9B /* FuncArray101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A13E0B82162290E0023EA9B /* FuncArray101.cpp */; };
 		3A13E0BD21623E6B0023EA9B /* FuncArray102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A13E0BB21623E6B0023EA9B /* FuncArray102.cpp */; };
+		3A1B0EFD218B5CF20084D0DA /* Headers101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B0EFB218B5CF20084D0DA /* Headers101.cpp */; };
+		3A1B0F00218B5D320084D0DA /* coord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B0EFE218B5D320084D0DA /* coord.cpp */; };
 		3A1C7D3121078CFD00EFF72E /* Unions101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C7D2F21078CFD00EFF72E /* Unions101.cpp */; };
 		3A225A9C2146D0BF00A9997D /* TextInput104.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A225A9A2146D0BF00A9997D /* TextInput104.cpp */; };
 		3A225A9F2146DA4D00A9997D /* Arrays101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A225A9D2146DA4D00A9997D /* Arrays101.cpp */; };
@@ -110,6 +112,10 @@
 		3A13E0B92162290E0023EA9B /* FuncArray101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncArray101.hpp; sourceTree = "<group>"; };
 		3A13E0BB21623E6B0023EA9B /* FuncArray102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray102.cpp; sourceTree = "<group>"; };
 		3A13E0BC21623E6B0023EA9B /* FuncArray102.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncArray102.hpp; sourceTree = "<group>"; };
+		3A1B0EFB218B5CF20084D0DA /* Headers101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Headers101.cpp; sourceTree = "<group>"; };
+		3A1B0EFC218B5CF20084D0DA /* Headers101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Headers101.hpp; sourceTree = "<group>"; };
+		3A1B0EFE218B5D320084D0DA /* coord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = coord.cpp; sourceTree = "<group>"; };
+		3A1B0EFF218B5D320084D0DA /* coord.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = coord.hpp; sourceTree = "<group>"; };
 		3A1C7D2F21078CFD00EFF72E /* Unions101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Unions101.cpp; sourceTree = "<group>"; };
 		3A1C7D3021078CFD00EFF72E /* Unions101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Unions101.hpp; sourceTree = "<group>"; };
 		3A225A9A2146D0BF00A9997D /* TextInput104.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextInput104.cpp; sourceTree = "<group>"; };
@@ -362,6 +368,25 @@
 			path = Functions;
 			sourceTree = "<group>";
 		};
+		3A1B0EF9218B5C220084D0DA /* Separate Compilation */ = {
+			isa = PBXGroup;
+			children = (
+				3A1B0EFA218B5CC90084D0DA /* Headers101 */,
+			);
+			path = "Separate Compilation";
+			sourceTree = "<group>";
+		};
+		3A1B0EFA218B5CC90084D0DA /* Headers101 */ = {
+			isa = PBXGroup;
+			children = (
+				3A1B0EFE218B5D320084D0DA /* coord.cpp */,
+				3A1B0EFF218B5D320084D0DA /* coord.hpp */,
+				3A1B0EFB218B5CF20084D0DA /* Headers101.cpp */,
+				3A1B0EFC218B5CF20084D0DA /* Headers101.hpp */,
+			);
+			path = Headers101;
+			sourceTree = "<group>";
+		};
 		3A2B4B2E212DBE8800352E9F /* Console IO */ = {
 			isa = PBXGroup;
 			children = (
@@ -541,6 +566,7 @@
 				3A65668C2159300400ACDA13 /* File IO */,
 				3A13E0B7216228F40023EA9B /* Functions */,
 				3A00DA6B217DD2690042015D /* Templates */,
+				3A1B0EF9218B5C220084D0DA /* Separate Compilation */,
 				3A68487C215126EB004C5F68 /* Simple Examples */,
 				3AD3ED9520EBD8F3008D28BF /* main.cpp */,
 			);
@@ -636,6 +662,7 @@
 				3A1C7D3121078CFD00EFF72E /* Unions101.cpp in Sources */,
 				3AFCB149212C718000275E64 /* RangeLoops101.cpp in Sources */,
 				3AFDB3032177622C00532DF2 /* Reference103.cpp in Sources */,
+				3A1B0F00218B5D320084D0DA /* coord.cpp in Sources */,
 				3A9A164E2105FF87002A31B6 /* BitFields101.cpp in Sources */,
 				3A931FE221108377009AB0EB /* Pointers102.cpp in Sources */,
 				3A3A28952156979600CA9545 /* Switch102.cpp in Sources */,
@@ -668,6 +695,7 @@
 				3A3EB72D2163B12600C6773C /* FuncArray201.cpp in Sources */,
 				3A39AB3921021F970011AC89 /* StringFun104.cpp in Sources */,
 				3A68488221512C0F004C5F68 /* example02.cpp in Sources */,
+				3A1B0EFD218B5CF20084D0DA /* Headers101.cpp in Sources */,
 				3A3EB7332163B83100C6773C /* FuncString102.cpp in Sources */,
 				3A094319210F67CE00170020 /* Pointers101.cpp in Sources */,
 				3A61857821271F8E006E0C96 /* Loops101.cpp in Sources */,
