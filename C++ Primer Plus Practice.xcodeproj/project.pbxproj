@@ -10,6 +10,7 @@
 		3A00DA6E217DD2890042015D /* FuncTemp101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A00DA6C217DD2890042015D /* FuncTemp101.cpp */; };
 		3A00DA71217DD9570042015D /* TempOverload101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A00DA6F217DD9570042015D /* TempOverload101.cpp */; };
 		3A094319210F67CE00170020 /* Pointers101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A094317210F67CE00170020 /* Pointers101.cpp */; };
+		3A1327542191E6E1004E9B92 /* AutomaticScope101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1327522191E6E1004E9B92 /* AutomaticScope101.cpp */; };
 		3A13E0BA2162290E0023EA9B /* FuncArray101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A13E0B82162290E0023EA9B /* FuncArray101.cpp */; };
 		3A13E0BD21623E6B0023EA9B /* FuncArray102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A13E0BB21623E6B0023EA9B /* FuncArray102.cpp */; };
 		3A1B0EFD218B5CF20084D0DA /* Headers101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B0EFB218B5CF20084D0DA /* Headers101.cpp */; };
@@ -108,6 +109,8 @@
 		3A00DA70217DD9570042015D /* TempOverload101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TempOverload101.hpp; sourceTree = "<group>"; };
 		3A094317210F67CE00170020 /* Pointers101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pointers101.cpp; sourceTree = "<group>"; };
 		3A094318210F67CE00170020 /* Pointers101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pointers101.hpp; sourceTree = "<group>"; };
+		3A1327522191E6E1004E9B92 /* AutomaticScope101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AutomaticScope101.cpp; sourceTree = "<group>"; };
+		3A1327532191E6E1004E9B92 /* AutomaticScope101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AutomaticScope101.hpp; sourceTree = "<group>"; };
 		3A13E0B82162290E0023EA9B /* FuncArray101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray101.cpp; sourceTree = "<group>"; };
 		3A13E0B92162290E0023EA9B /* FuncArray101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncArray101.hpp; sourceTree = "<group>"; };
 		3A13E0BB21623E6B0023EA9B /* FuncArray102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray102.cpp; sourceTree = "<group>"; };
@@ -321,6 +324,15 @@
 				3A8D4B37212340C900AD8A30 /* CombinationOfTypes.cpp */,
 			);
 			path = Pointers;
+			sourceTree = "<group>";
+		};
+		3A1327512191E6BB004E9B92 /* Memory Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A1327522191E6E1004E9B92 /* AutomaticScope101.cpp */,
+				3A1327532191E6E1004E9B92 /* AutomaticScope101.hpp */,
+			);
+			path = "Memory Models";
 			sourceTree = "<group>";
 		};
 		3A13E0B7216228F40023EA9B /* Functions */ = {
@@ -568,6 +580,7 @@
 				3A00DA6B217DD2690042015D /* Templates */,
 				3A1B0EF9218B5C220084D0DA /* Separate Compilation */,
 				3A68487C215126EB004C5F68 /* Simple Examples */,
+				3A1327512191E6BB004E9B92 /* Memory Models */,
 				3AD3ED9520EBD8F3008D28BF /* main.cpp */,
 			);
 			path = "C++ Primer Plus Practice";
@@ -650,6 +663,7 @@
 				3A9BD2342111F5ED00BB73F6 /* PointerArithmetic101.cpp in Sources */,
 				3A00DA6E217DD2890042015D /* FuncTemp101.cpp in Sources */,
 				3A225A9F2146DA4D00A9997D /* Arrays101.cpp in Sources */,
+				3A1327542191E6E1004E9B92 /* AutomaticScope101.cpp in Sources */,
 				3AD3ED9620EBD8F3008D28BF /* main.cpp in Sources */,
 				3AC21C22217A386D00FA5529 /* FuncOverload101.cpp in Sources */,
 				3AFCB140212C351900275E64 /* StringComparison101.cpp in Sources */,

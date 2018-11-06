@@ -2,9 +2,9 @@
 //
 
 //#include <iostream>
-#include "Headers101.hpp"
+#include "AutomaticScope101.hpp"
 
 int main()
 {
-    showHeaders101();
+    showAutomaticScope101();
 }
