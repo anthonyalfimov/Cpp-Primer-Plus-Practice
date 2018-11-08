@@ -1,5 +1,5 @@
 //
-//  AutomaticScope101.cpp
+//  AutomaticVars101.cpp
 //  C++ Primer Plus Practice
 //
 //  Created by Anthony on 06/11/2018.
@@ -10,7 +10,7 @@
 
 void oil(int x);
 
-void showAutomaticScope101()
+void showAutomaticVars101()
 {
     int texas {31};
     int year {2018};

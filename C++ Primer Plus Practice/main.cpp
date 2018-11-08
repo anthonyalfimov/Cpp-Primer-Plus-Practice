@@ -2,9 +2,9 @@
 //
 
 //#include <iostream>
-#include "AutomaticScope101.hpp"
+#include "ExternalVars101.hpp"
 
 int main()
 {
-    showAutomaticScope101();
+    showExternalVars101();
 }
