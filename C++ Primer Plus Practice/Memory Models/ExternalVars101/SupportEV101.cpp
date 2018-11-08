@@ -16,14 +16,14 @@ void ev_local();
 
 void ev_update(double dt)       // modifies global variable
 {
-    extern double ev_warming;   // optional redeclaration
-    ev_warming += dt;
+    extern double ev_warming;   // optional redeclaration (for documentation purposes only)
+    ev_warming += dt;           // better to use `::` for global variable to avoid errors
     std::cout << "Updated global warming to " << ev_warming << " degrees.\n";
 }
 
 void ev_local()                 // uses local variable
 {
-    double ev_warming {0.8};    // new variable hide external one
+    double ev_warming {0.8};    // new local variable hides the external one
     std::cout << "Local warming is " << ev_warming << " degrees.\n";
     
 //  Access global variable with the scope resolution operator:

@@ -14,7 +14,7 @@
 //  For this reason we use prefixes with function and variable names.
 
 //  External variable
-double ev_warming {0.3};       // `warming` definition
+double ev_warming {0.3};       // `ev_warming` definition
 
 //  Function prototypes
 void ev_update(double dt);
