@@ -2,9 +2,9 @@
 //
 
 //#include <iostream>
-#include "LocalStaticVars101.hpp"
+#include "LocalStaticVars102.hpp"
 
 int main()
 {
-    showLocalStaticVars101();
+    showLocalStaticVars102();
 }
