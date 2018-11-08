@@ -41,6 +41,7 @@
 		3A416452219471D80027E2C7 /* SupportEV101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A416451219471D80027E2C7 /* SupportEV101.cpp */; };
 		3A41645621947EA90027E2C7 /* StaticInternalVars101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A41645421947EA90027E2C7 /* StaticInternalVars101.cpp */; };
 		3A41645821947F2E0027E2C7 /* SupportSIV101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A41645721947F2E0027E2C7 /* SupportSIV101.cpp */; };
+		3A41645B2194855F0027E2C7 /* LocalStaticVars101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A4164592194855F0027E2C7 /* LocalStaticVars101.cpp */; };
 		3A468E822167BE1E00126DE9 /* FuncPointer101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A468E802167BE1E00126DE9 /* FuncPointer101.cpp */; };
 		3A4ADDA120FE169100C95277 /* TypeCasts101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ADD9F20FE169100C95277 /* TypeCasts101.cpp */; };
 		3A4D2423217632B90055DB97 /* Reference102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D2421217632B90055DB97 /* Reference102.cpp */; };
@@ -173,6 +174,8 @@
 		3A41645421947EA90027E2C7 /* StaticInternalVars101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StaticInternalVars101.cpp; sourceTree = "<group>"; };
 		3A41645521947EA90027E2C7 /* StaticInternalVars101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StaticInternalVars101.hpp; sourceTree = "<group>"; };
 		3A41645721947F2E0027E2C7 /* SupportSIV101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SupportSIV101.cpp; sourceTree = "<group>"; };
+		3A4164592194855F0027E2C7 /* LocalStaticVars101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LocalStaticVars101.cpp; sourceTree = "<group>"; };
+		3A41645A2194855F0027E2C7 /* LocalStaticVars101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LocalStaticVars101.hpp; sourceTree = "<group>"; };
 		3A468E802167BE1E00126DE9 /* FuncPointer101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncPointer101.cpp; sourceTree = "<group>"; };
 		3A468E812167BE1E00126DE9 /* FuncPointer101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncPointer101.hpp; sourceTree = "<group>"; };
 		3A4ADD9F20FE169100C95277 /* TypeCasts101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TypeCasts101.cpp; sourceTree = "<group>"; };
@@ -343,6 +346,8 @@
 				3A416450219471930027E2C7 /* ExternalVars101 */,
 				3A1327522191E6E1004E9B92 /* AutomaticVars101.cpp */,
 				3A1327532191E6E1004E9B92 /* AutomaticVars101.hpp */,
+				3A4164592194855F0027E2C7 /* LocalStaticVars101.cpp */,
+				3A41645A2194855F0027E2C7 /* LocalStaticVars101.hpp */,
 			);
 			path = "Memory Models";
 			sourceTree = "<group>";
@@ -682,6 +687,7 @@
 				3A13E0BA2162290E0023EA9B /* FuncArray101.cpp in Sources */,
 				3AFCB143212C382100275E64 /* StringComparison102.cpp in Sources */,
 				3AF4162D2162596900A079C9 /* FuncArray103.cpp in Sources */,
+				3A41645B2194855F0027E2C7 /* LocalStaticVars101.cpp in Sources */,
 				3AFCB146212C68DC00275E64 /* LegacyTime101.cpp in Sources */,
 				3A41645621947EA90027E2C7 /* StaticInternalVars101.cpp in Sources */,
 				3A61857521270217006E0C96 /* Expressions101.cpp in Sources */,
