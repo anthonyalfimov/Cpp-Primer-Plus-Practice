@@ -39,6 +39,8 @@
 		3A3EB7332163B83100C6773C /* FuncString102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EB7312163B83100C6773C /* FuncString102.cpp */; };
 		3A41644F219471330027E2C7 /* ExternalVars101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A41644D219471330027E2C7 /* ExternalVars101.cpp */; };
 		3A416452219471D80027E2C7 /* SupportEV101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A416451219471D80027E2C7 /* SupportEV101.cpp */; };
+		3A41645621947EA90027E2C7 /* StaticInternalVars101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A41645421947EA90027E2C7 /* StaticInternalVars101.cpp */; };
+		3A41645821947F2E0027E2C7 /* SupportSIV101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A41645721947F2E0027E2C7 /* SupportSIV101.cpp */; };
 		3A468E822167BE1E00126DE9 /* FuncPointer101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A468E802167BE1E00126DE9 /* FuncPointer101.cpp */; };
 		3A4ADDA120FE169100C95277 /* TypeCasts101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ADD9F20FE169100C95277 /* TypeCasts101.cpp */; };
 		3A4D2423217632B90055DB97 /* Reference102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D2421217632B90055DB97 /* Reference102.cpp */; };
@@ -168,6 +170,9 @@
 		3A41644D219471330027E2C7 /* ExternalVars101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExternalVars101.cpp; sourceTree = "<group>"; };
 		3A41644E219471330027E2C7 /* ExternalVars101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ExternalVars101.hpp; sourceTree = "<group>"; };
 		3A416451219471D80027E2C7 /* SupportEV101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SupportEV101.cpp; sourceTree = "<group>"; };
+		3A41645421947EA90027E2C7 /* StaticInternalVars101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StaticInternalVars101.cpp; sourceTree = "<group>"; };
+		3A41645521947EA90027E2C7 /* StaticInternalVars101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StaticInternalVars101.hpp; sourceTree = "<group>"; };
+		3A41645721947F2E0027E2C7 /* SupportSIV101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SupportSIV101.cpp; sourceTree = "<group>"; };
 		3A468E802167BE1E00126DE9 /* FuncPointer101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncPointer101.cpp; sourceTree = "<group>"; };
 		3A468E812167BE1E00126DE9 /* FuncPointer101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncPointer101.hpp; sourceTree = "<group>"; };
 		3A4ADD9F20FE169100C95277 /* TypeCasts101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TypeCasts101.cpp; sourceTree = "<group>"; };
@@ -334,6 +339,7 @@
 		3A1327512191E6BB004E9B92 /* Memory Models */ = {
 			isa = PBXGroup;
 			children = (
+				3A41645321947E770027E2C7 /* StaticInternalVars101 */,
 				3A416450219471930027E2C7 /* ExternalVars101 */,
 				3A1327522191E6E1004E9B92 /* AutomaticVars101.cpp */,
 				3A1327532191E6E1004E9B92 /* AutomaticVars101.hpp */,
@@ -487,6 +493,16 @@
 				3A416451219471D80027E2C7 /* SupportEV101.cpp */,
 			);
 			path = ExternalVars101;
+			sourceTree = "<group>";
+		};
+		3A41645321947E770027E2C7 /* StaticInternalVars101 */ = {
+			isa = PBXGroup;
+			children = (
+				3A41645521947EA90027E2C7 /* StaticInternalVars101.hpp */,
+				3A41645421947EA90027E2C7 /* StaticInternalVars101.cpp */,
+				3A41645721947F2E0027E2C7 /* SupportSIV101.cpp */,
+			);
+			path = StaticInternalVars101;
 			sourceTree = "<group>";
 		};
 		3A618572212701FA006E0C96 /* Basics */ = {
@@ -667,6 +683,7 @@
 				3AFCB143212C382100275E64 /* StringComparison102.cpp in Sources */,
 				3AF4162D2162596900A079C9 /* FuncArray103.cpp in Sources */,
 				3AFCB146212C68DC00275E64 /* LegacyTime101.cpp in Sources */,
+				3A41645621947EA90027E2C7 /* StaticInternalVars101.cpp in Sources */,
 				3A61857521270217006E0C96 /* Expressions101.cpp in Sources */,
 				3A624BAB2100F7760098A2D3 /* StringFun101.cpp in Sources */,
 				3A00DA71217DD9570042015D /* TempOverload101.cpp in Sources */,
@@ -718,6 +735,7 @@
 				3AAC7147210A4DF7000C8090 /* Enums101.cpp in Sources */,
 				3A39AB412102434B0011AC89 /* Struct102.cpp in Sources */,
 				3A4D2423217632B90055DB97 /* Reference102.cpp in Sources */,
+				3A41645821947F2E0027E2C7 /* SupportSIV101.cpp in Sources */,
 				3A97452F2165025E00F62A56 /* FuncStruct101.cpp in Sources */,
 				3A3EB72A21639E6A00C6773C /* Arrays201.cpp in Sources */,
 				3A8F6590216B755300B26D43 /* FuncPointer102.cpp in Sources */,
