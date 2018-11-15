@@ -89,6 +89,8 @@
 		3ADD3A56212AF5B300476E00 /* CommaOperator101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD3A54212AF5B300476E00 /* CommaOperator101.cpp */; };
 		3AE4BD052152AF16004851E6 /* Switch101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4BD032152AF16004851E6 /* Switch101.cpp */; };
 		3AF4162D2162596900A079C9 /* FuncArray103.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF4162B2162596900A079C9 /* FuncArray103.cpp */; };
+		3AF7CFEF219DD90700FC359D /* Namespaces101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7CFED219DD90700FC359D /* Namespaces101.cpp */; };
+		3AF7CFF2219DD98000FC359D /* namesp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7CFF0219DD98000FC359D /* namesp.cpp */; };
 		3AFCB140212C351900275E64 /* StringComparison101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCB13E212C351900275E64 /* StringComparison101.cpp */; };
 		3AFCB143212C382100275E64 /* StringComparison102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCB141212C382100275E64 /* StringComparison102.cpp */; };
 		3AFCB146212C68DC00275E64 /* LegacyTime101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCB144212C68DC00275E64 /* LegacyTime101.cpp */; };
@@ -274,6 +276,10 @@
 		3AE4BD042152AF16004851E6 /* Switch101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Switch101.hpp; sourceTree = "<group>"; };
 		3AF4162B2162596900A079C9 /* FuncArray103.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray103.cpp; sourceTree = "<group>"; };
 		3AF4162C2162596900A079C9 /* FuncArray103.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncArray103.hpp; sourceTree = "<group>"; };
+		3AF7CFED219DD90700FC359D /* Namespaces101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Namespaces101.cpp; sourceTree = "<group>"; };
+		3AF7CFEE219DD90700FC359D /* Namespaces101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Namespaces101.hpp; sourceTree = "<group>"; };
+		3AF7CFF0219DD98000FC359D /* namesp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = namesp.cpp; sourceTree = "<group>"; };
+		3AF7CFF1219DD98000FC359D /* namesp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = namesp.hpp; sourceTree = "<group>"; };
 		3AFCB13E212C351900275E64 /* StringComparison101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringComparison101.cpp; sourceTree = "<group>"; };
 		3AFCB13F212C351900275E64 /* StringComparison101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringComparison101.hpp; sourceTree = "<group>"; };
 		3AFCB141212C382100275E64 /* StringComparison102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringComparison102.cpp; sourceTree = "<group>"; };
@@ -348,6 +354,7 @@
 		3A1327512191E6BB004E9B92 /* Memory Models */ = {
 			isa = PBXGroup;
 			children = (
+				3AF7CFEC219DD8CD00FC359D /* Namespaces101 */,
 				3A41645321947E770027E2C7 /* StaticInternalVars101 */,
 				3A416450219471930027E2C7 /* ExternalVars101 */,
 				3A1327522191E6E1004E9B92 /* AutomaticVars101.cpp */,
@@ -633,6 +640,17 @@
 			path = "C++ Primer Plus Practice";
 			sourceTree = "<group>";
 		};
+		3AF7CFEC219DD8CD00FC359D /* Namespaces101 */ = {
+			isa = PBXGroup;
+			children = (
+				3AF7CFF0219DD98000FC359D /* namesp.cpp */,
+				3AF7CFF1219DD98000FC359D /* namesp.hpp */,
+				3AF7CFED219DD90700FC359D /* Namespaces101.cpp */,
+				3AF7CFEE219DD90700FC359D /* Namespaces101.hpp */,
+			);
+			path = Namespaces101;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -690,7 +708,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A266935215146B7009CAB96 /* example03.cpp in Sources */,
+				3AF7CFF2219DD98000FC359D /* namesp.cpp in Sources */,
 				3A9A164B2105FD07002A31B6 /* Struct103.cpp in Sources */,
+				3AF7CFEF219DD90700FC359D /* Namespaces101.cpp in Sources */,
 				3ABE5CF82165108C00C6F869 /* FuncStruct102.cpp in Sources */,
 				3A416452219471D80027E2C7 /* SupportEV101.cpp in Sources */,
 				3A7D078F2181F41C00101B33 /* PartialOrdering101.cpp in Sources */,

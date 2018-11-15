@@ -2,9 +2,9 @@
 //
 
 //#include <iostream>
-#include "Memory Models/PlacementNew101.hpp"
+#include "Namespaces101.hpp"
 
 int main()
 {
-    showPlacementNew101();
+    showNamespaces101();
 }
