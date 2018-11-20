@@ -84,6 +84,7 @@
 		3ABE5CF82165108C00C6F869 /* FuncStruct102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE5CF62165108C00C6F869 /* FuncStruct102.cpp */; };
 		3AC21C22217A386D00FA5529 /* FuncOverload101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC21C20217A386D00FA5529 /* FuncOverload101.cpp */; };
 		3AC4DEF8219AEAC300BE989B /* PlacementNew101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4DEF6219AEAC300BE989B /* PlacementNew101.cpp */; };
+		3AC842E021A456E400DAF50D /* Classes101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC842DF21A456E400DAF50D /* Classes101.cpp */; };
 		3AD1F34D215A56EA004CFE88 /* ReadingFile101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1F34B215A56EA004CFE88 /* ReadingFile101.cpp */; };
 		3AD3ED9620EBD8F3008D28BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3ED9520EBD8F3008D28BF /* main.cpp */; };
 		3ADD3A56212AF5B300476E00 /* CommaOperator101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD3A54212AF5B300476E00 /* CommaOperator101.cpp */; };
@@ -119,7 +120,6 @@
 		3A094317210F67CE00170020 /* Pointers101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pointers101.cpp; sourceTree = "<group>"; };
 		3A094318210F67CE00170020 /* Pointers101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pointers101.hpp; sourceTree = "<group>"; };
 		3A1327522191E6E1004E9B92 /* AutomaticVars101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AutomaticVars101.cpp; sourceTree = "<group>"; };
-		3A1327532191E6E1004E9B92 /* AutomaticVars101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AutomaticVars101.hpp; sourceTree = "<group>"; };
 		3A13E0B82162290E0023EA9B /* FuncArray101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray101.cpp; sourceTree = "<group>"; };
 		3A13E0B92162290E0023EA9B /* FuncArray101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncArray101.hpp; sourceTree = "<group>"; };
 		3A13E0BB21623E6B0023EA9B /* FuncArray102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray102.cpp; sourceTree = "<group>"; };
@@ -173,15 +173,11 @@
 		3A3EB7312163B83100C6773C /* FuncString102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncString102.cpp; sourceTree = "<group>"; };
 		3A3EB7322163B83100C6773C /* FuncString102.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncString102.hpp; sourceTree = "<group>"; };
 		3A41644D219471330027E2C7 /* ExternalVars101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExternalVars101.cpp; sourceTree = "<group>"; };
-		3A41644E219471330027E2C7 /* ExternalVars101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ExternalVars101.hpp; sourceTree = "<group>"; };
 		3A416451219471D80027E2C7 /* SupportEV101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SupportEV101.cpp; sourceTree = "<group>"; };
 		3A41645421947EA90027E2C7 /* StaticInternalVars101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StaticInternalVars101.cpp; sourceTree = "<group>"; };
-		3A41645521947EA90027E2C7 /* StaticInternalVars101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StaticInternalVars101.hpp; sourceTree = "<group>"; };
 		3A41645721947F2E0027E2C7 /* SupportSIV101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SupportSIV101.cpp; sourceTree = "<group>"; };
 		3A4164592194855F0027E2C7 /* LocalStaticVars101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LocalStaticVars101.cpp; sourceTree = "<group>"; };
-		3A41645A2194855F0027E2C7 /* LocalStaticVars101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LocalStaticVars101.hpp; sourceTree = "<group>"; };
 		3A41645C21948BEF0027E2C7 /* LocalStaticVars102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LocalStaticVars102.cpp; sourceTree = "<group>"; };
-		3A41645D21948BEF0027E2C7 /* LocalStaticVars102.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LocalStaticVars102.hpp; sourceTree = "<group>"; };
 		3A468E802167BE1E00126DE9 /* FuncPointer101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncPointer101.cpp; sourceTree = "<group>"; };
 		3A468E812167BE1E00126DE9 /* FuncPointer101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncPointer101.hpp; sourceTree = "<group>"; };
 		3A4ADD9F20FE169100C95277 /* TypeCasts101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TypeCasts101.cpp; sourceTree = "<group>"; };
@@ -265,7 +261,9 @@
 		3AC21C20217A386D00FA5529 /* FuncOverload101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncOverload101.cpp; sourceTree = "<group>"; };
 		3AC21C21217A386D00FA5529 /* FuncOverload101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncOverload101.hpp; sourceTree = "<group>"; };
 		3AC4DEF6219AEAC300BE989B /* PlacementNew101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlacementNew101.cpp; sourceTree = "<group>"; };
-		3AC4DEF7219AEAC300BE989B /* PlacementNew101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PlacementNew101.hpp; sourceTree = "<group>"; };
+		3AC842DD21A455B300DAF50D /* Contents.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Contents.hpp; sourceTree = "<group>"; };
+		3AC842DF21A456E400DAF50D /* Classes101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Classes101.cpp; sourceTree = "<group>"; };
+		3AC842E121A4574700DAF50D /* Classes101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Classes101.hpp; sourceTree = "<group>"; };
 		3AD1F34B215A56EA004CFE88 /* ReadingFile101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReadingFile101.cpp; sourceTree = "<group>"; };
 		3AD1F34C215A56EA004CFE88 /* ReadingFile101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReadingFile101.hpp; sourceTree = "<group>"; };
 		3AD3ED9220EBD8F3008D28BF /* C++ Primer Plus Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Primer Plus Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -277,7 +275,6 @@
 		3AF4162B2162596900A079C9 /* FuncArray103.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray103.cpp; sourceTree = "<group>"; };
 		3AF4162C2162596900A079C9 /* FuncArray103.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncArray103.hpp; sourceTree = "<group>"; };
 		3AF7CFED219DD90700FC359D /* Namespaces101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Namespaces101.cpp; sourceTree = "<group>"; };
-		3AF7CFEE219DD90700FC359D /* Namespaces101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Namespaces101.hpp; sourceTree = "<group>"; };
 		3AF7CFF0219DD98000FC359D /* namesp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = namesp.cpp; sourceTree = "<group>"; };
 		3AF7CFF1219DD98000FC359D /* namesp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = namesp.hpp; sourceTree = "<group>"; };
 		3AFCB13E212C351900275E64 /* StringComparison101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringComparison101.cpp; sourceTree = "<group>"; };
@@ -358,13 +355,9 @@
 				3A41645321947E770027E2C7 /* StaticInternalVars101 */,
 				3A416450219471930027E2C7 /* ExternalVars101 */,
 				3A1327522191E6E1004E9B92 /* AutomaticVars101.cpp */,
-				3A1327532191E6E1004E9B92 /* AutomaticVars101.hpp */,
 				3A4164592194855F0027E2C7 /* LocalStaticVars101.cpp */,
-				3A41645A2194855F0027E2C7 /* LocalStaticVars101.hpp */,
 				3A41645C21948BEF0027E2C7 /* LocalStaticVars102.cpp */,
-				3A41645D21948BEF0027E2C7 /* LocalStaticVars102.hpp */,
 				3AC4DEF6219AEAC300BE989B /* PlacementNew101.cpp */,
-				3AC4DEF7219AEAC300BE989B /* PlacementNew101.hpp */,
 			);
 			path = "Memory Models";
 			sourceTree = "<group>";
@@ -510,7 +503,6 @@
 		3A416450219471930027E2C7 /* ExternalVars101 */ = {
 			isa = PBXGroup;
 			children = (
-				3A41644E219471330027E2C7 /* ExternalVars101.hpp */,
 				3A41644D219471330027E2C7 /* ExternalVars101.cpp */,
 				3A416451219471D80027E2C7 /* SupportEV101.cpp */,
 			);
@@ -520,7 +512,6 @@
 		3A41645321947E770027E2C7 /* StaticInternalVars101 */ = {
 			isa = PBXGroup;
 			children = (
-				3A41645521947EA90027E2C7 /* StaticInternalVars101.hpp */,
 				3A41645421947EA90027E2C7 /* StaticInternalVars101.cpp */,
 				3A41645721947F2E0027E2C7 /* SupportSIV101.cpp */,
 			);
@@ -602,6 +593,15 @@
 			path = "Simple Examples";
 			sourceTree = "<group>";
 		};
+		3AC842DE21A456CE00DAF50D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3AC842DF21A456E400DAF50D /* Classes101.cpp */,
+				3AC842E121A4574700DAF50D /* Classes101.hpp */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		3AD3ED8920EBD8F3008D28BF = {
 			isa = PBXGroup;
 			children = (
@@ -635,7 +635,9 @@
 				3A1B0EF9218B5C220084D0DA /* Separate Compilation */,
 				3A68487C215126EB004C5F68 /* Simple Examples */,
 				3A1327512191E6BB004E9B92 /* Memory Models */,
+				3AC842DE21A456CE00DAF50D /* Classes */,
 				3AD3ED9520EBD8F3008D28BF /* main.cpp */,
+				3AC842DD21A455B300DAF50D /* Contents.hpp */,
 			);
 			path = "C++ Primer Plus Practice";
 			sourceTree = "<group>";
@@ -646,7 +648,6 @@
 				3AF7CFF0219DD98000FC359D /* namesp.cpp */,
 				3AF7CFF1219DD98000FC359D /* namesp.hpp */,
 				3AF7CFED219DD90700FC359D /* Namespaces101.cpp */,
-				3AF7CFEE219DD90700FC359D /* Namespaces101.hpp */,
 			);
 			path = Namespaces101;
 			sourceTree = "<group>";
@@ -722,6 +723,7 @@
 				3A41645621947EA90027E2C7 /* StaticInternalVars101.cpp in Sources */,
 				3A61857521270217006E0C96 /* Expressions101.cpp in Sources */,
 				3A624BAB2100F7760098A2D3 /* StringFun101.cpp in Sources */,
+				3AC842E021A456E400DAF50D /* Classes101.cpp in Sources */,
 				3A00DA71217DD9570042015D /* TempOverload101.cpp in Sources */,
 				3A97FA4A20EFD98D0062D7D1 /* TypeLimits102.cpp in Sources */,
 				3A2A58C0211B1D8E009FB737 /* DynamicStructs101.cpp in Sources */,
