@@ -64,10 +64,31 @@ namespace Classes101
 
     void Stock::show()
     {
+        using std::ios_base;
+//      Set number output format to #.###
+        
+        // `setf` returns previous settings that are saved into `orig`
+        ios_base::fmtflags orig =
+            // `floatfield` is a mask that applies changes only to float format flags
+            std::cout.setf(ios_base::fixed, ios_base::floatfield);
+        
+        // `precision` returns previous setting that is saved into `orig`
+        std::streamsize prec = std::cout.precision(3);
+        
+        
         std::cout
         << "Company: " << company
         << " Shares: " << shares << "\n"
-        << " Share Price: $" << shareValue
+        << " Share Price: $" << shareValue;
+        
+//      Set number output format to #.##
+        std::cout.precision(2);
+        std::cout
         << " Total Worth: $" << totalValue << "\n";
+        
+        
+//      Restore formatting to pre-existing state:
+        std::cout.setf(orig, ios_base::floatfield);     // apply changes only to float format flags
+        std::cout.precision(prec);
     }
 }
