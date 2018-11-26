@@ -11,9 +11,9 @@
 
 namespace Classes101
 {
-    void Stock::acquire(const std::string &co, long num, double price)
+    void Stock::acquire(const std::string& name, long num, double price)
     {
-        company = co;
+        company = name;
         if (num < 0)
         {
             std::cout << "Number of shares can't be negative;"

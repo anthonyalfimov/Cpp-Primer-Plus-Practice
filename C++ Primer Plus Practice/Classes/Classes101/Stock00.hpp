@@ -22,6 +22,7 @@ namespace Classes101
         double shareValue;
         double totalValue;
         
+//      Methods defined in class declaration are inline:
         void setTotal() { totalValue = shares * shareValue; }
         
     public:
