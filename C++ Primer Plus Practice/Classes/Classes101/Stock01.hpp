@@ -5,10 +5,10 @@
 //  Created by Anthony on 21/11/2018.
 //  Copyright © 2018 Anthony. All rights reserved.
 //
-//  Version 00
+//  Version 01
 
-#ifndef STOCK00_H_
-#define STOCK00_H_
+#ifndef STOCK01_H_
+#define STOCK01_H_
 
 #include <string>
 
@@ -26,14 +26,19 @@ namespace Classes101
         void setTotal() { totalValue = shares * shareValue; }
         
     public:
+//  Constructors
+        Stock();        // default constructor
         /**
-         Acquire stock in company
-
-         @param company Company name
+         @param name Company name
          @param num Number of shares
          @param price Value of each share
          */
-        void acquire(const std::string& company, long num, double price);
+        Stock(const std::string& name, long num = 0, double price = 0.0);
+        
+//  Destructor
+        ~Stock();
+        
+//  Methods
         /**
          Buy more shares of the same stock
 
@@ -41,6 +46,7 @@ namespace Classes101
          @param price Value of each share
          */
         void buy(long num, double price);
+        
         /**
          Sell stock
 
@@ -48,17 +54,19 @@ namespace Classes101
          @param price Value of each share
          */
         void sell(long num, double price);
+        
         /**
          Update the per-share value of stock
 
          @param price Value of each share
          */
         void update(double price);
+        
         /**
-         Display information about the holdings
+         [Const] Display information about the holdings
          */
-        void show();
+        void show() const;      // const guarantees that method doesn't alter the invoking object
     };
 }
 
-#endif /* STOCK00_H_ */
+#endif /* STOCK01_H_ */

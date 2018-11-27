@@ -7,12 +7,27 @@
 //
 
 #include <iostream>
-#include "Stock00.hpp"
+#include "Stock01.hpp"
 
 namespace Classes101
 {
-    void Stock::acquire(const std::string& name, long num, double price)
+//  Constructors (verbose)
+    
+    Stock::Stock()      // default constructor
     {
+        std::cout << "Default constructor called\n";
+        
+        // Implicit initialization for data members
+        company    = "no name";
+        shares     = 0;
+        shareValue = 0.0;
+        totalValue = 0.0;
+    }
+    
+    Stock::Stock(const std::string& name, long num, double price)
+    {
+        std::cout << "Constructor using " << name << " called\n";
+        
         company = name;
         if (num < 0)
         {
@@ -24,6 +39,15 @@ namespace Classes101
         shareValue = price;
         setTotal();
     }
+    
+//  Destructor (verbose)
+    
+    Stock::~Stock()
+    {
+        std::cout << "Destructor called (" << company << ")\n";
+    }
+    
+//  Methods
 
     void Stock::buy(long num, double price)
     {
@@ -62,7 +86,7 @@ namespace Classes101
         setTotal();
     }
 
-    void Stock::show()
+    void Stock::show() const
     {
         using std::ios_base;
 //      Set number output format to #.###
