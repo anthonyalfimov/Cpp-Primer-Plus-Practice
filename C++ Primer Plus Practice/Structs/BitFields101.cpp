@@ -19,9 +19,9 @@ void showBitFields101()
     struct test_register
     {
         unsigned int SN : 4;    // bit field of 4 bits
-        unsigned int : 2;       // unused 4 bits for spacing
-        bool goodInput : 1;
-        bool goodTest : 1;
+        unsigned int    : 2;    // unused 4 bits for spacing
+        bool goodInput  : 1;
+        bool goodTest   : 1;
     };
     
     test_register tr {15, true, true};
