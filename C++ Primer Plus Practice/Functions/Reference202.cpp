@@ -12,15 +12,14 @@ namespace Reference202
 {
     constexpr int size {5};
     
-    void print_by_pointer(const int (*a)[size]);
-    
-    void print_by_reference(const int (&a)[size]);
+    void print_by_pointer  (const int (*)[size]);
+    void print_by_reference(const int (&)[size]);
 }
-
-using namespace Reference202;
 
 void showReference202()
 {
+    using namespace Reference202;
+    
     int array[size] {1, 2, 3, 4, 5};
     
 //    Create an array reference variable:
@@ -33,16 +32,21 @@ void showReference202()
     print_by_reference(ref);
 }
 
-void Reference202::print_by_pointer(const int (*a)[size])
+namespace Reference202
 {
-    for (int value : *a)
-        std::cout << value << "\t";
-    std::cout << "\n";
+    void print_by_pointer(const int (*a)[size])
+    {
+        for (int value : *a)
+            std::cout << value << "\t";
+        std::cout << "\n";
+    }
+    
+    void print_by_reference(const int (&a)[size])
+    {
+        for (int value : a)
+            std::cout << value << "\t";
+        std::cout << "\n";
+    }
 }
 
-void Reference202::print_by_reference(const int (&a)[size])
-{
-    for (int value : a)
-        std::cout << value << "\t";
-    std::cout << "\n";
-}
+
