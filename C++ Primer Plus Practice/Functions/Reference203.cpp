@@ -11,27 +11,23 @@
 
 #include <iostream>
 
-namespace Reference203
+struct Verbose
 {
-    struct Verbose
+    int data;
+    Verbose(int value = 0)
     {
-        int data;
-        Verbose(int value = 0)
-        {
-            data = value;
-            std::cout << "Constructor called\n";
-        }
-        ~Verbose()
-        {
-            std::cout << "Destructor called\n";
-        }
-    };
-}
+        data = value;
+        std::cout << "Constructor called\n";
+    }
+    ~Verbose()
+    {
+        std::cout << "Destructor called\n";
+    }
+};
+
 
 void showReference203()
 {
-    using namespace Reference203;
-    
     // Create a reference variable and assign dynamically allocated memory to it
     //     by dereferencing the pointer returned by `new`;
     //     initialize dynamically allocated struct as well.
