@@ -3,6 +3,7 @@
 //  C++ Primer Plus Exercises
 //
 //  Passing an array by reference vs passing a pointer to array
+//  for use with range-based for loop
 //
 
 #include <iostream>

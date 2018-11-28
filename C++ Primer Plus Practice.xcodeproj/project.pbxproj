@@ -634,9 +634,9 @@
 				3A13E0B7216228F40023EA9B /* Functions */,
 				3A00DA6B217DD2690042015D /* Templates */,
 				3A1B0EF9218B5C220084D0DA /* Separate Compilation */,
-				3A68487C215126EB004C5F68 /* Simple Examples */,
 				3A1327512191E6BB004E9B92 /* Memory Models */,
 				3AC842DE21A456CE00DAF50D /* Classes */,
+				3A68487C215126EB004C5F68 /* Simple Examples */,
 				3AD3ED9520EBD8F3008D28BF /* main.cpp */,
 				3AC842DD21A455B300DAF50D /* Contents.hpp */,
 			);
