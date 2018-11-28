@@ -1,18 +1,18 @@
 //
-//  Stock01.hpp
+//  Stock02.hpp
 //  C++ Primer Plus Practice
 //
 //  Created by Anthony on 21/11/2018.
 //  Copyright © 2018 Anthony. All rights reserved.
 //
-//  Version 01
+//  Version 02
 
-#ifndef STOCK01_H_
-#define STOCK01_H_
+#ifndef STOCK02_H_
+#define STOCK02_H_
 
 #include <string>
 
-namespace Classes101
+namespace Classes102
 {
     class Stock             // class declaration
     {
@@ -41,7 +41,7 @@ namespace Classes101
 //  Methods
         /**
          Buy more shares of the same stock
-
+         
          @param num Number of shares
          @param price Value of each share
          */
@@ -49,7 +49,7 @@ namespace Classes101
         
         /**
          Sell stock
-
+         
          @param num Number of shares
          @param price Value of each share
          */
@@ -57,7 +57,7 @@ namespace Classes101
         
         /**
          Update the per-share value of stock
-
+         
          @param price Value of each share
          */
         void update(double price);
@@ -66,7 +66,17 @@ namespace Classes101
          [Const] Display information about the holdings
          */
         void show() const;      // const guarantees that method doesn't alter the invoking object
+        
+        /**
+         Return reference to the stock holding entry with the largest total value
+         out of the object itself and the passed object
+         
+         @param other Stock holding to compare with
+         @return Reference to stock holding with highest total value
+         */
+        const Stock& topValue(const Stock& other) const;
     };
 }
 
-#endif /* STOCK01_H_ */
+#endif /* STOCK02_H_ */
+

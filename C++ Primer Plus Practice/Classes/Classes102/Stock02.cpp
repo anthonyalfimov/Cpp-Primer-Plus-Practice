@@ -1,5 +1,5 @@
 //
-//  Stock01.cpp
+//  Stock02.cpp
 //  C++ Primer Plus Practice
 //
 //  Created by Anthony on 21/11/2018.
@@ -7,16 +7,14 @@
 //
 
 #include <iostream>
-#include "Stock01.hpp"
+#include "Stock02.hpp"
 
-namespace Classes101
+namespace Classes102
 {
-//  Constructors (verbose)
+//  Constructors
     
     Stock::Stock()      // default constructor
     {
-        std::cout << "Default constructor called\n";
-        
         // Implicit initialization for data members
         company    = "no name";
         shares     = 0;
@@ -26,8 +24,6 @@ namespace Classes101
     
     Stock::Stock(const std::string& name, long num, double price)
     {
-        std::cout << "Constructor using " << name << " called\n";
-        
         company = name;
         if (num < 0)
         {
@@ -40,15 +36,14 @@ namespace Classes101
         setTotal();
     }
     
-//  Destructor (verbose)
+//  Destructor
     
-    Stock::~Stock()
+    Stock::~Stock()     // quiet destructor
     {
-        std::cout << "Destructor called (" << company << ")\n";
     }
     
 //  Methods
-
+    
     void Stock::buy(long num, double price)
     {
         if (num < 0)
@@ -61,7 +56,7 @@ namespace Classes101
             setTotal();
         }
     }
-
+    
     void Stock::sell(long num, double price)
     {
         using std::cout;
@@ -79,13 +74,13 @@ namespace Classes101
             setTotal();
         }
     }
-
+    
     void Stock::update(double price)
     {
         shareValue = price;
         setTotal();
     }
-
+    
     void Stock::show() const
     {
         using std::ios_base;
@@ -115,4 +110,13 @@ namespace Classes101
         std::cout.setf(orig, ios_base::floatfield);     // apply changes only to float format flags
         std::cout.precision(prec);
     }
+    
+    const Stock& Stock::topValue(const Stock& s) const
+    {
+        if (s.totalValue > totalValue)
+            return s;
+        else
+            return *this;           // `this` pointer points to the invoking object
+    }
+    
 }

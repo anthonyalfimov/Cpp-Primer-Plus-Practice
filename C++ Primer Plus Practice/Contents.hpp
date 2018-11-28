@@ -28,3 +28,5 @@ void showNamespaces101();
 //   |       Objects and Classes       |
 //   ===================================
 void showClasses101();
+void showClassArray101();
+void showClasses102();
