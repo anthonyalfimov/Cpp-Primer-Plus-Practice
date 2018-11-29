@@ -6,5 +6,5 @@
 
 int main()
 {
-    showClasses102();
+    showStack101();
 }
