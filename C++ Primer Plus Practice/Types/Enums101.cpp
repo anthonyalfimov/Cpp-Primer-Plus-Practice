@@ -4,6 +4,11 @@
 //
 //  Created by Anthony on 26/07/2018.
 //
+//  Enumeration itself is a type, rather than a variable. Variables of `enum` type can
+//      be declared. As such, `enum` labels are symbolic constants handled by the
+//      compiler. The underlying type of an `enum` is mainly referring to the type
+//      of variables declared with this `enum` type.
+//
 
 #include "Enums101.hpp"     // needed to demonstrate opaque enum declaration
 #include <iostream>
@@ -18,8 +23,7 @@ void showEnums101()
     spectrum band = green;
     std::cout << "Band code: " << band << "\n";
     
-    // Unscoped anonymous enum works as a group definition of symbolic integral constants
-    // of the underlying type
+    // Unscoped anonymous enum works as a group definition of symbolic(!) integral constants
     
     // Scoped enum
     enum class Color { red, green = 20, blue = 40 };
