@@ -18,7 +18,7 @@ void showEnums101()
     spectrum band = green;
     std::cout << "Band code: " << band << "\n";
     
-    // Unscoped anonymous enum works as a group definition of integral constants
+    // Unscoped anonymous enum works as a group definition of symbolic integral constants
     // of the underlying type
     
     // Scoped enum
