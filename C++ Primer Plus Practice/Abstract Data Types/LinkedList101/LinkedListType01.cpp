@@ -6,21 +6,27 @@
 //  Copyright © 2018 Anthony. All rights reserved.
 //
 
+#include <iostream>
 #include "LinkedListType01.hpp"
 
 namespace LinkedList01
 {
+    // Verbose destructor
     List::~List()
     {
+        std::cout << "Delete list items: ";
+        
         Node* current {m_head};
         Node* next;
         
         while (current != nullptr)
         {
             next = current->ref;
+            std::cout << current->data << " ";
             delete current;
             current = next;
         }
+        std::cout << std::endl;
     }
     
     bool List::add(const Item& item)
