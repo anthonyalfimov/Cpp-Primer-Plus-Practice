@@ -6,5 +6,5 @@
 
 int main()
 {
-    showStack101();
+    showLinkedList101();
 }

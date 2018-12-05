@@ -12,11 +12,13 @@
 
 namespace
 {
-    void clearInput() { while (std::cin.get() != '\n') continue; }
+    void clearInputBuffer() { while (std::cin.get() != '\n') continue; }
 }
 
 void showStack101()
 {
+    using namespace Stack01;
+    
     Stack st;               // create an empty stack
     char ch;
     unsigned long entry;
@@ -25,7 +27,7 @@ void showStack101()
                  "P to process a PO, or Q to quit.\n";
     while (std::cin >> ch && (ch = std::toupper(ch)) != 'Q')
     {
-        clearInput();       // clear the rest of the input buffer
+        clearInputBuffer();       // clear the rest of the input buffer
         if (!std::isalpha(ch))
         {
             std::cout << "Invalid input!\n";
@@ -44,9 +46,9 @@ void showStack101()
                     {
                         std::cout << "Invalid input!\n";
                         std::cin.clear();
-                        clearInput();
+                        clearInputBuffer();
                     }
-                    clearInput();
+                    clearInputBuffer();
                     st.push(entry);
                 }
                 break;

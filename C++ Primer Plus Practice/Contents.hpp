@@ -30,4 +30,9 @@ void showNamespaces101();
 void showClasses101();
 void showClassArray101();
 void showClasses102();
+
+//   ===================================
+//   |       Abstract Data Types       |
+//   ===================================
 void showStack101();
+void showLinkedList101();
