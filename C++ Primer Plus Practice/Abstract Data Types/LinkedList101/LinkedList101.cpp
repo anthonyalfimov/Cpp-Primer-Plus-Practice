@@ -64,6 +64,14 @@ void showLinkedList101()
     seq.process(print);
     std::cout << std::endl;
     
+    // Insert an item into list
+    std::cout << "\nInsert a couple of 0's into the list...\n";
+    if (!seq.insertAfter(5, 0)) std::cout << "...failed...\n";
+    if (!seq.insertAfter(9, 0)) std::cout << "...failed...\n";
+    std::cout << "List: ";
+    seq.process(print);
+    std::cout << std::endl;
+    
     // Access item at given index
     std::cout << "\nEnter item index to print <q to quit>: ";
     int i;

@@ -9,6 +9,8 @@
 #ifndef LinkedListType01_hpp
 #define LinkedListType01_hpp
 
+#include <cstddef>
+
 namespace LinkedList01
 {
 //  Using typedef as class templates haven't been covered yet
@@ -33,9 +35,8 @@ namespace LinkedList01
          Add a new item to the end of the list
          
          @param item Item to add to the list
-         @return False if list is already full, true otherwise
          */
-        bool add(const Item& item);
+        void add(const Item& item);
         
         /**
          Determine whether list is empty
@@ -55,14 +56,31 @@ namespace LinkedList01
         /**
          Retrieve pointer to list item at given index
          
-         @param index Index
+         @param index Item index
          @return nullptr if index if out of bounds, pointer to item at index otherwise
          */
-        Item* at(int index);
+        Item* at(std::size_t index);
+        
+        /**
+         Inserts a new list item after an item with supplied index
+
+         @param index Index of item to insert after
+         @param item New item
+         @return False if insertion is impossible, true otherwise
+         */
+        bool insertAfter(std::size_t index, const Item& item);
         
     private:
         // Basic linked list with only head pointer stored
         Node* m_head;
+        
+        /**
+         Returns the pointer to a node at a given index
+
+         @param index Node index
+         @return nullptr if index if out of bounds, pointer to node at index otherwis
+         */
+        Node* nodeAt(std::size_t index);
     };
     
     // Keep inline implementations out of the interface for clarity

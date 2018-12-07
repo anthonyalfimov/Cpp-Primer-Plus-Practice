@@ -29,7 +29,7 @@ namespace LinkedList01
         std::cout << std::endl;
     }
     
-    bool List::add(const Item& item)
+    void List::add(const Item& item)
     {
         // Allocate the new node to add to the end of the list
         Node* newNode = new Node {item, nullptr};
@@ -43,7 +43,6 @@ namespace LinkedList01
                 tail = tail->ref;
             tail->ref = newNode;            // set assign new node to tail's reference
         }
-        return true;                        // comply with the interface (linked list is never full)
     }
     
     void List::process(void (*op)(Item&))
@@ -56,16 +55,33 @@ namespace LinkedList01
         }
     }
     
-    Item* List::at(int index)
+    Item* List::at(std::size_t index)
     {
-        if (index < 0)
+        Node* n {nodeAt(index)};
+        if (n == nullptr)
             return nullptr;
+        else
+            return &n->data;
+    }
+    
+    bool List::insertAfter(std::size_t index, const Item& item)
+    {
+        Node* prev {nodeAt(index)};
+        if (prev == nullptr)
+            return false;
         
+        Node* newItem = new Node {item, prev->ref};
+        prev->ref = newItem;
+        return true;
+    }
+    
+    Node* List::nodeAt(std::size_t index)   // size_t is unsigned, so passing a negative index
+    {                                       //    results in it being a very large number
         Node* n {m_head};
         while (n != nullptr)
         {
             if (index == 0)                 // if index countdown reached 0, return the item
-                return &n->data;
+                return n;
             index--;                        // count down the index
             n = n->ref;
         }
