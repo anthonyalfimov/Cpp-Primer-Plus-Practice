@@ -9,7 +9,11 @@
 #ifndef LinkedListType01_hpp
 #define LinkedListType01_hpp
 
-#include <cstddef>
+#include <cstddef>          // for std::size_t
+                            //     use as an index type because no index can overflow it
+                            //     as it can hold size of any object possible
+                            //     hence, even indices of maximum-size array of a 1-byte type
+                            //     will not overflow it
 
 namespace LinkedList01
 {
