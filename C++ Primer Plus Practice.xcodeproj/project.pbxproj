@@ -18,6 +18,8 @@
 		3A1C7D3121078CFD00EFF72E /* Unions101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C7D2F21078CFD00EFF72E /* Unions101.cpp */; };
 		3A225A9C2146D0BF00A9997D /* TextInput104.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A225A9A2146D0BF00A9997D /* TextInput104.cpp */; };
 		3A225A9F2146DA4D00A9997D /* Arrays101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A225A9D2146DA4D00A9997D /* Arrays101.cpp */; };
+		3A24FC2321BEB72300EB1EB2 /* myTime01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A24FC2121BEB72300EB1EB2 /* myTime01.cpp */; };
+		3A24FC2521BEBAC800EB1EB2 /* OpOverload101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A24FC2421BEBAC800EB1EB2 /* OpOverload101.cpp */; };
 		3A266935215146B7009CAB96 /* example03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A266933215146B7009CAB96 /* example03.cpp */; };
 		3A26693821515695009CAB96 /* CharacterFunctions101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A26693621515695009CAB96 /* CharacterFunctions101.cpp */; };
 		3A26693B21515AC1009CAB96 /* ConditionalOperator101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A26693921515AC1009CAB96 /* ConditionalOperator101.cpp */; };
@@ -141,6 +143,9 @@
 		3A225A9B2146D0BF00A9997D /* TextInput104.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TextInput104.hpp; sourceTree = "<group>"; };
 		3A225A9D2146DA4D00A9997D /* Arrays101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Arrays101.cpp; sourceTree = "<group>"; };
 		3A225A9E2146DA4D00A9997D /* Arrays101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Arrays101.hpp; sourceTree = "<group>"; };
+		3A24FC2121BEB72300EB1EB2 /* myTime01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myTime01.cpp; sourceTree = "<group>"; };
+		3A24FC2221BEB72300EB1EB2 /* myTime01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = myTime01.hpp; sourceTree = "<group>"; };
+		3A24FC2421BEBAC800EB1EB2 /* OpOverload101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpOverload101.cpp; sourceTree = "<group>"; };
 		3A266933215146B7009CAB96 /* example03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example03.cpp; sourceTree = "<group>"; };
 		3A266934215146B7009CAB96 /* example03.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = example03.hpp; sourceTree = "<group>"; };
 		3A26693621515695009CAB96 /* CharacterFunctions101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CharacterFunctions101.cpp; sourceTree = "<group>"; };
@@ -443,6 +448,24 @@
 			path = Headers101;
 			sourceTree = "<group>";
 		};
+		3A24FC1F21BEB6E900EB1EB2 /* Operator Overloading */ = {
+			isa = PBXGroup;
+			children = (
+				3A24FC2021BEB70500EB1EB2 /* OpOverload101 */,
+			);
+			path = "Operator Overloading";
+			sourceTree = "<group>";
+		};
+		3A24FC2021BEB70500EB1EB2 /* OpOverload101 */ = {
+			isa = PBXGroup;
+			children = (
+				3A24FC2121BEB72300EB1EB2 /* myTime01.cpp */,
+				3A24FC2221BEB72300EB1EB2 /* myTime01.hpp */,
+				3A24FC2421BEBAC800EB1EB2 /* OpOverload101.cpp */,
+			);
+			path = OpOverload101;
+			sourceTree = "<group>";
+		};
 		3A2B4B2E212DBE8800352E9F /* Console IO */ = {
 			isa = PBXGroup;
 			children = (
@@ -680,6 +703,7 @@
 				3A1B0EF9218B5C220084D0DA /* Separate Compilation */,
 				3A1327512191E6BB004E9B92 /* Memory Models */,
 				3AC842DE21A456CE00DAF50D /* Classes */,
+				3A24FC1F21BEB6E900EB1EB2 /* Operator Overloading */,
 				3A3410A621B020FD0063572B /* Abstract Data Types */,
 				3A68487C215126EB004C5F68 /* Simple Examples */,
 				3AD3ED9520EBD8F3008D28BF /* main.cpp */,
@@ -776,6 +800,7 @@
 				3AFCB143212C382100275E64 /* StringComparison102.cpp in Sources */,
 				3AF4162D2162596900A079C9 /* FuncArray103.cpp in Sources */,
 				3A41645B2194855F0027E2C7 /* LocalStaticVars101.cpp in Sources */,
+				3A24FC2521BEBAC800EB1EB2 /* OpOverload101.cpp in Sources */,
 				3AFCB146212C68DC00275E64 /* LegacyTime101.cpp in Sources */,
 				3A41645621947EA90027E2C7 /* StaticInternalVars101.cpp in Sources */,
 				3A61857521270217006E0C96 /* Expressions101.cpp in Sources */,
@@ -826,6 +851,7 @@
 				3A65669121593E2000ACDA13 /* WritingFile101.cpp in Sources */,
 				3A39AB362102184D0011AC89 /* StringFun103.cpp in Sources */,
 				3A41644F219471330027E2C7 /* ExternalVars101.cpp in Sources */,
+				3A24FC2321BEB72300EB1EB2 /* myTime01.cpp in Sources */,
 				3A26693821515695009CAB96 /* CharacterFunctions101.cpp in Sources */,
 				3A97FA4720EFD1740062D7D1 /* TypeLimits101.cpp in Sources */,
 				3A3A289821569EA100CA9545 /* ControlFlow101.cpp in Sources */,
