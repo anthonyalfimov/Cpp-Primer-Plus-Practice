@@ -26,7 +26,7 @@ namespace OpOverload101
         void addMin(int m);
         void addHr(int h);
         void reset(int h = 0, int m = 0);
-        Time sum(const Time& t) const;          // return by value (Time object will be copied)
+        Time operator+(const Time& t) const;    // return by value (Time object will be copied)
         void show();
     };
 }

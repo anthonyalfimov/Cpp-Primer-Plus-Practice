@@ -40,7 +40,7 @@ namespace OpOverload101
         minutes = m;
     }
     
-    Time Time::sum(const Time& t) const     // return type can't be a reference here
+    Time Time::operator+(const Time& t) const     // return type can't be a reference here
     {
         Time sum;
         sum.minutes = minutes + t.minutes;

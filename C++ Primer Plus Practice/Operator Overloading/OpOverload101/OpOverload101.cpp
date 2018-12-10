@@ -30,8 +30,20 @@ void showOpOverload101()
     fixing.show();
     std::cout << std::endl;
     
-    total = coding.sum(fixing);
-    std::cout << "coding.sum(fixing) = ";
+//  Operator notation
+    total = coding + fixing;
+    std::cout << "coding + fixing = ";
+    total.show();
+    std::cout << std::endl;
+    
+    Time moreFixing(3, 28);
+    std::cout << "more fixing time = ";
+    moreFixing.show();
+    std::cout << std::endl;
+    
+//  Function notation
+    total = moreFixing.operator+(total);
+    std::cout << "moreFixing.operator+(total) = ";
     total.show();
     std::cout << std::endl;
 }
