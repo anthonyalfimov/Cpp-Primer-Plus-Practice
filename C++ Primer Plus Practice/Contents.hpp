@@ -35,4 +35,3 @@ void showClasses102();
 //   |       Abstract Data Types       |
 //   ===================================
 void showStack101();
-void showLinkedList101();
