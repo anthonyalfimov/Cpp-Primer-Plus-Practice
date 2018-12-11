@@ -36,6 +36,7 @@ void showClasses102();
 //   ====================================
 void showOpOverload101();
 void showOpOverload102();
+void showFriendFunctions101();
 
 //   ===================================
 //   |       Abstract Data Types       |

@@ -6,5 +6,5 @@
 
 int main()
 {
-    showOpOverload102();
+    showFriendFunctions101();
 }

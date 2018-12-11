@@ -49,6 +49,8 @@
 		3A41645E21948BEF0027E2C7 /* LocalStaticVars102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A41645C21948BEF0027E2C7 /* LocalStaticVars102.cpp */; };
 		3A468E822167BE1E00126DE9 /* FuncPointer101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A468E802167BE1E00126DE9 /* FuncPointer101.cpp */; };
 		3A4ADDA120FE169100C95277 /* TypeCasts101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ADD9F20FE169100C95277 /* TypeCasts101.cpp */; };
+		3A4CAD7F21C0160000ED6305 /* myTime02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A4CAD7D21C0160000ED6305 /* myTime02.cpp */; };
+		3A4CAD8221C0188300ED6305 /* FriendFunctions101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A4CAD8121C0188300ED6305 /* FriendFunctions101.cpp */; };
 		3A4D2423217632B90055DB97 /* Reference102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D2421217632B90055DB97 /* Reference102.cpp */; };
 		3A4E1AB6215E7BD600F9AEB3 /* Combinatorics01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E1AB4215E7BD600F9AEB3 /* Combinatorics01.cpp */; };
 		3A4EBB31217DFFFA0081653F /* TempExplicitSpec101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EBB2F217DFFFA0081653F /* TempExplicitSpec101.cpp */; };
@@ -198,6 +200,9 @@
 		3A468E812167BE1E00126DE9 /* FuncPointer101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncPointer101.hpp; sourceTree = "<group>"; };
 		3A4ADD9F20FE169100C95277 /* TypeCasts101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TypeCasts101.cpp; sourceTree = "<group>"; };
 		3A4ADDA020FE169100C95277 /* TypeCasts101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TypeCasts101.hpp; sourceTree = "<group>"; };
+		3A4CAD7D21C0160000ED6305 /* myTime02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myTime02.cpp; sourceTree = "<group>"; };
+		3A4CAD7E21C0160000ED6305 /* myTime02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = myTime02.hpp; sourceTree = "<group>"; };
+		3A4CAD8121C0188300ED6305 /* FriendFunctions101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FriendFunctions101.cpp; sourceTree = "<group>"; };
 		3A4D2421217632B90055DB97 /* Reference102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Reference102.cpp; sourceTree = "<group>"; };
 		3A4D2422217632B90055DB97 /* Reference102.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Reference102.hpp; sourceTree = "<group>"; };
 		3A4E1AB4215E7BD600F9AEB3 /* Combinatorics01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Combinatorics01.cpp; sourceTree = "<group>"; };
@@ -454,6 +459,7 @@
 			isa = PBXGroup;
 			children = (
 				3A24FC2021BEB70500EB1EB2 /* OpOverload100 */,
+				3A4CAD7C21C015DC00ED6305 /* FriendFunctions101 */,
 			);
 			path = "Operator Overloading";
 			sourceTree = "<group>";
@@ -577,6 +583,16 @@
 				3A41645721947F2E0027E2C7 /* SupportSIV101.cpp */,
 			);
 			path = StaticInternalVars101;
+			sourceTree = "<group>";
+		};
+		3A4CAD7C21C015DC00ED6305 /* FriendFunctions101 */ = {
+			isa = PBXGroup;
+			children = (
+				3A4CAD7D21C0160000ED6305 /* myTime02.cpp */,
+				3A4CAD7E21C0160000ED6305 /* myTime02.hpp */,
+				3A4CAD8121C0188300ED6305 /* FriendFunctions101.cpp */,
+			);
+			path = FriendFunctions101;
 			sourceTree = "<group>";
 		};
 		3A618572212701FA006E0C96 /* Basics */ = {
@@ -838,6 +854,7 @@
 				3A9A164E2105FF87002A31B6 /* BitFields101.cpp in Sources */,
 				3A931FE221108377009AB0EB /* Pointers102.cpp in Sources */,
 				3A3A28952156979600CA9545 /* Switch102.cpp in Sources */,
+				3A4CAD7F21C0160000ED6305 /* myTime02.cpp in Sources */,
 				3ADD3A56212AF5B300476E00 /* CommaOperator101.cpp in Sources */,
 				3A4EBB31217DFFFA0081653F /* TempExplicitSpec101.cpp in Sources */,
 				3AAE8DD12118AE80004DE731 /* PointersAndStrings102.cpp in Sources */,
@@ -891,6 +908,7 @@
 				3A2A58C3211B3CD0009FB737 /* PointersAndStrings103.cpp in Sources */,
 				3A818055216623E700BABE7D /* Recursion102.cpp in Sources */,
 				3AD1F34D215A56EA004CFE88 /* ReadingFile101.cpp in Sources */,
+				3A4CAD8221C0188300ED6305 /* FriendFunctions101.cpp in Sources */,
 				3A66AE132170BFE40060E80B /* InlineFunc101.cpp in Sources */,
 				3A3DEFB521776C7100F4E33B /* Reference201.cpp in Sources */,
 			);

@@ -1,15 +1,14 @@
 //
-//  myTime01.cpp
+//  myTime02.cpp
 //  C++ Primer Plus Practice
 //
-//  Created by Anthony on 10/12/2018.
+//  Created by Anthony on 11/12/2018.
 //  Copyright © 2018 Anthony. All rights reserved.
 //
 
-#include <iostream>
-#include "myTime01.hpp"
+#include "myTime02.hpp"
 
-namespace OpOverload100
+namespace FriendFunctions100
 {
     Time::Time()
     {
@@ -73,8 +72,9 @@ namespace OpOverload100
         return result;
     }
     
-    void Time::show()
+    std::ostream& operator<<(std::ostream& os, const Time& t)
     {
-        std::cout << hours << " hours, " << minutes << " minutes";
+        os << t.hours << " hours, " << t.minutes << " minutes";
+        return os;
     }
 }
