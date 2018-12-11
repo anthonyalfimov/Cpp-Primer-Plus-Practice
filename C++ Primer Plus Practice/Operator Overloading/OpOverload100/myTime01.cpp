@@ -9,7 +9,7 @@
 #include <iostream>
 #include "myTime01.hpp"
 
-namespace OpOverload101
+namespace OpOverload100
 {
     Time::Time()
     {
@@ -49,11 +49,31 @@ namespace OpOverload101
         return sum;             // return by value because sum is scoped to this function
     }
     
+    Time Time::operator-(const Time& t) const
+    {
+        // How do we deal with negative results?
+        Time diff;
+        int this_total, t_total;
+        this_total =   minutes + 60 *   hours;
+        t_total    = t.minutes + 60 * t.hours;
+        
+        diff.minutes = (this_total - t_total) % 60;
+        diff.hours   = (this_total - t_total) / 60;
+        
+        return diff;
+    }
+    
+    Time Time::operator*(double n) const
+    {
+        Time result;
+        long total = n * (minutes + 60 * hours);
+        result.minutes = total % 60;        // implicit conversion can't lead to loss of precision
+        result.hours   = static_cast<int>(total / 60);
+        
+        return result;
+    }
+    
     void Time::show() {
         std::cout << hours << " hours, " << minutes << " minutes";
     }
-    
-    
-    
-    
 }

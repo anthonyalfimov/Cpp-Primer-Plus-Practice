@@ -64,6 +64,7 @@
 		3A68487F21512719004C5F68 /* example01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A68487D21512719004C5F68 /* example01.cpp */; };
 		3A68488221512C0F004C5F68 /* example02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A68488021512C0F004C5F68 /* example02.cpp */; };
 		3A716434216520B00068432A /* FuncArray301.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A716432216520B00068432A /* FuncArray301.cpp */; };
+		3A79488121BFF57200A7C123 /* OpOverload102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A79488021BFF57200A7C123 /* OpOverload102.cpp */; };
 		3A7D078F2181F41C00101B33 /* PartialOrdering101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D078D2181F41C00101B33 /* PartialOrdering101.cpp */; };
 		3A7D07922182032F00101B33 /* ForcedResolution101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D07902182032F00101B33 /* ForcedResolution101.cpp */; };
 		3A7D0795218217E000101B33 /* AutoVSdecltype101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0793218217E000101B33 /* AutoVSdecltype101.cpp */; };
@@ -229,6 +230,7 @@
 		3A68488121512C0F004C5F68 /* example02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = example02.hpp; sourceTree = "<group>"; };
 		3A716432216520B00068432A /* FuncArray301.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray301.cpp; sourceTree = "<group>"; };
 		3A716433216520B00068432A /* FuncArray301.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncArray301.hpp; sourceTree = "<group>"; };
+		3A79488021BFF57200A7C123 /* OpOverload102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpOverload102.cpp; sourceTree = "<group>"; };
 		3A7D078D2181F41C00101B33 /* PartialOrdering101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PartialOrdering101.cpp; sourceTree = "<group>"; };
 		3A7D078E2181F41C00101B33 /* PartialOrdering101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PartialOrdering101.hpp; sourceTree = "<group>"; };
 		3A7D07902182032F00101B33 /* ForcedResolution101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ForcedResolution101.cpp; sourceTree = "<group>"; };
@@ -451,19 +453,20 @@
 		3A24FC1F21BEB6E900EB1EB2 /* Operator Overloading */ = {
 			isa = PBXGroup;
 			children = (
-				3A24FC2021BEB70500EB1EB2 /* OpOverload101 */,
+				3A24FC2021BEB70500EB1EB2 /* OpOverload100 */,
 			);
 			path = "Operator Overloading";
 			sourceTree = "<group>";
 		};
-		3A24FC2021BEB70500EB1EB2 /* OpOverload101 */ = {
+		3A24FC2021BEB70500EB1EB2 /* OpOverload100 */ = {
 			isa = PBXGroup;
 			children = (
 				3A24FC2121BEB72300EB1EB2 /* myTime01.cpp */,
 				3A24FC2221BEB72300EB1EB2 /* myTime01.hpp */,
 				3A24FC2421BEBAC800EB1EB2 /* OpOverload101.cpp */,
+				3A79488021BFF57200A7C123 /* OpOverload102.cpp */,
 			);
-			path = OpOverload101;
+			path = OpOverload100;
 			sourceTree = "<group>";
 		};
 		3A2B4B2E212DBE8800352E9F /* Console IO */ = {
@@ -874,6 +877,7 @@
 				3A3410AA21B021390063572B /* StackType01.cpp in Sources */,
 				3A68488221512C0F004C5F68 /* example02.cpp in Sources */,
 				3A844F1D21AF027A00181FE6 /* Classes102.cpp in Sources */,
+				3A79488121BFF57200A7C123 /* OpOverload102.cpp in Sources */,
 				3A1B0EFD218B5CF20084D0DA /* Headers101.cpp in Sources */,
 				3A3EB7332163B83100C6773C /* FuncString102.cpp in Sources */,
 				3A094319210F67CE00170020 /* Pointers101.cpp in Sources */,
