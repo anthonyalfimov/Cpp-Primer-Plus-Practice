@@ -42,3 +42,5 @@ void showFriendFunctions101();
 //   |       Abstract Data Types       |
 //   ===================================
 void showStack101();
+void showVector101();
+void showVector102();

@@ -10,6 +10,9 @@
 		3A00DA6E217DD2890042015D /* FuncTemp101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A00DA6C217DD2890042015D /* FuncTemp101.cpp */; };
 		3A00DA71217DD9570042015D /* TempOverload101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A00DA6F217DD9570042015D /* TempOverload101.cpp */; };
 		3A094319210F67CE00170020 /* Pointers101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A094317210F67CE00170020 /* Pointers101.cpp */; };
+		3A095BAD21C7F3C70076C7EA /* Vector101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A095BAC21C7F3C70076C7EA /* Vector101.cpp */; };
+		3A095BB021C807E20076C7EA /* RandomWalk01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A095BAE21C807E20076C7EA /* RandomWalk01.cpp */; };
+		3A095BB221C80F510076C7EA /* Vector102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A095BB121C80F510076C7EA /* Vector102.cpp */; };
 		3A1327542191E6E1004E9B92 /* AutomaticVars101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1327522191E6E1004E9B92 /* AutomaticVars101.cpp */; };
 		3A13E0BA2162290E0023EA9B /* FuncArray101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A13E0B82162290E0023EA9B /* FuncArray101.cpp */; };
 		3A13E0BD21623E6B0023EA9B /* FuncArray102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A13E0BB21623E6B0023EA9B /* FuncArray102.cpp */; };
@@ -89,6 +92,7 @@
 		3A9A164E2105FF87002A31B6 /* BitFields101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A164C2105FF87002A31B6 /* BitFields101.cpp */; };
 		3A9BD2312111DCBD00BB73F6 /* DynamicArrays101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A9BD22F2111DCBD00BB73F6 /* DynamicArrays101.cpp */; };
 		3A9BD2342111F5ED00BB73F6 /* PointerArithmetic101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A9BD2322111F5ED00BB73F6 /* PointerArithmetic101.cpp */; };
+		3A9C597521C28238003D3F49 /* Vector2Type01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A9C597321C28238003D3F49 /* Vector2Type01.cpp */; };
 		3AAC7147210A4DF7000C8090 /* Enums101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AAC7145210A4DF7000C8090 /* Enums101.cpp */; };
 		3AAE8DCE2118A85E004DE731 /* PointersAndStrings101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE8DCC2118A85E004DE731 /* PointersAndStrings101.cpp */; };
 		3AAE8DD12118AE80004DE731 /* PointersAndStrings102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE8DCF2118AE80004DE731 /* PointersAndStrings102.cpp */; };
@@ -131,6 +135,10 @@
 		3A00DA70217DD9570042015D /* TempOverload101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TempOverload101.hpp; sourceTree = "<group>"; };
 		3A094317210F67CE00170020 /* Pointers101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pointers101.cpp; sourceTree = "<group>"; };
 		3A094318210F67CE00170020 /* Pointers101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pointers101.hpp; sourceTree = "<group>"; };
+		3A095BAC21C7F3C70076C7EA /* Vector101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector101.cpp; sourceTree = "<group>"; };
+		3A095BAE21C807E20076C7EA /* RandomWalk01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RandomWalk01.cpp; sourceTree = "<group>"; };
+		3A095BAF21C807E20076C7EA /* RandomWalk01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RandomWalk01.hpp; sourceTree = "<group>"; };
+		3A095BB121C80F510076C7EA /* Vector102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector102.cpp; sourceTree = "<group>"; };
 		3A1327522191E6E1004E9B92 /* AutomaticVars101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AutomaticVars101.cpp; sourceTree = "<group>"; };
 		3A13E0B82162290E0023EA9B /* FuncArray101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray101.cpp; sourceTree = "<group>"; };
 		3A13E0B92162290E0023EA9B /* FuncArray101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncArray101.hpp; sourceTree = "<group>"; };
@@ -277,6 +285,8 @@
 		3A9BD2302111DCBD00BB73F6 /* DynamicArrays101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DynamicArrays101.hpp; sourceTree = "<group>"; };
 		3A9BD2322111F5ED00BB73F6 /* PointerArithmetic101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointerArithmetic101.cpp; sourceTree = "<group>"; };
 		3A9BD2332111F5ED00BB73F6 /* PointerArithmetic101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PointerArithmetic101.hpp; sourceTree = "<group>"; };
+		3A9C597321C28238003D3F49 /* Vector2Type01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2Type01.cpp; sourceTree = "<group>"; };
+		3A9C597421C28238003D3F49 /* Vector2Type01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vector2Type01.hpp; sourceTree = "<group>"; };
 		3AAC7145210A4DF7000C8090 /* Enums101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Enums101.cpp; sourceTree = "<group>"; };
 		3AAC7146210A4DF7000C8090 /* Enums101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Enums101.hpp; sourceTree = "<group>"; };
 		3AAE8DCC2118A85E004DE731 /* PointersAndStrings101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointersAndStrings101.cpp; sourceTree = "<group>"; };
@@ -498,6 +508,7 @@
 			isa = PBXGroup;
 			children = (
 				3A3410A721B021150063572B /* Stack101 */,
+				3A9C597221C28209003D3F49 /* Vector100 */,
 			);
 			path = "Abstract Data Types";
 			sourceTree = "<group>";
@@ -680,6 +691,19 @@
 			path = Classes102;
 			sourceTree = "<group>";
 		};
+		3A9C597221C28209003D3F49 /* Vector100 */ = {
+			isa = PBXGroup;
+			children = (
+				3A9C597321C28238003D3F49 /* Vector2Type01.cpp */,
+				3A9C597421C28238003D3F49 /* Vector2Type01.hpp */,
+				3A095BAC21C7F3C70076C7EA /* Vector101.cpp */,
+				3A095BAE21C807E20076C7EA /* RandomWalk01.cpp */,
+				3A095BAF21C807E20076C7EA /* RandomWalk01.hpp */,
+				3A095BB121C80F510076C7EA /* Vector102.cpp */,
+			);
+			path = Vector100;
+			sourceTree = "<group>";
+		};
 		3AC842DE21A456CE00DAF50D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -820,6 +844,7 @@
 				3AF4162D2162596900A079C9 /* FuncArray103.cpp in Sources */,
 				3A41645B2194855F0027E2C7 /* LocalStaticVars101.cpp in Sources */,
 				3A24FC2521BEBAC800EB1EB2 /* OpOverload101.cpp in Sources */,
+				3A095BAD21C7F3C70076C7EA /* Vector101.cpp in Sources */,
 				3AFCB146212C68DC00275E64 /* LegacyTime101.cpp in Sources */,
 				3A41645621947EA90027E2C7 /* StaticInternalVars101.cpp in Sources */,
 				3A61857521270217006E0C96 /* Expressions101.cpp in Sources */,
@@ -869,11 +894,13 @@
 				3A677D2F212447CE0007EB0F /* VectorAndArray101.cpp in Sources */,
 				3A41645E21948BEF0027E2C7 /* LocalStaticVars102.cpp in Sources */,
 				3A65669121593E2000ACDA13 /* WritingFile101.cpp in Sources */,
+				3A095BB221C80F510076C7EA /* Vector102.cpp in Sources */,
 				3A39AB362102184D0011AC89 /* StringFun103.cpp in Sources */,
 				3A41644F219471330027E2C7 /* ExternalVars101.cpp in Sources */,
 				3A24FC2321BEB72300EB1EB2 /* myTime01.cpp in Sources */,
 				3A26693821515695009CAB96 /* CharacterFunctions101.cpp in Sources */,
 				3A97FA4720EFD1740062D7D1 /* TypeLimits101.cpp in Sources */,
+				3A9C597521C28238003D3F49 /* Vector2Type01.cpp in Sources */,
 				3A3A289821569EA100CA9545 /* ControlFlow101.cpp in Sources */,
 				3A81805221661D9D00BABE7D /* Recursion101.cpp in Sources */,
 				3A13E0BD21623E6B0023EA9B /* FuncArray102.cpp in Sources */,
@@ -892,6 +919,7 @@
 				3A3EB72D2163B12600C6773C /* FuncArray201.cpp in Sources */,
 				3A39AB3921021F970011AC89 /* StringFun104.cpp in Sources */,
 				3A3410AA21B021390063572B /* StackType01.cpp in Sources */,
+				3A095BB021C807E20076C7EA /* RandomWalk01.cpp in Sources */,
 				3A68488221512C0F004C5F68 /* example02.cpp in Sources */,
 				3A844F1D21AF027A00181FE6 /* Classes102.cpp in Sources */,
 				3A79488121BFF57200A7C123 /* OpOverload102.cpp in Sources */,

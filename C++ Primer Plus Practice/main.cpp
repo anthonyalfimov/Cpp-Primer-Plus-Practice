@@ -6,5 +6,5 @@
 
 int main()
 {
-    showFriendFunctions101();
+    showVector102();
 }
