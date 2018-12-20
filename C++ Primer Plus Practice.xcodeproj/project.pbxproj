@@ -696,9 +696,9 @@
 			children = (
 				3A9C597321C28238003D3F49 /* Vector2Type01.cpp */,
 				3A9C597421C28238003D3F49 /* Vector2Type01.hpp */,
-				3A095BAC21C7F3C70076C7EA /* Vector101.cpp */,
 				3A095BAE21C807E20076C7EA /* RandomWalk01.cpp */,
 				3A095BAF21C807E20076C7EA /* RandomWalk01.hpp */,
+				3A095BAC21C7F3C70076C7EA /* Vector101.cpp */,
 				3A095BB121C80F510076C7EA /* Vector102.cpp */,
 			);
 			path = Vector100;

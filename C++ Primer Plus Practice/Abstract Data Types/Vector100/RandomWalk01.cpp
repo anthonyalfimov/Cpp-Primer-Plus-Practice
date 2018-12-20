@@ -27,6 +27,12 @@ namespace Vector100
     // Public methods
     RandomWalk::RandomWalk(double distance, double step)
     {
+        // NB! With this approach, if more than one RandomWalk object is created during the
+        //     same second, the sequence of random numbers will be the same for them
+        
+        // If you want to use more than one object, best choice is to switch to <random>
+        //     Alternatively, use more precise time to seed.
+        
         // Override the default seed value for the pseudorandom number generator
         //     so that each run of the program generates different sequence of random numbers
         std::srand(static_cast<unsigned>(time(0)));
@@ -57,9 +63,6 @@ namespace Vector100
             endPosition = endPosition + displacement;
             steps++;
         }
-        
-        // Override the seed to change consequent psedorandom sequence
-        std::srand(static_cast<unsigned>(std::rand()));
     }
     
 //  end RandomWalk
