@@ -30,6 +30,7 @@ void showNamespaces101();
 void showClasses101();
 void showClassArray101();
 void showClasses102();
+void showClassTypeCasts101();
 
 //   ====================================
 //   |       Operator Overloading       |

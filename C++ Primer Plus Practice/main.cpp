@@ -6,5 +6,5 @@
 
 int main()
 {
-    showVector102();
+    showClassTypeCasts101();
 }
