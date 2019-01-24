@@ -18,4 +18,7 @@ void showConversionFunctions101()
     
     std::cout << "Convert to double => Poppins: " << p_wt << " pounds.\n";
     std::cout << "Convert to int    => Poppins: " << int (poppins) << " pounds.\n";
+    
+    // This is possible because only one implicit conversion is available - no ambiguity
+    std::cout << "Implicit conversion: " << poppins << " pounds.\n";
 }
