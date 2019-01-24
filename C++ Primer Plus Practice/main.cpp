@@ -6,5 +6,5 @@
 
 int main()
 {
-    showClassTypeCasts101();
+    showConversionFunctions101();
 }

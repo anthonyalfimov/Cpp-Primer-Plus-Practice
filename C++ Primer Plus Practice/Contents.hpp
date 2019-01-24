@@ -31,6 +31,7 @@ void showClasses101();
 void showClassArray101();
 void showClasses102();
 void showClassTypeCasts101();
+void showConversionFunctions101();
 
 //   ====================================
 //   |       Operator Overloading       |

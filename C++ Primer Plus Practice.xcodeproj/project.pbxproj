@@ -13,6 +13,8 @@
 		3A095BAD21C7F3C70076C7EA /* Vector101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A095BAC21C7F3C70076C7EA /* Vector101.cpp */; };
 		3A095BB021C807E20076C7EA /* RandomWalk01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A095BAE21C807E20076C7EA /* RandomWalk01.cpp */; };
 		3A095BB221C80F510076C7EA /* Vector102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A095BB121C80F510076C7EA /* Vector102.cpp */; };
+		3A0FFAE921FA05E900B5223B /* StonewtType02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FFAE721FA05E900B5223B /* StonewtType02.cpp */; };
+		3A0FFAEB21FA075A00B5223B /* ConversionFunctions101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FFAEA21FA075A00B5223B /* ConversionFunctions101.cpp */; };
 		3A1327542191E6E1004E9B92 /* AutomaticVars101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1327522191E6E1004E9B92 /* AutomaticVars101.cpp */; };
 		3A13E0BA2162290E0023EA9B /* FuncArray101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A13E0B82162290E0023EA9B /* FuncArray101.cpp */; };
 		3A13E0BD21623E6B0023EA9B /* FuncArray102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A13E0BB21623E6B0023EA9B /* FuncArray102.cpp */; };
@@ -141,6 +143,9 @@
 		3A095BAE21C807E20076C7EA /* RandomWalk01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RandomWalk01.cpp; sourceTree = "<group>"; };
 		3A095BAF21C807E20076C7EA /* RandomWalk01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RandomWalk01.hpp; sourceTree = "<group>"; };
 		3A095BB121C80F510076C7EA /* Vector102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector102.cpp; sourceTree = "<group>"; };
+		3A0FFAE721FA05E900B5223B /* StonewtType02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StonewtType02.cpp; sourceTree = "<group>"; };
+		3A0FFAE821FA05E900B5223B /* StonewtType02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StonewtType02.hpp; sourceTree = "<group>"; };
+		3A0FFAEA21FA075A00B5223B /* ConversionFunctions101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConversionFunctions101.cpp; sourceTree = "<group>"; };
 		3A1327522191E6E1004E9B92 /* AutomaticVars101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AutomaticVars101.cpp; sourceTree = "<group>"; };
 		3A13E0B82162290E0023EA9B /* FuncArray101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray101.cpp; sourceTree = "<group>"; };
 		3A13E0B92162290E0023EA9B /* FuncArray101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncArray101.hpp; sourceTree = "<group>"; };
@@ -389,6 +394,16 @@
 				3A8D4B37212340C900AD8A30 /* CombinationOfTypes.cpp */,
 			);
 			path = Pointers;
+			sourceTree = "<group>";
+		};
+		3A0FFAE621FA05CA00B5223B /* TypeCasts102 */ = {
+			isa = PBXGroup;
+			children = (
+				3A0FFAE721FA05E900B5223B /* StonewtType02.cpp */,
+				3A0FFAE821FA05E900B5223B /* StonewtType02.hpp */,
+				3A0FFAEA21FA075A00B5223B /* ConversionFunctions101.cpp */,
+			);
+			path = TypeCasts102;
 			sourceTree = "<group>";
 		};
 		3A1327512191E6BB004E9B92 /* Memory Models */ = {
@@ -725,6 +740,7 @@
 				3AF59D4921A5C23200BA3EBD /* Classes101 */,
 				3A844F1821AEF7BB00181FE6 /* Classes102 */,
 				3A57426D21F8B23C00B4CC84 /* TypeCasts101 */,
+				3A0FFAE621FA05CA00B5223B /* TypeCasts102 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -948,6 +964,7 @@
 				3AE4BD052152AF16004851E6 /* Switch101.cpp in Sources */,
 				3AAE8DCE2118A85E004DE731 /* PointersAndStrings101.cpp in Sources */,
 				3A7D0795218217E000101B33 /* AutoVSdecltype101.cpp in Sources */,
+				3A0FFAE921FA05E900B5223B /* StonewtType02.cpp in Sources */,
 				3A85EE892170F9A500DD89EE /* Reference101.cpp in Sources */,
 				3AC4DEF8219AEAC300BE989B /* PlacementNew101.cpp in Sources */,
 				3A4ADDA120FE169100C95277 /* TypeCasts101.cpp in Sources */,
@@ -956,6 +973,7 @@
 				3AD1F34D215A56EA004CFE88 /* ReadingFile101.cpp in Sources */,
 				3A4CAD8221C0188300ED6305 /* FriendFunctions101.cpp in Sources */,
 				3A66AE132170BFE40060E80B /* InlineFunc101.cpp in Sources */,
+				3A0FFAEB21FA075A00B5223B /* ConversionFunctions101.cpp in Sources */,
 				3A3DEFB521776C7100F4E33B /* Reference201.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
