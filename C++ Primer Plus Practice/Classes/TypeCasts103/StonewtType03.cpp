@@ -74,7 +74,6 @@ namespace ClassTypeCasts103
     // 
     Stonewt operator+(const Stonewt& st1, const Stonewt& st2)
     {
-        double sum = st1.m_pounds + st2.m_pounds;
-        return Stonewt(sum);
+        return Stonewt(st1.m_pounds + st2.m_pounds);
     }
 }
