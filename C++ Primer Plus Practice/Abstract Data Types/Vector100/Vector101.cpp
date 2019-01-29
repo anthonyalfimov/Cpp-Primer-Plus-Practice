@@ -8,7 +8,7 @@
 
 #include <iostream>
                                 //
-                                // NB! For realprojects use funtions from <random> instead
+                                // NB! For real projects use funtions from <random> instead
                                 //
 #include <cstdlib>              // Standard ANSI C lib for: rand(), srand()
                                 //     rand() returns a pseudorandom integer
@@ -53,10 +53,8 @@ void showVector101()
             step.reset(dstep, direction, Vector2::POL);
             
             // This sets result to RECT mode as a result of operator+() using the
-            //     default constructor, and the assignment operation using the
-            //     implicit copy-constructor.
+            //     default constructor
             result = result + step;
-            // To preserve the mode, a custom copy-constructor should be used
             
             stepCount++;
         }
