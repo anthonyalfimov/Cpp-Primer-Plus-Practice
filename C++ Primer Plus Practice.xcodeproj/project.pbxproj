@@ -42,6 +42,7 @@
 		3A3A28952156979600CA9545 /* Switch102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A28932156979600CA9545 /* Switch102.cpp */; };
 		3A3A289821569EA100CA9545 /* ControlFlow101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A289621569EA100CA9545 /* ControlFlow101.cpp */; };
 		3A3DEFB521776C7100F4E33B /* Reference201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DEFB321776C7100F4E33B /* Reference201.cpp */; };
+		3A3EA9FB220081ED00F047B8 /* StonewtType03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EA9F9220081ED00F047B8 /* StonewtType03.cpp */; };
 		3A3EB72A21639E6A00C6773C /* Arrays201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EB72821639E6A00C6773C /* Arrays201.cpp */; };
 		3A3EB72D2163B12600C6773C /* FuncArray201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EB72B2163B12600C6773C /* FuncArray201.cpp */; };
 		3A3EB7302163B31200C6773C /* FuncString101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EB72E2163B31200C6773C /* FuncString101.cpp */; };
@@ -197,6 +198,8 @@
 		3A3A289721569EA100CA9545 /* ControlFlow101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ControlFlow101.hpp; sourceTree = "<group>"; };
 		3A3DEFB321776C7100F4E33B /* Reference201.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Reference201.cpp; sourceTree = "<group>"; };
 		3A3DEFB421776C7100F4E33B /* Reference201.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Reference201.hpp; sourceTree = "<group>"; };
+		3A3EA9F9220081ED00F047B8 /* StonewtType03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StonewtType03.cpp; sourceTree = "<group>"; };
+		3A3EA9FA220081ED00F047B8 /* StonewtType03.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StonewtType03.hpp; sourceTree = "<group>"; };
 		3A3EB72821639E6A00C6773C /* Arrays201.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Arrays201.cpp; sourceTree = "<group>"; };
 		3A3EB72921639E6A00C6773C /* Arrays201.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Arrays201.hpp; sourceTree = "<group>"; };
 		3A3EB72B2163B12600C6773C /* FuncArray201.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray201.cpp; sourceTree = "<group>"; };
@@ -485,16 +488,7 @@
 			path = Headers101;
 			sourceTree = "<group>";
 		};
-		3A24FC1F21BEB6E900EB1EB2 /* Operator Overloading */ = {
-			isa = PBXGroup;
-			children = (
-				3A24FC2021BEB70500EB1EB2 /* OpOverload100 */,
-				3A4CAD7C21C015DC00ED6305 /* FriendFunctions101 */,
-			);
-			path = "Operator Overloading";
-			sourceTree = "<group>";
-		};
-		3A24FC2021BEB70500EB1EB2 /* OpOverload100 */ = {
+		3A24FC2021BEB70500EB1EB2 /* OperatorOverload100 */ = {
 			isa = PBXGroup;
 			children = (
 				3A24FC2121BEB72300EB1EB2 /* myTime01.cpp */,
@@ -502,7 +496,7 @@
 				3A24FC2421BEBAC800EB1EB2 /* OpOverload101.cpp */,
 				3A79488021BFF57200A7C123 /* OpOverload102.cpp */,
 			);
-			path = OpOverload100;
+			path = OperatorOverload100;
 			sourceTree = "<group>";
 		};
 		3A2B4B2E212DBE8800352E9F /* Console IO */ = {
@@ -596,6 +590,15 @@
 				3A9A164C2105FF87002A31B6 /* BitFields101.cpp */,
 			);
 			path = Structs;
+			sourceTree = "<group>";
+		};
+		3A3EA9F8220081BB00F047B8 /* TypeCasts103 */ = {
+			isa = PBXGroup;
+			children = (
+				3A3EA9F9220081ED00F047B8 /* StonewtType03.cpp */,
+				3A3EA9FA220081ED00F047B8 /* StonewtType03.hpp */,
+			);
+			path = TypeCasts103;
 			sourceTree = "<group>";
 		};
 		3A416450219471930027E2C7 /* ExternalVars101 */ = {
@@ -739,8 +742,11 @@
 			children = (
 				3AF59D4921A5C23200BA3EBD /* Classes101 */,
 				3A844F1821AEF7BB00181FE6 /* Classes102 */,
+				3A24FC2021BEB70500EB1EB2 /* OperatorOverload100 */,
+				3A4CAD7C21C015DC00ED6305 /* FriendFunctions101 */,
 				3A57426D21F8B23C00B4CC84 /* TypeCasts101 */,
 				3A0FFAE621FA05CA00B5223B /* TypeCasts102 */,
+				3A3EA9F8220081BB00F047B8 /* TypeCasts103 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -778,7 +784,6 @@
 				3A1B0EF9218B5C220084D0DA /* Separate Compilation */,
 				3A1327512191E6BB004E9B92 /* Memory Models */,
 				3AC842DE21A456CE00DAF50D /* Classes */,
-				3A24FC1F21BEB6E900EB1EB2 /* Operator Overloading */,
 				3A3410A621B020FD0063572B /* Abstract Data Types */,
 				3A68487C215126EB004C5F68 /* Simple Examples */,
 				3AD3ED9520EBD8F3008D28BF /* main.cpp */,
@@ -923,6 +928,7 @@
 				3A65668A21591F0000ACDA13 /* NumberInput102.cpp in Sources */,
 				3A3410AC21B026A20063572B /* Stack101.cpp in Sources */,
 				3A7D07922182032F00101B33 /* ForcedResolution101.cpp in Sources */,
+				3A3EA9FB220081ED00F047B8 /* StonewtType03.cpp in Sources */,
 				3A844F1B21AEF7E700181FE6 /* Stock02.cpp in Sources */,
 				3A677D2F212447CE0007EB0F /* VectorAndArray101.cpp in Sources */,
 				3A41645E21948BEF0027E2C7 /* LocalStaticVars102.cpp in Sources */,
