@@ -30,6 +30,7 @@ namespace ClassTypeCasts103
         void showStone() const;                 // show weight in stone and pounds format
         
         // Conversion fucntions
+        //     if this wasn't explicit, resolving addition with type double would be ambiguous
         explicit operator double() const;          // convert only using explicit type cast
         
         // Addition function - using a friend so both operands can use implicit type casts

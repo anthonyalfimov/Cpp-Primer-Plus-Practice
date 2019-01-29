@@ -43,6 +43,7 @@
 		3A3A289821569EA100CA9545 /* ControlFlow101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A289621569EA100CA9545 /* ControlFlow101.cpp */; };
 		3A3DEFB521776C7100F4E33B /* Reference201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DEFB321776C7100F4E33B /* Reference201.cpp */; };
 		3A3EA9FB220081ED00F047B8 /* StonewtType03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EA9F9220081ED00F047B8 /* StonewtType03.cpp */; };
+		3A3EA9FD2200849700F047B8 /* ClassTypeCasts103.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EA9FC2200849700F047B8 /* ClassTypeCasts103.cpp */; };
 		3A3EB72A21639E6A00C6773C /* Arrays201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EB72821639E6A00C6773C /* Arrays201.cpp */; };
 		3A3EB72D2163B12600C6773C /* FuncArray201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EB72B2163B12600C6773C /* FuncArray201.cpp */; };
 		3A3EB7302163B31200C6773C /* FuncString101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EB72E2163B31200C6773C /* FuncString101.cpp */; };
@@ -200,6 +201,7 @@
 		3A3DEFB421776C7100F4E33B /* Reference201.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Reference201.hpp; sourceTree = "<group>"; };
 		3A3EA9F9220081ED00F047B8 /* StonewtType03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StonewtType03.cpp; sourceTree = "<group>"; };
 		3A3EA9FA220081ED00F047B8 /* StonewtType03.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StonewtType03.hpp; sourceTree = "<group>"; };
+		3A3EA9FC2200849700F047B8 /* ClassTypeCasts103.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClassTypeCasts103.cpp; sourceTree = "<group>"; };
 		3A3EB72821639E6A00C6773C /* Arrays201.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Arrays201.cpp; sourceTree = "<group>"; };
 		3A3EB72921639E6A00C6773C /* Arrays201.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Arrays201.hpp; sourceTree = "<group>"; };
 		3A3EB72B2163B12600C6773C /* FuncArray201.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray201.cpp; sourceTree = "<group>"; };
@@ -597,6 +599,7 @@
 			children = (
 				3A3EA9F9220081ED00F047B8 /* StonewtType03.cpp */,
 				3A3EA9FA220081ED00F047B8 /* StonewtType03.hpp */,
+				3A3EA9FC2200849700F047B8 /* ClassTypeCasts103.cpp */,
 			);
 			path = TypeCasts103;
 			sourceTree = "<group>";
@@ -869,6 +872,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A3EA9FD2200849700F047B8 /* ClassTypeCasts103.cpp in Sources */,
 				3A266935215146B7009CAB96 /* example03.cpp in Sources */,
 				3AF7CFF2219DD98000FC359D /* namesp.cpp in Sources */,
 				3A9A164B2105FD07002A31B6 /* Struct103.cpp in Sources */,

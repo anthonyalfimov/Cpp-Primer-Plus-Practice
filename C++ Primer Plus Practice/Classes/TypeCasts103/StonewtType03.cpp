@@ -17,6 +17,9 @@ namespace ClassTypeCasts103
         m_stone = int(pounds) / LbsPerStn;      // integer division
         m_poundsLeft = int(pounds) % LbsPerStn + pounds - int(pounds);  // why not use m_stone?
         m_pounds = pounds;
+        
+        std::cout << "> C: " << m_pounds << "p\t|  "
+                  << m_stone << "s, " << m_poundsLeft << "p\n";
     }
     
     // Construct Stonewt object from stone and pounds values
@@ -25,18 +28,25 @@ namespace ClassTypeCasts103
         m_stone = stone;
         m_poundsLeft = pounds;
         m_pounds = stone * LbsPerStn + pounds;
+        
+        std::cout << "> C: " << m_pounds << "p\t|  "
+                  << m_stone << "s, " << m_poundsLeft << "p\n";
     }
     
     // Default constructor with 0 weight
     Stonewt::Stonewt()
     {
         m_stone = m_pounds = m_poundsLeft = 0;
+        
+        std::cout << "> C: " << m_pounds << "p\t|  "
+                  << m_stone << "s, " << m_poundsLeft << "p\n";
     }
     
     // Empty destructor
     Stonewt::~Stonewt()
     {
-        
+        std::cout << "> D: " << m_pounds << "p\t|  "
+                  << m_stone << "s, " << m_poundsLeft << "p\n";
     }
     
     /**
