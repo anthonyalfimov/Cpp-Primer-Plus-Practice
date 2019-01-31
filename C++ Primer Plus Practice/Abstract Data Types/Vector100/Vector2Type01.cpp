@@ -139,4 +139,4 @@ namespace Vector100
             
         return os;
     }
-}   // end namespace Vector101
+}   // end namespace Vector100

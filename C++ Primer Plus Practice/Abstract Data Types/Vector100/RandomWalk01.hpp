@@ -29,9 +29,6 @@ namespace Vector100
         double        m_distance;
         double        m_step;
         
-        // Random generation seed
-        unsigned      m_seed;
-        
     public:
         RandomWalk(double     distance,
                    double     step);
@@ -44,7 +41,6 @@ namespace Vector100
          zero otherwise
          */
         double meanDisplacement() { return steps > 0 ? endPosition.getR() / steps : 0; }
-
     };
 }
 
