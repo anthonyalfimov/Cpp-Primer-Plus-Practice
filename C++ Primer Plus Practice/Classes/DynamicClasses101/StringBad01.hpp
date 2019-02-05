@@ -8,8 +8,8 @@
 //  Flawed (underdeveloped) string class
 //
 
-#ifndef StringBad_hpp
-#define StringBad_hpp
+#ifndef StringBad01_hpp
+#define StringBad01_hpp
 
 #include <iostream>
 

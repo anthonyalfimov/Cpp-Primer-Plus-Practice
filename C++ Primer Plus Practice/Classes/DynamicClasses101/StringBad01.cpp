@@ -9,7 +9,7 @@
 //
 
 #include <cstring>
-#include "StringBad.hpp"
+#include "StringBad01.hpp"
 
 namespace DynamicClasses101
 {
@@ -24,7 +24,7 @@ namespace DynamicClasses101
         std::strcpy(str, s);                            // initialise allocated storage
         strCount++;                                     // update object count
         
-    #ifdef VERBOSE_STRING_
+    #ifdef VERBOSE_STRINGBAD_
         std::cout << strCount << ": \"" << str << "\" object created\n";
     #endif
     }
@@ -36,14 +36,14 @@ namespace DynamicClasses101
         std::strcpy(str, "C++");                        // default string
         strCount++;
         
-    #ifdef VERBOSE_STRING_
+    #ifdef VERBOSE_STRINGBAD_
         std::cout << strCount << ": \"" << str << "\" default object created\n";
     #endif
     }
     
     StringBad::~StringBad()                             // Necessary destructor
     {
-    #ifdef VERBOSE_STRING_
+    #ifdef VERBOSE_STRINGBAD_
         std::cout << "\"" << str << "\" object deleted, "
                   << strCount - 1 << " strings left\n";
     #endif
