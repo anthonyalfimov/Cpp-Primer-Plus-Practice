@@ -89,6 +89,7 @@
 		3A85EE892170F9A500DD89EE /* Reference101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A85EE872170F9A500DD89EE /* Reference101.cpp */; };
 		3A892C3F213EEB670060498A /* TextInput103.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A892C3D213EEB670060498A /* TextInput103.cpp */; };
 		3A8D4B39212340C900AD8A30 /* CombinationOfTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D4B37212340C900AD8A30 /* CombinationOfTypes.cpp */; };
+		3A8E6FF52209CDD200B01D70 /* StringBad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E6FF32209CDD200B01D70 /* StringBad.cpp */; };
 		3A8F6590216B755300B26D43 /* FuncPointer102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F658E216B755300B26D43 /* FuncPointer102.cpp */; };
 		3A931FE221108377009AB0EB /* Pointers102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A931FE021108377009AB0EB /* Pointers102.cpp */; };
 		3A97452F2165025E00F62A56 /* FuncStruct101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A97452D2165025E00F62A56 /* FuncStruct101.cpp */; };
@@ -282,6 +283,8 @@
 		3A892C3E213EEB670060498A /* TextInput103.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TextInput103.hpp; sourceTree = "<group>"; };
 		3A8D4B37212340C900AD8A30 /* CombinationOfTypes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CombinationOfTypes.cpp; sourceTree = "<group>"; };
 		3A8D4B38212340C900AD8A30 /* CombinationOfTypes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CombinationOfTypes.hpp; sourceTree = "<group>"; };
+		3A8E6FF32209CDD200B01D70 /* StringBad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringBad.cpp; sourceTree = "<group>"; };
+		3A8E6FF42209CDD200B01D70 /* StringBad.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringBad.hpp; sourceTree = "<group>"; };
 		3A8F658E216B755300B26D43 /* FuncPointer102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncPointer102.cpp; sourceTree = "<group>"; };
 		3A8F658F216B755300B26D43 /* FuncPointer102.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncPointer102.hpp; sourceTree = "<group>"; };
 		3A931FE021108377009AB0EB /* Pointers102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pointers102.cpp; sourceTree = "<group>"; };
@@ -727,6 +730,15 @@
 			path = Classes102;
 			sourceTree = "<group>";
 		};
+		3A8E6FF12209CDA100B01D70 /* DynamicClasses101 */ = {
+			isa = PBXGroup;
+			children = (
+				3A8E6FF32209CDD200B01D70 /* StringBad.cpp */,
+				3A8E6FF42209CDD200B01D70 /* StringBad.hpp */,
+			);
+			path = DynamicClasses101;
+			sourceTree = "<group>";
+		};
 		3A9C597221C28209003D3F49 /* Vector100 */ = {
 			isa = PBXGroup;
 			children = (
@@ -750,6 +762,7 @@
 				3A57426D21F8B23C00B4CC84 /* TypeCasts101 */,
 				3A0FFAE621FA05CA00B5223B /* TypeCasts102 */,
 				3A3EA9F8220081BB00F047B8 /* TypeCasts103 */,
+				3A8E6FF12209CDA100B01D70 /* DynamicClasses101 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -906,6 +919,7 @@
 				3A1327542191E6E1004E9B92 /* AutomaticVars101.cpp in Sources */,
 				3AF59D4C21A5C26900BA3EBD /* Stock01.cpp in Sources */,
 				3AD3ED9620EBD8F3008D28BF /* main.cpp in Sources */,
+				3A8E6FF52209CDD200B01D70 /* StringBad.cpp in Sources */,
 				3AC21C22217A386D00FA5529 /* FuncOverload101.cpp in Sources */,
 				3AFCB140212C351900275E64 /* StringComparison101.cpp in Sources */,
 				3A892C3F213EEB670060498A /* TextInput103.cpp in Sources */,
