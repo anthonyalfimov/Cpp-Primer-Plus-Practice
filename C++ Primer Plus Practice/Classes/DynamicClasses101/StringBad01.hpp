@@ -11,6 +11,8 @@
 #ifndef StringBad01_hpp
 #define StringBad01_hpp
 
+#define VERBOSE_STRINGBAD_
+
 #include <iostream>
 
 namespace DynamicClasses101

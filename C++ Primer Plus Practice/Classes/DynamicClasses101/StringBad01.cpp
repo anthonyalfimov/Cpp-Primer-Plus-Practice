@@ -5,7 +5,8 @@
 //  Created by Anthony on 05/02/2019.
 //  Copyright © 2019 Anthony. All rights reserved.
 //
-//  Flawed (underdeveloped) string class
+//  Flawed (underdeveloped) string class exploration
+//  - fails with malloc error by design :)
 //
 
 #include <cstring>

@@ -36,6 +36,7 @@ void showFriendFunctions101();
 void showClassTypeCasts101();
 void showConversionFunctions101();
 void showClassTypeCasts103();
+void showDynamicClasses101();
 
 //   ===================================
 //   |       Abstract Data Types       |

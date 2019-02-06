@@ -6,5 +6,5 @@
 
 int main()
 {
-    showClassTypeCasts103();
+    showDynamicClasses101();
 }
