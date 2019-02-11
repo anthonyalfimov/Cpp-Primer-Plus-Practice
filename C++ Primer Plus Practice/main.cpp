@@ -6,5 +6,5 @@
 
 int main()
 {
-    showDynamicClasses102();
+    showSpecialMethods101();
 }
