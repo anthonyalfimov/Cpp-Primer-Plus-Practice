@@ -68,6 +68,25 @@ namespace DynamicClasses102
     #endif
     }
     
+    StringGood& StringGood::operator=(const StringGood& s)
+    {
+        if (this == &s)                                 // prevent self-copying
+            return *this;
+        
+        delete [] str;                                  // release memory of old string
+        length = s.length;                              // same length
+        str = new char[length + 1];                     // allocate memory for new string
+        std::strcpy(str, s.str);                        // copy the string contents
+        
+        // NB! No new objects created, so don't increment strCount!
+        
+    #ifdef VERBOSE_STRINGGOOD_
+        std::cout << "Assign \"" << str << "\" object\n";
+    #endif
+        
+        return *this;                                   // return reference to envoking object
+    }
+    
     std::ostream& operator<<(std::ostream& os, const StringGood& s)
     {
         os << s.str;

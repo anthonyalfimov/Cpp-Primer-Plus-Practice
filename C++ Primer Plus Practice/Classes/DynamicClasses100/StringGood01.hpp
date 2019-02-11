@@ -30,6 +30,9 @@ namespace DynamicClasses102
         StringGood(const StringGood&);  // explicit copy constructor
         ~StringGood();                  // destructor
         
+//      Assignment Operator overload
+        StringGood& operator=(const StringGood&);       // has to be a member function
+        
 //      I/O Operator overloads
         friend std::ostream& operator<<(std::ostream& os, const StringGood& st);
     };
