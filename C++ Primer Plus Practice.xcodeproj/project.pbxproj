@@ -101,6 +101,8 @@
 		3A9BD2312111DCBD00BB73F6 /* DynamicArrays101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A9BD22F2111DCBD00BB73F6 /* DynamicArrays101.cpp */; };
 		3A9BD2342111F5ED00BB73F6 /* PointerArithmetic101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A9BD2322111F5ED00BB73F6 /* PointerArithmetic101.cpp */; };
 		3A9C597521C28238003D3F49 /* Vector2Type01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A9C597321C28238003D3F49 /* Vector2Type01.cpp */; };
+		3AA6B1272211BD7100507FD5 /* StringGood01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6B1252211BD7100507FD5 /* StringGood01.cpp */; };
+		3AA6B1292211BE6400507FD5 /* DynamicClasses102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6B1282211BE6400507FD5 /* DynamicClasses102.cpp */; };
 		3AAC7147210A4DF7000C8090 /* Enums101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AAC7145210A4DF7000C8090 /* Enums101.cpp */; };
 		3AAE8DCE2118A85E004DE731 /* PointersAndStrings101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE8DCC2118A85E004DE731 /* PointersAndStrings101.cpp */; };
 		3AAE8DD12118AE80004DE731 /* PointersAndStrings102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE8DCF2118AE80004DE731 /* PointersAndStrings102.cpp */; };
@@ -307,6 +309,9 @@
 		3A9BD2332111F5ED00BB73F6 /* PointerArithmetic101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PointerArithmetic101.hpp; sourceTree = "<group>"; };
 		3A9C597321C28238003D3F49 /* Vector2Type01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2Type01.cpp; sourceTree = "<group>"; };
 		3A9C597421C28238003D3F49 /* Vector2Type01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vector2Type01.hpp; sourceTree = "<group>"; };
+		3AA6B1252211BD7100507FD5 /* StringGood01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringGood01.cpp; sourceTree = "<group>"; };
+		3AA6B1262211BD7100507FD5 /* StringGood01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringGood01.hpp; sourceTree = "<group>"; };
+		3AA6B1282211BE6400507FD5 /* DynamicClasses102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicClasses102.cpp; sourceTree = "<group>"; };
 		3AAC7145210A4DF7000C8090 /* Enums101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Enums101.cpp; sourceTree = "<group>"; };
 		3AAC7146210A4DF7000C8090 /* Enums101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Enums101.hpp; sourceTree = "<group>"; };
 		3AAE8DCC2118A85E004DE731 /* PointersAndStrings101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointersAndStrings101.cpp; sourceTree = "<group>"; };
@@ -732,14 +737,17 @@
 			path = Classes102;
 			sourceTree = "<group>";
 		};
-		3A8E6FF12209CDA100B01D70 /* DynamicClasses101 */ = {
+		3A8E6FF12209CDA100B01D70 /* DynamicClasses100 */ = {
 			isa = PBXGroup;
 			children = (
 				3A8E6FF32209CDD200B01D70 /* StringBad01.cpp */,
 				3A8E6FF42209CDD200B01D70 /* StringBad01.hpp */,
 				3A8E6FF62209E8F700B01D70 /* DynamicClasses101.cpp */,
+				3AA6B1252211BD7100507FD5 /* StringGood01.cpp */,
+				3AA6B1262211BD7100507FD5 /* StringGood01.hpp */,
+				3AA6B1282211BE6400507FD5 /* DynamicClasses102.cpp */,
 			);
-			path = DynamicClasses101;
+			path = DynamicClasses100;
 			sourceTree = "<group>";
 		};
 		3A9C597221C28209003D3F49 /* Vector100 */ = {
@@ -765,7 +773,7 @@
 				3A57426D21F8B23C00B4CC84 /* TypeCasts101 */,
 				3A0FFAE621FA05CA00B5223B /* TypeCasts102 */,
 				3A3EA9F8220081BB00F047B8 /* TypeCasts103 */,
-				3A8E6FF12209CDA100B01D70 /* DynamicClasses101 */,
+				3A8E6FF12209CDA100B01D70 /* DynamicClasses100 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -922,6 +930,7 @@
 				3A225A9F2146DA4D00A9997D /* Arrays101.cpp in Sources */,
 				3A1327542191E6E1004E9B92 /* AutomaticVars101.cpp in Sources */,
 				3AF59D4C21A5C26900BA3EBD /* Stock01.cpp in Sources */,
+				3AA6B1272211BD7100507FD5 /* StringGood01.cpp in Sources */,
 				3AD3ED9620EBD8F3008D28BF /* main.cpp in Sources */,
 				3A8E6FF52209CDD200B01D70 /* StringBad01.cpp in Sources */,
 				3AC21C22217A386D00FA5529 /* FuncOverload101.cpp in Sources */,
@@ -929,6 +938,7 @@
 				3A892C3F213EEB670060498A /* TextInput103.cpp in Sources */,
 				3A8D4B39212340C900AD8A30 /* CombinationOfTypes.cpp in Sources */,
 				3A225A9C2146D0BF00A9997D /* TextInput104.cpp in Sources */,
+				3AA6B1292211BE6400507FD5 /* DynamicClasses102.cpp in Sources */,
 				3A3940C72178D25D003A54A0 /* DefaultArg101.cpp in Sources */,
 				3A26693B21515AC1009CAB96 /* ConditionalOperator101.cpp in Sources */,
 				3A9BD2312111DCBD00BB73F6 /* DynamicArrays101.cpp in Sources */,

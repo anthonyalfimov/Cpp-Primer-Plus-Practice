@@ -1,5 +1,5 @@
 //
-//  StringBad.cpp
+//  StringBad01.cpp
 //  C++ Primer Plus Practice
 //
 //  Created by Anthony on 05/02/2019.
@@ -62,4 +62,4 @@ namespace DynamicClasses101
         os << s.str;
         return os;
     }
-}
+}   // end namespace DynamicClasses101
