@@ -19,5 +19,8 @@ void showSpecialMethods101()
     MagicNumber foo = 5;
     MagicNumber bar(3);
     
+    // If the assignment operator wasn't overloaded, the constructor would be
+    //     used instead to convert `7` to a temoporary `MagicNumber` object that
+    //     then would be assigned to `foo` using the implicit assignment operator
     foo = 7;
 }
