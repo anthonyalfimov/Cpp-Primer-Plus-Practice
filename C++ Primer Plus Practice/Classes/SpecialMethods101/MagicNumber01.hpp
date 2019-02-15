@@ -22,6 +22,12 @@ namespace SpecialMethods101
         
         // Use assignment overload to assign object to type int
         MagicNumber& operator=(int n);
+        
+        // Assignment operator overload (verbose)
+        MagicNumber& operator=(const MagicNumber&);
+        
+        // Copy constructor (verbose)
+        MagicNumber(const MagicNumber&);
     };
 }   // end namespace SpecialMethods101
 
