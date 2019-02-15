@@ -19,6 +19,8 @@ namespace
     const SpecialMethods101::MagicNumber returnConstructor(int);
     const SpecialMethods101::MagicNumber returnTempObject(int);
     
+    // Function that returns a copy of a passed object
+    SpecialMethods101::MagicNumber returnCopy(const SpecialMethods101::MagicNumber&);
 }
 
 void showSpecialMethods101()
@@ -53,10 +55,14 @@ void showSpecialMethods101()
     std::cout << "5: ";
     returnTempObject(43);
     
-    // Assign a return value to an object
+    // Call a function that returns a copy of a passed object and uses the copy constructor
     std::cout << "6: ";
-    foo = returnConstructor(412);
+    bar = returnCopy(foo);
+    
+    // Assign a return value to an object
     std::cout << "7: ";
+    foo = returnConstructor(412);
+    std::cout << "8: ";
     bar = returnTempObject(12);
 }
 
@@ -69,7 +75,13 @@ namespace
     
     const SpecialMethods101::MagicNumber returnTempObject(int i)
     {
+        // Even this gets optimised by the compiler!!!
         SpecialMethods101::MagicNumber tmp(i);          // Create temporary object
         return tmp;                                     // Return temporary object
+    }
+    
+    SpecialMethods101::MagicNumber returnCopy(const SpecialMethods101::MagicNumber& mn)
+    {
+        return mn;
     }
 }
