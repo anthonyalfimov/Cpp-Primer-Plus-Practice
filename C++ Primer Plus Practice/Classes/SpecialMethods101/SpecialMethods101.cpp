@@ -64,6 +64,14 @@ void showSpecialMethods101()
     foo = returnConstructor(412);
     std::cout << "8: ";
     bar = returnTempObject(12);
+    
+    std::cout << "\n9: Dynamically allocate a Magic Number..\n";
+    MagicNumber* dyn = new MagicNumber(111111);
+    *dyn = 101010;
+    // NOTE: the destructor for dynamically allocated object is ONLY called when
+    //     you explicitely use delete
+    //delete dyn;
+    std::cout << "\n";
 }
 
 namespace

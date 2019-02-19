@@ -41,4 +41,10 @@ namespace SpecialMethods101
         num = mn.num;
     }
     
+    // Destructor
+    MagicNumber::~MagicNumber()
+    {
+        std::cout << num << " says \"Bye!\"\n";
+    }
+    
 }   // end namespace SpecialMethods101

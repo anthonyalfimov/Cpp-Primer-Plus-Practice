@@ -28,6 +28,9 @@ namespace SpecialMethods101
         
         // Copy constructor (verbose)
         MagicNumber(const MagicNumber&);
+        
+        // Destructor
+        ~MagicNumber();
     };
 }   // end namespace SpecialMethods101
 
