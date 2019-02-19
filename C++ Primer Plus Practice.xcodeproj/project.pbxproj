@@ -78,6 +78,7 @@
 		3A68488221512C0F004C5F68 /* example02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A68488021512C0F004C5F68 /* example02.cpp */; };
 		3A716434216520B00068432A /* FuncArray301.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A716432216520B00068432A /* FuncArray301.cpp */; };
 		3A79488121BFF57200A7C123 /* OpOverload102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A79488021BFF57200A7C123 /* OpOverload102.cpp */; };
+		3A79AFD7221C1A9100E25CE4 /* DynamicClasses202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A79AFD6221C1A9100E25CE4 /* DynamicClasses202.cpp */; };
 		3A7D078F2181F41C00101B33 /* PartialOrdering101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D078D2181F41C00101B33 /* PartialOrdering101.cpp */; };
 		3A7D07922182032F00101B33 /* ForcedResolution101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D07902182032F00101B33 /* ForcedResolution101.cpp */; };
 		3A7D0795218217E000101B33 /* AutoVSdecltype101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0793218217E000101B33 /* AutoVSdecltype101.cpp */; };
@@ -270,6 +271,7 @@
 		3A716432216520B00068432A /* FuncArray301.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray301.cpp; sourceTree = "<group>"; };
 		3A716433216520B00068432A /* FuncArray301.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncArray301.hpp; sourceTree = "<group>"; };
 		3A79488021BFF57200A7C123 /* OpOverload102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpOverload102.cpp; sourceTree = "<group>"; };
+		3A79AFD6221C1A9100E25CE4 /* DynamicClasses202.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicClasses202.cpp; sourceTree = "<group>"; };
 		3A7D078D2181F41C00101B33 /* PartialOrdering101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PartialOrdering101.cpp; sourceTree = "<group>"; };
 		3A7D078E2181F41C00101B33 /* PartialOrdering101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PartialOrdering101.hpp; sourceTree = "<group>"; };
 		3A7D07902182032F00101B33 /* ForcedResolution101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ForcedResolution101.cpp; sourceTree = "<group>"; };
@@ -652,14 +654,15 @@
 			path = FriendFunctions101;
 			sourceTree = "<group>";
 		};
-		3A5001882215831800CA6BC3 /* DynamicClasses201 */ = {
+		3A5001882215831800CA6BC3 /* DynamicClasses200 */ = {
 			isa = PBXGroup;
 			children = (
 				3A5001892215834600CA6BC3 /* StringType01.cpp */,
 				3A50018A2215834600CA6BC3 /* StringType01.hpp */,
 				3A50018C2215836200CA6BC3 /* DynamicClasses201.cpp */,
+				3A79AFD6221C1A9100E25CE4 /* DynamicClasses202.cpp */,
 			);
-			path = DynamicClasses201;
+			path = DynamicClasses200;
 			sourceTree = "<group>";
 		};
 		3A57426D21F8B23C00B4CC84 /* TypeCasts101 */ = {
@@ -805,7 +808,7 @@
 				3A3EA9F8220081BB00F047B8 /* TypeCasts103 */,
 				3A8E6FF12209CDA100B01D70 /* DynamicClasses100 */,
 				3AA6B12A2211C99C00507FD5 /* SpecialMethods101 */,
-				3A5001882215831800CA6BC3 /* DynamicClasses201 */,
+				3A5001882215831800CA6BC3 /* DynamicClasses200 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -929,6 +932,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3EA9FD2200849700F047B8 /* ClassTypeCasts103.cpp in Sources */,
+				3A79AFD7221C1A9100E25CE4 /* DynamicClasses202.cpp in Sources */,
 				3A266935215146B7009CAB96 /* example03.cpp in Sources */,
 				3AF7CFF2219DD98000FC359D /* namesp.cpp in Sources */,
 				3A9A164B2105FD07002A31B6 /* Struct103.cpp in Sources */,

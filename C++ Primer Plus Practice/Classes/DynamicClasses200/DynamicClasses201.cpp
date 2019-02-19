@@ -14,7 +14,7 @@ constexpr int MaxLength = 81;
 
 void showDynamicClasses201()
 {
-    using DynamicClasses201::String;
+    using DynamicClasses200::String;
     
     String name;
     std::cout << "Hi, what is your name?\n>> ";

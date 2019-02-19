@@ -9,7 +9,7 @@
 #include <cstring>
 #include "StringType01.hpp"
 
-namespace DynamicClasses201
+namespace DynamicClasses200
 {
     // Initialise static class member
     int String::s_strCount = 0;
@@ -153,4 +153,4 @@ namespace DynamicClasses201
         
         return is;
     }
-}   // end namespace DynamicClasses201
+}   // end namespace DynamicClasses200

@@ -11,7 +11,7 @@
 
 #include <iostream>
 
-namespace DynamicClasses201
+namespace DynamicClasses200
 {
     class String
     {
@@ -51,6 +51,6 @@ namespace DynamicClasses201
 //      Static methods
         static int stringCount();
     };
-}   // end namespace DynamicClasses201
+}   // end namespace DynamicClasses200
 
 #endif /* StringType01_hpp */
