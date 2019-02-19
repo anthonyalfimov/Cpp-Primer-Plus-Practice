@@ -41,6 +41,8 @@
 		3A39AB412102434B0011AC89 /* Struct102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A39AB3F2102434B0011AC89 /* Struct102.cpp */; };
 		3A3A28952156979600CA9545 /* Switch102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A28932156979600CA9545 /* Switch102.cpp */; };
 		3A3A289821569EA100CA9545 /* ControlFlow101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A289621569EA100CA9545 /* ControlFlow101.cpp */; };
+		3A3BE27D221C3CC5003CB4DA /* PlacementNew201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3BE27C221C3CC5003CB4DA /* PlacementNew201.cpp */; };
+		3A3BE27F221C4A5C003CB4DA /* PlacementNew202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3BE27E221C4A5C003CB4DA /* PlacementNew202.cpp */; };
 		3A3DEFB521776C7100F4E33B /* Reference201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DEFB321776C7100F4E33B /* Reference201.cpp */; };
 		3A3EA9FB220081ED00F047B8 /* StonewtType03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EA9F9220081ED00F047B8 /* StonewtType03.cpp */; };
 		3A3EA9FD2200849700F047B8 /* ClassTypeCasts103.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EA9FC2200849700F047B8 /* ClassTypeCasts103.cpp */; };
@@ -206,6 +208,8 @@
 		3A3A28942156979600CA9545 /* Switch102.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Switch102.hpp; sourceTree = "<group>"; };
 		3A3A289621569EA100CA9545 /* ControlFlow101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ControlFlow101.cpp; sourceTree = "<group>"; };
 		3A3A289721569EA100CA9545 /* ControlFlow101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ControlFlow101.hpp; sourceTree = "<group>"; };
+		3A3BE27C221C3CC5003CB4DA /* PlacementNew201.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlacementNew201.cpp; sourceTree = "<group>"; };
+		3A3BE27E221C4A5C003CB4DA /* PlacementNew202.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlacementNew202.cpp; sourceTree = "<group>"; };
 		3A3DEFB321776C7100F4E33B /* Reference201.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Reference201.cpp; sourceTree = "<group>"; };
 		3A3DEFB421776C7100F4E33B /* Reference201.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Reference201.hpp; sourceTree = "<group>"; };
 		3A3EA9F9220081ED00F047B8 /* StonewtType03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StonewtType03.cpp; sourceTree = "<group>"; };
@@ -616,6 +620,15 @@
 			path = Structs;
 			sourceTree = "<group>";
 		};
+		3A3BE27B221C3C7C003CB4DA /* PlacementNew200 */ = {
+			isa = PBXGroup;
+			children = (
+				3A3BE27C221C3CC5003CB4DA /* PlacementNew201.cpp */,
+				3A3BE27E221C4A5C003CB4DA /* PlacementNew202.cpp */,
+			);
+			path = PlacementNew200;
+			sourceTree = "<group>";
+		};
 		3A3EA9F8220081BB00F047B8 /* TypeCasts103 */ = {
 			isa = PBXGroup;
 			children = (
@@ -809,6 +822,7 @@
 				3A8E6FF12209CDA100B01D70 /* DynamicClasses100 */,
 				3AA6B12A2211C99C00507FD5 /* SpecialMethods101 */,
 				3A5001882215831800CA6BC3 /* DynamicClasses200 */,
+				3A3BE27B221C3C7C003CB4DA /* PlacementNew200 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -950,6 +964,7 @@
 				3A095BAD21C7F3C70076C7EA /* Vector101.cpp in Sources */,
 				3AA6B12F2211CB1600507FD5 /* SpecialMethods101.cpp in Sources */,
 				3AFCB146212C68DC00275E64 /* LegacyTime101.cpp in Sources */,
+				3A3BE27F221C4A5C003CB4DA /* PlacementNew202.cpp in Sources */,
 				3A41645621947EA90027E2C7 /* StaticInternalVars101.cpp in Sources */,
 				3A50018B2215834600CA6BC3 /* StringType01.cpp in Sources */,
 				3A61857521270217006E0C96 /* Expressions101.cpp in Sources */,
@@ -994,6 +1009,7 @@
 				3A4EBB31217DFFFA0081653F /* TempExplicitSpec101.cpp in Sources */,
 				3AAE8DD12118AE80004DE731 /* PointersAndStrings102.cpp in Sources */,
 				3A716434216520B00068432A /* FuncArray301.cpp in Sources */,
+				3A3BE27D221C3CC5003CB4DA /* PlacementNew201.cpp in Sources */,
 				3A656687215919A900ACDA13 /* NumberInput101.cpp in Sources */,
 				3A844F1721AED10F00181FE6 /* Reference203.cpp in Sources */,
 				3A7D07982182277100101B33 /* TrailingReturn101.cpp in Sources */,
