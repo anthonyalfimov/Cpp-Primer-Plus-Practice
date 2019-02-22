@@ -50,6 +50,9 @@
 		3A3EB72D2163B12600C6773C /* FuncArray201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EB72B2163B12600C6773C /* FuncArray201.cpp */; };
 		3A3EB7302163B31200C6773C /* FuncString101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EB72E2163B31200C6773C /* FuncString101.cpp */; };
 		3A3EB7332163B83100C6773C /* FuncString102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EB7312163B83100C6773C /* FuncString102.cpp */; };
+		3A3FB92722203183004B265B /* Customer01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3FB92522203183004B265B /* Customer01.cpp */; };
+		3A3FB92A22203339004B265B /* Queue01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3FB92822203339004B265B /* Queue01.cpp */; };
+		3A3FB92C22204D21004B265B /* ATMsim01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A3FB92B22204D21004B265B /* ATMsim01.cpp */; };
 		3A41644F219471330027E2C7 /* ExternalVars101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A41644D219471330027E2C7 /* ExternalVars101.cpp */; };
 		3A416452219471D80027E2C7 /* SupportEV101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A416451219471D80027E2C7 /* SupportEV101.cpp */; };
 		3A41645621947EA90027E2C7 /* StaticInternalVars101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A41645421947EA90027E2C7 /* StaticInternalVars101.cpp */; };
@@ -223,6 +226,11 @@
 		3A3EB72F2163B31200C6773C /* FuncString101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncString101.hpp; sourceTree = "<group>"; };
 		3A3EB7312163B83100C6773C /* FuncString102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncString102.cpp; sourceTree = "<group>"; };
 		3A3EB7322163B83100C6773C /* FuncString102.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncString102.hpp; sourceTree = "<group>"; };
+		3A3FB92522203183004B265B /* Customer01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Customer01.cpp; sourceTree = "<group>"; };
+		3A3FB92622203183004B265B /* Customer01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Customer01.hpp; sourceTree = "<group>"; };
+		3A3FB92822203339004B265B /* Queue01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Queue01.cpp; sourceTree = "<group>"; };
+		3A3FB92922203339004B265B /* Queue01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue01.hpp; sourceTree = "<group>"; };
+		3A3FB92B22204D21004B265B /* ATMsim01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ATMsim01.cpp; sourceTree = "<group>"; };
 		3A41644D219471330027E2C7 /* ExternalVars101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExternalVars101.cpp; sourceTree = "<group>"; };
 		3A416451219471D80027E2C7 /* SupportEV101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SupportEV101.cpp; sourceTree = "<group>"; };
 		3A41645421947EA90027E2C7 /* StaticInternalVars101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StaticInternalVars101.cpp; sourceTree = "<group>"; };
@@ -551,6 +559,7 @@
 			children = (
 				3A3410A721B021150063572B /* Stack101 */,
 				3A9C597221C28209003D3F49 /* Vector100 */,
+				3A3FB92322203064004B265B /* Queue101 */,
 			);
 			path = "Abstract Data Types";
 			sourceTree = "<group>";
@@ -637,6 +646,18 @@
 				3A3EA9FC2200849700F047B8 /* ClassTypeCasts103.cpp */,
 			);
 			path = TypeCasts103;
+			sourceTree = "<group>";
+		};
+		3A3FB92322203064004B265B /* Queue101 */ = {
+			isa = PBXGroup;
+			children = (
+				3A3FB92522203183004B265B /* Customer01.cpp */,
+				3A3FB92622203183004B265B /* Customer01.hpp */,
+				3A3FB92822203339004B265B /* Queue01.cpp */,
+				3A3FB92922203339004B265B /* Queue01.hpp */,
+				3A3FB92B22204D21004B265B /* ATMsim01.cpp */,
+			);
+			path = Queue101;
 			sourceTree = "<group>";
 		};
 		3A416450219471930027E2C7 /* ExternalVars101 */ = {
@@ -998,6 +1019,7 @@
 				3A26693B21515AC1009CAB96 /* ConditionalOperator101.cpp in Sources */,
 				3A9BD2312111DCBD00BB73F6 /* DynamicArrays101.cpp in Sources */,
 				3A1C7D3121078CFD00EFF72E /* Unions101.cpp in Sources */,
+				3A3FB92C22204D21004B265B /* ATMsim01.cpp in Sources */,
 				3AFCB149212C718000275E64 /* RangeLoops101.cpp in Sources */,
 				3AFDB3032177622C00532DF2 /* Reference103.cpp in Sources */,
 				3A1B0F00218B5D320084D0DA /* coord.cpp in Sources */,
@@ -1015,6 +1037,7 @@
 				3A7D07982182277100101B33 /* TrailingReturn101.cpp in Sources */,
 				3A65668A21591F0000ACDA13 /* NumberInput102.cpp in Sources */,
 				3A3410AC21B026A20063572B /* Stack101.cpp in Sources */,
+				3A3FB92A22203339004B265B /* Queue01.cpp in Sources */,
 				3A7D07922182032F00101B33 /* ForcedResolution101.cpp in Sources */,
 				3A3EA9FB220081ED00F047B8 /* StonewtType03.cpp in Sources */,
 				3A844F1B21AEF7E700181FE6 /* Stock02.cpp in Sources */,
@@ -1029,6 +1052,7 @@
 				3A26693821515695009CAB96 /* CharacterFunctions101.cpp in Sources */,
 				3A97FA4720EFD1740062D7D1 /* TypeLimits101.cpp in Sources */,
 				3A9C597521C28238003D3F49 /* Vector2Type01.cpp in Sources */,
+				3A3FB92722203183004B265B /* Customer01.cpp in Sources */,
 				3A3A289821569EA100CA9545 /* ControlFlow101.cpp in Sources */,
 				3A81805221661D9D00BABE7D /* Recursion101.cpp in Sources */,
 				3A13E0BD21623E6B0023EA9B /* FuncArray102.cpp in Sources */,

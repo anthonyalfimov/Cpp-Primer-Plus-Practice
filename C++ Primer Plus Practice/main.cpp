@@ -6,5 +6,5 @@
 
 int main()
 {
-    showPlacementNew202();
+    showQueue101();
 }
