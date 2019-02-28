@@ -27,16 +27,12 @@ namespace Stack01
         Stack();
         
         /**
-         Check wether stack is empty
-
-         @return True is stack is empty, False otherwise
+         @return true if stack is empty, false otherwise
          */
         bool isEmpty() const;
         
         /**
-         Check wether stack is full
-
-         @return True is stack is full, False otherwise
+         @return true if stack is full, false otherwise
          */
         bool isFull()  const;
         
@@ -44,7 +40,7 @@ namespace Stack01
          Add item to the stack
 
          @param item Item to add to the stack
-         @return False if stack is already full, True otherwise
+         @return false if stack is already full, true otherwise
          */
         bool push(const Item& item);
         
@@ -52,7 +48,7 @@ namespace Stack01
          Pop top of the stack into the passed item
 
          @param item Item to pop top of the stack into
-         @return False if the stack is already empty, True otherwise
+         @return false if the stack is already empty, true otherwise
          */
         bool pop(Item& item);
     };
