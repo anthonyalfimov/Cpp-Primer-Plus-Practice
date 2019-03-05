@@ -6,5 +6,5 @@
 
 int main()
 {
-    showQueue101();
+    showUseBaseClass01();
 }
