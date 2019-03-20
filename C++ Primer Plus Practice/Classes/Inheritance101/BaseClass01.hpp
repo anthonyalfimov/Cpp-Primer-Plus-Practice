@@ -17,8 +17,8 @@ namespace Inheritance101
     class TableTennisPlayer
     {
     public:
-        TableTennisPlayer(const std::string& fn = "none",
-                          const std::string& ln = "none", bool hasTable = false);
+        TableTennisPlayer(const std::string& firstName = "none",
+                          const std::string& lastName  = "none", bool hasTable = false);
         void name() const;
         bool hasTable() const { return m_hasTable; }
         void resetTable(bool hasTable) { m_hasTable = hasTable; }

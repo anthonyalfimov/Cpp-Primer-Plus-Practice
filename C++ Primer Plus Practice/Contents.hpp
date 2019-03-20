@@ -44,6 +44,7 @@ void showDynamicClasses202();
 void showPlacementNew201();
 void showPlacementNew202();
 void showUseBaseClass01();
+void showInheritance101();
 
 //   ===================================
 //   |       Abstract Data Types       |

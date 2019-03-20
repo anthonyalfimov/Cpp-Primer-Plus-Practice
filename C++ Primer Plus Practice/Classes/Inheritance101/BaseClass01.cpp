@@ -22,4 +22,4 @@ namespace Inheritance101
     {
         std::cout << m_lastName << ", " << m_firstName;
     }
-}
+}   // end namespace Inheritance101
