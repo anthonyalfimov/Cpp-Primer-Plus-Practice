@@ -18,7 +18,7 @@ namespace Inheritance101
                                                     m_lastName(ln),
                                                     m_hasTable(ht) {}
     
-    void TableTennisPlayer::Name() const
+    void TableTennisPlayer::name() const
     {
         std::cout << m_lastName << ", " << m_firstName;
     }

@@ -21,10 +21,10 @@ void showUseBaseClass01()
     TableTennisPlayer player1("Chuck", "Blizzard", true);
     TableTennisPlayer player2("Tara", "Boomdea", false);
     
-    player1.Name();
+    player1.name();
     printTableStatus(player1);
     
-    player2.Name();
+    player2.name();
     printTableStatus(player2);
     
 }
