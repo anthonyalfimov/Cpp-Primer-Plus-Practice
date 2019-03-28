@@ -29,7 +29,7 @@ void showInheritance101()
     RatedPlayer rplayer1(1140, "Mallory", "Duck", true);
     
     rplayer1.name();                // derived object uses base method
-    printTableStatus(rplayer1);     // polymorphism: pass derived object as a base class argument
+    printTableStatus(rplayer1);     // base-class reference can refer to a derived-class object
     
     player1.name();                 // base object uses base method
     printTableStatus(player1);
