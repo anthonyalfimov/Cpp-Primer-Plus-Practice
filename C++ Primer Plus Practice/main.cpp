@@ -6,5 +6,5 @@
 
 int main()
 {
-    showInheritance101();
+    showInheritance201();
 }

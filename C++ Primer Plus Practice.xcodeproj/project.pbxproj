@@ -126,6 +126,8 @@
 		3AD3ED9620EBD8F3008D28BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3ED9520EBD8F3008D28BF /* main.cpp */; };
 		3ADD3A56212AF5B300476E00 /* CommaOperator101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD3A54212AF5B300476E00 /* CommaOperator101.cpp */; };
 		3AE4BD052152AF16004851E6 /* Switch101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4BD032152AF16004851E6 /* Switch101.cpp */; };
+		3AE89769224D129800F722C8 /* BrassAccount01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE89767224D129800F722C8 /* BrassAccount01.cpp */; };
+		3AE8976B224D3B8300F722C8 /* Inheritance201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8976A224D3B8300F722C8 /* Inheritance201.cpp */; };
 		3AF4162D2162596900A079C9 /* FuncArray103.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF4162B2162596900A079C9 /* FuncArray103.cpp */; };
 		3AF59D4C21A5C26900BA3EBD /* Stock01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF59D4A21A5C26900BA3EBD /* Stock01.cpp */; };
 		3AF757FD222EB1CD006F9815 /* BaseClass01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF757FB222EB1CD006F9815 /* BaseClass01.cpp */; };
@@ -364,6 +366,9 @@
 		3ADD3A55212AF5B300476E00 /* CommaOperator101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommaOperator101.hpp; sourceTree = "<group>"; };
 		3AE4BD032152AF16004851E6 /* Switch101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Switch101.cpp; sourceTree = "<group>"; };
 		3AE4BD042152AF16004851E6 /* Switch101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Switch101.hpp; sourceTree = "<group>"; };
+		3AE89767224D129800F722C8 /* BrassAccount01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BrassAccount01.cpp; sourceTree = "<group>"; };
+		3AE89768224D129800F722C8 /* BrassAccount01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BrassAccount01.hpp; sourceTree = "<group>"; };
+		3AE8976A224D3B8300F722C8 /* Inheritance201.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inheritance201.cpp; sourceTree = "<group>"; };
 		3AF4162B2162596900A079C9 /* FuncArray103.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray103.cpp; sourceTree = "<group>"; };
 		3AF4162C2162596900A079C9 /* FuncArray103.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncArray103.hpp; sourceTree = "<group>"; };
 		3AF59D4A21A5C26900BA3EBD /* Stock01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stock01.cpp; sourceTree = "<group>"; };
@@ -855,6 +860,7 @@
 				3A5001882215831800CA6BC3 /* DynamicClasses200 */,
 				3A3BE27B221C3C7C003CB4DA /* PlacementNew200 */,
 				3AF757FA222EB1A7006F9815 /* Inheritance101 */,
+				3AE89766224D125D00F722C8 /* Inheritance200 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -898,6 +904,16 @@
 				3AC842DD21A455B300DAF50D /* Contents.hpp */,
 			);
 			path = "C++ Primer Plus Practice";
+			sourceTree = "<group>";
+		};
+		3AE89766224D125D00F722C8 /* Inheritance200 */ = {
+			isa = PBXGroup;
+			children = (
+				3AE89767224D129800F722C8 /* BrassAccount01.cpp */,
+				3AE89768224D129800F722C8 /* BrassAccount01.hpp */,
+				3AE8976A224D3B8300F722C8 /* Inheritance201.cpp */,
+			);
+			path = Inheritance200;
 			sourceTree = "<group>";
 		};
 		3AF59D4921A5C23200BA3EBD /* Classes101 */ = {
@@ -1070,6 +1086,7 @@
 				3A65669121593E2000ACDA13 /* WritingFile101.cpp in Sources */,
 				3A095BB221C80F510076C7EA /* Vector102.cpp in Sources */,
 				3A39AB362102184D0011AC89 /* StringFun103.cpp in Sources */,
+				3AE89769224D129800F722C8 /* BrassAccount01.cpp in Sources */,
 				3A41644F219471330027E2C7 /* ExternalVars101.cpp in Sources */,
 				3A57427221F8C31D00B4CC84 /* ClassTypeCasts101.cpp in Sources */,
 				3AF757FD222EB1CD006F9815 /* BaseClass01.cpp in Sources */,
@@ -1107,6 +1124,7 @@
 				3A094319210F67CE00170020 /* Pointers101.cpp in Sources */,
 				3A61857821271F8E006E0C96 /* Loops101.cpp in Sources */,
 				3AE4BD052152AF16004851E6 /* Switch101.cpp in Sources */,
+				3AE8976B224D3B8300F722C8 /* Inheritance201.cpp in Sources */,
 				3AAE8DCE2118A85E004DE731 /* PointersAndStrings101.cpp in Sources */,
 				3A7D0795218217E000101B33 /* AutoVSdecltype101.cpp in Sources */,
 				3A0FFAE921FA05E900B5223B /* StonewtType02.cpp in Sources */,
