@@ -11,7 +11,7 @@
 
 #include <string>
 
-namespace Inheritance102
+namespace Inheritance200
 {
 //  Brass Account Class
     class Brass
@@ -23,11 +23,15 @@ namespace Inheritance102
         void deposit(double amount);
         double balance() const;
         virtual void withdraw(double amount);       // `virtual` makes it so references and pointers
-        virtual void viewAccount() const;           //   use methods from the object class, not
-                                                    //   the reference or pointer class
-        virtual ~Brass() {};                        // ??? ensure correct destructor is called
-                                                    //   when object is passed into scope as a
-                                                    //   reference or pointer?
+        virtual void viewAccount() const;           //     use methods from the object class, not
+                                                    //     the reference or pointer class
+        
+        virtual ~Brass() {};                        // `virtual` destructor makes it so `delete`
+                                                    //     used with a pointer envokes destructor
+                                                    //     based on object type, not pointer type
+                                                    //
+                                                    // NB! All base classes should have
+                                                    //     virtual destructors!
         
     private:
         std::string m_fullName;
@@ -56,6 +60,6 @@ namespace Inheritance102
         double m_owed;
     };
     
-}   // end namespace Inheritance102
+}   // end namespace Inheritance200
 
 #endif /* BrassAccount01_hpp */

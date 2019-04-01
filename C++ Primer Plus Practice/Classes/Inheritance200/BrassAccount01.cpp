@@ -9,7 +9,7 @@
 #include <iostream>
 #include "BrassAccount01.hpp"
 
-namespace Inheritance102
+namespace Inheritance200
 {
 //  Formatting
     typedef std::ios_base::fmtflags format;
@@ -138,4 +138,4 @@ namespace Inheritance102
         std::cout.precision(p);                         // restore precision
     }
     
-}   // end namespace Inheritance102
+}   // end namespace Inheritance200

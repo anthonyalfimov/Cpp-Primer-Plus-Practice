@@ -126,6 +126,7 @@
 		3AD3ED9620EBD8F3008D28BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3ED9520EBD8F3008D28BF /* main.cpp */; };
 		3ADD3A56212AF5B300476E00 /* CommaOperator101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD3A54212AF5B300476E00 /* CommaOperator101.cpp */; };
 		3AE4BD052152AF16004851E6 /* Switch101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4BD032152AF16004851E6 /* Switch101.cpp */; };
+		3AE72552225219DE00A0CBD8 /* Inheritance202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE72551225219DE00A0CBD8 /* Inheritance202.cpp */; };
 		3AE89769224D129800F722C8 /* BrassAccount01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE89767224D129800F722C8 /* BrassAccount01.cpp */; };
 		3AE8976B224D3B8300F722C8 /* Inheritance201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8976A224D3B8300F722C8 /* Inheritance201.cpp */; };
 		3AF4162D2162596900A079C9 /* FuncArray103.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF4162B2162596900A079C9 /* FuncArray103.cpp */; };
@@ -366,6 +367,7 @@
 		3ADD3A55212AF5B300476E00 /* CommaOperator101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommaOperator101.hpp; sourceTree = "<group>"; };
 		3AE4BD032152AF16004851E6 /* Switch101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Switch101.cpp; sourceTree = "<group>"; };
 		3AE4BD042152AF16004851E6 /* Switch101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Switch101.hpp; sourceTree = "<group>"; };
+		3AE72551225219DE00A0CBD8 /* Inheritance202.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inheritance202.cpp; sourceTree = "<group>"; };
 		3AE89767224D129800F722C8 /* BrassAccount01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BrassAccount01.cpp; sourceTree = "<group>"; };
 		3AE89768224D129800F722C8 /* BrassAccount01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BrassAccount01.hpp; sourceTree = "<group>"; };
 		3AE8976A224D3B8300F722C8 /* Inheritance201.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inheritance201.cpp; sourceTree = "<group>"; };
@@ -912,6 +914,7 @@
 				3AE89767224D129800F722C8 /* BrassAccount01.cpp */,
 				3AE89768224D129800F722C8 /* BrassAccount01.hpp */,
 				3AE8976A224D3B8300F722C8 /* Inheritance201.cpp */,
+				3AE72551225219DE00A0CBD8 /* Inheritance202.cpp */,
 			);
 			path = Inheritance200;
 			sourceTree = "<group>";
@@ -1115,6 +1118,7 @@
 				3A39AB3921021F970011AC89 /* StringFun104.cpp in Sources */,
 				3A3410AA21B021390063572B /* StackType01.cpp in Sources */,
 				3A095BB021C807E20076C7EA /* RandomWalk01.cpp in Sources */,
+				3AE72552225219DE00A0CBD8 /* Inheritance202.cpp in Sources */,
 				3A68488221512C0F004C5F68 /* example02.cpp in Sources */,
 				3A844F1D21AF027A00181FE6 /* Classes102.cpp in Sources */,
 				3AF757FF222EBB83006F9815 /* UseBaseClass01.cpp in Sources */,
