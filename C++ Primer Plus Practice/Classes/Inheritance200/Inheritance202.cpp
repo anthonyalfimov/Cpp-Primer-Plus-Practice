@@ -64,6 +64,8 @@ void showInheritance202()
     for (int i = 0; i < clients; i++)       // polymorphic access
     {
         p_clients[i]->viewAccount();        // method is chosen based on the pointed-to object type
+                                            // note: this choice can't be made at compile time
+                                            //     - dynamic binding
         std::cout << "\n";
     }
     
