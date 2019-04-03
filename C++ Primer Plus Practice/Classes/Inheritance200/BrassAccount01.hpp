@@ -21,7 +21,7 @@ namespace Inheritance200
               double balance = 0.0);
         
         void deposit(double amount);
-        double balance() const;
+        double getBalance() const { return m_balance; }
         virtual void withdraw(double amount);       // `virtual` makes it so references and pointers
         virtual void viewAccount() const;           //     use methods from the object class, not
                                                     //     the reference or pointer class

@@ -32,11 +32,6 @@ namespace Inheritance200
             m_balance += amount;
     }
     
-    double Brass::balance() const
-    {
-        return m_balance;       // why not inline this? because it's virtual?
-    }
-    
     void Brass::withdraw(double amount)
     {
         // set up ###.## format
@@ -86,7 +81,7 @@ namespace Inheritance200
         format initialState = setFormat();
         precision prec = std::cout.precision(2);
         
-        double bal = balance();         // call member function | not redefined - no scope resolution
+        double bal = getBalance();      // call member function | not redefined - no scope resolution
         
         if (amount <= bal)
             Brass::withdraw(amount);    // call base-class version | no access to base private members!

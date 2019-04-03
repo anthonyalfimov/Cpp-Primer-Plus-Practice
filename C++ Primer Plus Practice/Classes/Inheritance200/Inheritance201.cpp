@@ -26,11 +26,11 @@ void showInheritance201()
     
     std::cout << "Depositing $1000 into the Hogg account:\n";
     hoggy.deposit(1000);
-    std::cout << "New balance: $" << hoggy.balance() << "\n\n";
+    std::cout << "New balance: $" << hoggy.getBalance() << "\n\n";
     
     std::cout << "Withdrawing $4200 form Pigg account:\n";
     piggy.withdraw(4200);
-    std::cout << "Pigg account balance: $" << piggy.balance() << "\n\n";
+    std::cout << "Pigg account balance: $" << piggy.getBalance() << "\n\n";
     
     std::cout << "Withdrawing $4200 from the Hogg account:\n";
     hoggy.withdraw(4200);
