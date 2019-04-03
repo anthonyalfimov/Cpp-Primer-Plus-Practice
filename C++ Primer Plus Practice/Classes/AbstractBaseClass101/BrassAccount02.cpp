@@ -25,7 +25,13 @@ namespace AbstractBaseClass101
     
     void Account::withdraw(double amount)               // pure virtual function can have a difinition
     {
-        m_balance -= amount;
+        if (amount < 0)
+            std::cout << "Withdrawal amount must be positive; operation cancelled.\n";
+        else if (amount <= getBalance())
+            m_balance -= amount;
+        else
+            std::cout << "Withdrawal amount of $" << amount << " exceeds your balance.\n"
+            "Operation cancelled.\n";
     }
     
     // Protected methods for formatting
@@ -46,16 +52,10 @@ namespace AbstractBaseClass101
     }
     
 //  Brass methods
-    void Brass::withdraw(double amount)
-    {
-        if (amount < 0)
-            std::cout << "Withdrawal amount must be positive; operation cancelled.\n";
-        else if (amount <= getBalance())
-            Account::withdraw(amount);                  // use definition of pure virtual function
-        else
-            std::cout << "Withdrawal amount of $" << amount << " exceeds your balance.\n"
-                         "Operation cancelled.\n";
-    }
+    void Brass::withdraw(double amount)     // derived classes MUST implement all pure virtual
+    {                                       //     functions of abstract base class, but
+        Account::withdraw(amount);          //     if a pure virtual function has definition,
+    }                                       //     they can use it
     
     void Brass::viewAccount() const
     {
@@ -84,9 +84,7 @@ namespace AbstractBaseClass101
         
         double balance = getBalance();
         
-        if (amount < 0)
-            std::cout << "Withdrawal amount must be positive; operation cancelled.\n";
-        else if (amount <= balance)
+        if (amount <= balance)
             Account::withdraw(amount);                  // use definition of pure virtual function
         else if (amount <= balance + m_maxLoan - m_owed)
         {
