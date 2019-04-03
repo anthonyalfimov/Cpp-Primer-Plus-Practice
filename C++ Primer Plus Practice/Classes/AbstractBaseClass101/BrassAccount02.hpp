@@ -25,7 +25,8 @@ namespace AbstractBaseClass101
         void deposit(double amount);
         virtual void withdraw(double amount) = 0;       // pure virtual function with definition
         virtual void viewAccount() const = 0;           // pure virtual function without definition
-        
+                                                        // NB! pure virtual function can only be
+                                                        //     defined outside the class body
         virtual ~Account() {}
         
     protected:  // members accesible for derived classes, but hidden from the interface
