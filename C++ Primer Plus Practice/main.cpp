@@ -6,5 +6,5 @@
 
 int main()
 {
-    showAbstractBaseClass101();
+    showInheritance301();
 }

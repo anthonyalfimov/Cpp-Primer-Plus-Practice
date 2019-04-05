@@ -120,6 +120,8 @@
 		3AAC7147210A4DF7000C8090 /* Enums101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AAC7145210A4DF7000C8090 /* Enums101.cpp */; };
 		3AAE8DCE2118A85E004DE731 /* PointersAndStrings101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE8DCC2118A85E004DE731 /* PointersAndStrings101.cpp */; };
 		3AAE8DD12118AE80004DE731 /* PointersAndStrings102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE8DCF2118AE80004DE731 /* PointersAndStrings102.cpp */; };
+		3AB012322257A82100D157D0 /* DMA01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AB012302257A82100D157D0 /* DMA01.cpp */; };
+		3AB012342257B99600D157D0 /* Inheritance301.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AB012332257B99600D157D0 /* Inheritance301.cpp */; };
 		3ABE5CF82165108C00C6F869 /* FuncStruct102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE5CF62165108C00C6F869 /* FuncStruct102.cpp */; };
 		3AC21C22217A386D00FA5529 /* FuncOverload101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC21C20217A386D00FA5529 /* FuncOverload101.cpp */; };
 		3AC4DEF8219AEAC300BE989B /* PlacementNew101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4DEF6219AEAC300BE989B /* PlacementNew101.cpp */; };
@@ -357,6 +359,9 @@
 		3AAE8DCD2118A85E004DE731 /* PointersAndStrings101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PointersAndStrings101.hpp; sourceTree = "<group>"; };
 		3AAE8DCF2118AE80004DE731 /* PointersAndStrings102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointersAndStrings102.cpp; sourceTree = "<group>"; };
 		3AAE8DD02118AE80004DE731 /* PointersAndStrings102.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PointersAndStrings102.hpp; sourceTree = "<group>"; };
+		3AB012302257A82100D157D0 /* DMA01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DMA01.cpp; sourceTree = "<group>"; };
+		3AB012312257A82100D157D0 /* DMA01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DMA01.hpp; sourceTree = "<group>"; };
+		3AB012332257B99600D157D0 /* Inheritance301.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inheritance301.cpp; sourceTree = "<group>"; };
 		3ABE5CF62165108C00C6F869 /* FuncStruct102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncStruct102.cpp; sourceTree = "<group>"; };
 		3ABE5CF72165108C00C6F869 /* FuncStruct102.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncStruct102.hpp; sourceTree = "<group>"; };
 		3AC21C20217A386D00FA5529 /* FuncOverload101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncOverload101.cpp; sourceTree = "<group>"; };
@@ -862,6 +867,16 @@
 			path = SpecialMethods101;
 			sourceTree = "<group>";
 		};
+		3AB0122F2257A7EA00D157D0 /* Inheritance301 */ = {
+			isa = PBXGroup;
+			children = (
+				3AB012302257A82100D157D0 /* DMA01.cpp */,
+				3AB012312257A82100D157D0 /* DMA01.hpp */,
+				3AB012332257B99600D157D0 /* Inheritance301.cpp */,
+			);
+			path = Inheritance301;
+			sourceTree = "<group>";
+		};
 		3AC842DE21A456CE00DAF50D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -879,6 +894,7 @@
 				3AF757FA222EB1A7006F9815 /* Inheritance101 */,
 				3AE89766224D125D00F722C8 /* Inheritance200 */,
 				3A0D8F04225519FD007E2E5A /* AbstractBaseClass101 */,
+				3AB0122F2257A7EA00D157D0 /* Inheritance301 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1070,6 +1086,7 @@
 				3A8E6FF52209CDD200B01D70 /* StringBad01.cpp in Sources */,
 				3AC21C22217A386D00FA5529 /* FuncOverload101.cpp in Sources */,
 				3AFCB140212C351900275E64 /* StringComparison101.cpp in Sources */,
+				3AB012322257A82100D157D0 /* DMA01.cpp in Sources */,
 				3A892C3F213EEB670060498A /* TextInput103.cpp in Sources */,
 				3A8D4B39212340C900AD8A30 /* CombinationOfTypes.cpp in Sources */,
 				3A225A9C2146D0BF00A9997D /* TextInput104.cpp in Sources */,
@@ -1137,6 +1154,7 @@
 				3A3410AA21B021390063572B /* StackType01.cpp in Sources */,
 				3A095BB021C807E20076C7EA /* RandomWalk01.cpp in Sources */,
 				3AE72552225219DE00A0CBD8 /* Inheritance202.cpp in Sources */,
+				3AB012342257B99600D157D0 /* Inheritance301.cpp in Sources */,
 				3A68488221512C0F004C5F68 /* example02.cpp in Sources */,
 				3A844F1D21AF027A00181FE6 /* Classes102.cpp in Sources */,
 				3AF757FF222EBB83006F9815 /* UseBaseClass01.cpp in Sources */,

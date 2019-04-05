@@ -48,6 +48,7 @@ void showInheritance101();
 void showInheritance201();
 void showInheritance202();
 void showAbstractBaseClass101();
+void showInheritance301();
 
 //   ===================================
 //   |       Abstract Data Types       |
