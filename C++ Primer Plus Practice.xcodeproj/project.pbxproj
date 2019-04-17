@@ -83,6 +83,8 @@
 		3A677D2F212447CE0007EB0F /* VectorAndArray101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A677D2D212447CE0007EB0F /* VectorAndArray101.cpp */; };
 		3A68487F21512719004C5F68 /* example01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A68487D21512719004C5F68 /* example01.cpp */; };
 		3A68488221512C0F004C5F68 /* example02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A68488021512C0F004C5F68 /* example02.cpp */; };
+		3A69DEA722676C7000A7D98E /* Student01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A69DEA522676C7000A7D98E /* Student01.cpp */; };
+		3A69DEA922677E4300A7D98E /* Containment101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A69DEA822677E4300A7D98E /* Containment101.cpp */; };
 		3A6D150222428FDE000D4C47 /* DerivedClass01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D150022428FDE000D4C47 /* DerivedClass01.cpp */; };
 		3A6D1504224292D3000D4C47 /* Inheritance101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D1503224292D3000D4C47 /* Inheritance101.cpp */; };
 		3A716434216520B00068432A /* FuncArray301.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A716432216520B00068432A /* FuncArray301.cpp */; };
@@ -294,6 +296,9 @@
 		3A68487E21512719004C5F68 /* example01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = example01.hpp; sourceTree = "<group>"; };
 		3A68488021512C0F004C5F68 /* example02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example02.cpp; sourceTree = "<group>"; };
 		3A68488121512C0F004C5F68 /* example02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = example02.hpp; sourceTree = "<group>"; };
+		3A69DEA522676C7000A7D98E /* Student01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student01.cpp; sourceTree = "<group>"; };
+		3A69DEA622676C7000A7D98E /* Student01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Student01.hpp; sourceTree = "<group>"; };
+		3A69DEA822677E4300A7D98E /* Containment101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Containment101.cpp; sourceTree = "<group>"; };
 		3A6D150022428FDE000D4C47 /* DerivedClass01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DerivedClass01.cpp; sourceTree = "<group>"; };
 		3A6D150122428FDE000D4C47 /* DerivedClass01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DerivedClass01.hpp; sourceTree = "<group>"; };
 		3A6D1503224292D3000D4C47 /* Inheritance101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inheritance101.cpp; sourceTree = "<group>"; };
@@ -821,6 +826,16 @@
 			path = "Simple Examples";
 			sourceTree = "<group>";
 		};
+		3A69DEA422676C3900A7D98E /* Containment101 */ = {
+			isa = PBXGroup;
+			children = (
+				3A69DEA522676C7000A7D98E /* Student01.cpp */,
+				3A69DEA622676C7000A7D98E /* Student01.hpp */,
+				3A69DEA822677E4300A7D98E /* Containment101.cpp */,
+			);
+			path = Containment101;
+			sourceTree = "<group>";
+		};
 		3A844F1821AEF7BB00181FE6 /* Classes102 */ = {
 			isa = PBXGroup;
 			children = (
@@ -895,6 +910,7 @@
 				3AE89766224D125D00F722C8 /* Inheritance200 */,
 				3A0D8F04225519FD007E2E5A /* AbstractBaseClass101 */,
 				3AB0122F2257A7EA00D157D0 /* Inheritance301 */,
+				3A69DEA422676C3900A7D98E /* Containment101 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1162,6 +1178,7 @@
 				3A1B0EFD218B5CF20084D0DA /* Headers101.cpp in Sources */,
 				3A3EB7332163B83100C6773C /* FuncString102.cpp in Sources */,
 				3A094319210F67CE00170020 /* Pointers101.cpp in Sources */,
+				3A69DEA922677E4300A7D98E /* Containment101.cpp in Sources */,
 				3A61857821271F8E006E0C96 /* Loops101.cpp in Sources */,
 				3AE4BD052152AF16004851E6 /* Switch101.cpp in Sources */,
 				3AE8976B224D3B8300F722C8 /* Inheritance201.cpp in Sources */,
@@ -1176,6 +1193,7 @@
 				3AD1F34D215A56EA004CFE88 /* ReadingFile101.cpp in Sources */,
 				3A4CAD8221C0188300ED6305 /* FriendFunctions101.cpp in Sources */,
 				3A66AE132170BFE40060E80B /* InlineFunc101.cpp in Sources */,
+				3A69DEA722676C7000A7D98E /* Student01.cpp in Sources */,
 				3A0FFAEB21FA075A00B5223B /* ConversionFunctions101.cpp in Sources */,
 				3A3DEFB521776C7100F4E33B /* Reference201.cpp in Sources */,
 				3A6D150222428FDE000D4C47 /* DerivedClass01.cpp in Sources */,
