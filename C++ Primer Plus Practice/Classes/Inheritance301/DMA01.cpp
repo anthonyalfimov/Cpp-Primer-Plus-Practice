@@ -78,6 +78,8 @@ namespace Inheritance300
         std::cout << "|> LacksDMA constructor for "  << getLabel() << "\n";
     }
     
+    // Define derived class friend function to specialise its functionality.
+    //     Otherwise, base-class friend could be used with dervied object upcasted to base class
     std::ostream& operator<<(std::ostream& os, const LacksDMA& ld)
     {
         os << (const BaseDMA&) ld;      // cast to base-class type to use its friend
@@ -136,6 +138,8 @@ namespace Inheritance300
         return *this;
     }
     
+    // Define derived class friend function to specialise its functionality.
+    //     Otherwise, base-class friend could be used with dervied object upcasted to base class
     std::ostream& operator<<(std::ostream& os, const HasDMA& hd)
     {
         os << (const BaseDMA&) hd;      // cast to base-class type to use its friend

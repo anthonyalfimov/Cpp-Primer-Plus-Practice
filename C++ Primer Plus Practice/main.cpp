@@ -6,5 +6,5 @@
 
 int main()
 {
-    showContainment101();
+    showPrivateInheritance101();
 }

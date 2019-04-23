@@ -125,6 +125,8 @@
 		3AB012322257A82100D157D0 /* DMA01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AB012302257A82100D157D0 /* DMA01.cpp */; };
 		3AB012342257B99600D157D0 /* Inheritance301.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AB012332257B99600D157D0 /* Inheritance301.cpp */; };
 		3ABE5CF82165108C00C6F869 /* FuncStruct102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE5CF62165108C00C6F869 /* FuncStruct102.cpp */; };
+		3AC0CA10226F551C004FF2C5 /* Student02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0CA0E226F551C004FF2C5 /* Student02.cpp */; };
+		3AC0CA12226F626D004FF2C5 /* PrivateInheritance101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0CA11226F626D004FF2C5 /* PrivateInheritance101.cpp */; };
 		3AC21C22217A386D00FA5529 /* FuncOverload101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC21C20217A386D00FA5529 /* FuncOverload101.cpp */; };
 		3AC4DEF8219AEAC300BE989B /* PlacementNew101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4DEF6219AEAC300BE989B /* PlacementNew101.cpp */; };
 		3AC842E021A456E400DAF50D /* Classes101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC842DF21A456E400DAF50D /* Classes101.cpp */; };
@@ -369,6 +371,9 @@
 		3AB012332257B99600D157D0 /* Inheritance301.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inheritance301.cpp; sourceTree = "<group>"; };
 		3ABE5CF62165108C00C6F869 /* FuncStruct102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncStruct102.cpp; sourceTree = "<group>"; };
 		3ABE5CF72165108C00C6F869 /* FuncStruct102.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncStruct102.hpp; sourceTree = "<group>"; };
+		3AC0CA0E226F551C004FF2C5 /* Student02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student02.cpp; sourceTree = "<group>"; };
+		3AC0CA0F226F551C004FF2C5 /* Student02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Student02.hpp; sourceTree = "<group>"; };
+		3AC0CA11226F626D004FF2C5 /* PrivateInheritance101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrivateInheritance101.cpp; sourceTree = "<group>"; };
 		3AC21C20217A386D00FA5529 /* FuncOverload101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncOverload101.cpp; sourceTree = "<group>"; };
 		3AC21C21217A386D00FA5529 /* FuncOverload101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncOverload101.hpp; sourceTree = "<group>"; };
 		3AC4DEF6219AEAC300BE989B /* PlacementNew101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlacementNew101.cpp; sourceTree = "<group>"; };
@@ -892,6 +897,16 @@
 			path = Inheritance301;
 			sourceTree = "<group>";
 		};
+		3AC0CA0D226F54FA004FF2C5 /* Inheritance401 */ = {
+			isa = PBXGroup;
+			children = (
+				3AC0CA0E226F551C004FF2C5 /* Student02.cpp */,
+				3AC0CA0F226F551C004FF2C5 /* Student02.hpp */,
+				3AC0CA11226F626D004FF2C5 /* PrivateInheritance101.cpp */,
+			);
+			path = Inheritance401;
+			sourceTree = "<group>";
+		};
 		3AC842DE21A456CE00DAF50D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -911,6 +926,7 @@
 				3A0D8F04225519FD007E2E5A /* AbstractBaseClass101 */,
 				3AB0122F2257A7EA00D157D0 /* Inheritance301 */,
 				3A69DEA422676C3900A7D98E /* Containment101 */,
+				3AC0CA0D226F54FA004FF2C5 /* Inheritance401 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1097,6 +1113,7 @@
 				3A50018D2215836200CA6BC3 /* DynamicClasses201.cpp in Sources */,
 				3A1327542191E6E1004E9B92 /* AutomaticVars101.cpp in Sources */,
 				3AF59D4C21A5C26900BA3EBD /* Stock01.cpp in Sources */,
+				3AC0CA10226F551C004FF2C5 /* Student02.cpp in Sources */,
 				3AA6B1272211BD7100507FD5 /* StringGood01.cpp in Sources */,
 				3AD3ED9620EBD8F3008D28BF /* main.cpp in Sources */,
 				3A8E6FF52209CDD200B01D70 /* StringBad01.cpp in Sources */,
@@ -1173,6 +1190,7 @@
 				3AB012342257B99600D157D0 /* Inheritance301.cpp in Sources */,
 				3A68488221512C0F004C5F68 /* example02.cpp in Sources */,
 				3A844F1D21AF027A00181FE6 /* Classes102.cpp in Sources */,
+				3AC0CA12226F626D004FF2C5 /* PrivateInheritance101.cpp in Sources */,
 				3AF757FF222EBB83006F9815 /* UseBaseClass01.cpp in Sources */,
 				3A79488121BFF57200A7C123 /* OpOverload102.cpp in Sources */,
 				3A1B0EFD218B5CF20084D0DA /* Headers101.cpp in Sources */,
