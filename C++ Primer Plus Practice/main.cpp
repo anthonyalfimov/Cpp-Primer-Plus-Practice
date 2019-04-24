@@ -6,5 +6,5 @@
 
 int main()
 {
-    showPrivateInheritance101();
+    showWorkerTest01();
 }

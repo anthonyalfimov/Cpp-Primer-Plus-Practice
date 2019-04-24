@@ -35,7 +35,6 @@ namespace Inheritance400
     }
     
     //  Friend functions
-    
     std::istream& operator>>(std::istream& is, Student& s)
     {
         is >> (std::string&) s;                     // use std::string version of operator>>()
