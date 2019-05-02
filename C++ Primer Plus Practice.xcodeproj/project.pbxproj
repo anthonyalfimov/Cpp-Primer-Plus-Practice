@@ -87,6 +87,7 @@
 		3A69DEA922677E4300A7D98E /* Containment101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A69DEA822677E4300A7D98E /* Containment101.cpp */; };
 		3A6D150222428FDE000D4C47 /* DerivedClass01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D150022428FDE000D4C47 /* DerivedClass01.cpp */; };
 		3A6D1504224292D3000D4C47 /* Inheritance101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D1503224292D3000D4C47 /* Inheritance101.cpp */; };
+		3A6E05D8227B308500826C16 /* Worker02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A6E05D6227B308500826C16 /* Worker02.cpp */; };
 		3A716434216520B00068432A /* FuncArray301.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A716432216520B00068432A /* FuncArray301.cpp */; };
 		3A79488121BFF57200A7C123 /* OpOverload102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A79488021BFF57200A7C123 /* OpOverload102.cpp */; };
 		3A79AFD7221C1A9100E25CE4 /* DynamicClasses202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A79AFD6221C1A9100E25CE4 /* DynamicClasses202.cpp */; };
@@ -134,6 +135,7 @@
 		3AD3ED9620EBD8F3008D28BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3ED9520EBD8F3008D28BF /* main.cpp */; };
 		3ADD3A56212AF5B300476E00 /* CommaOperator101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD3A54212AF5B300476E00 /* CommaOperator101.cpp */; };
 		3AE4BD052152AF16004851E6 /* Switch101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4BD032152AF16004851E6 /* Switch101.cpp */; };
+		3AE516B3227B3E6200D3F562 /* MultipleInheritance101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE516B2227B3E6200D3F562 /* MultipleInheritance101.cpp */; };
 		3AE72552225219DE00A0CBD8 /* Inheritance202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE72551225219DE00A0CBD8 /* Inheritance202.cpp */; };
 		3AE89769224D129800F722C8 /* BrassAccount01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE89767224D129800F722C8 /* BrassAccount01.cpp */; };
 		3AE8976B224D3B8300F722C8 /* Inheritance201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8976A224D3B8300F722C8 /* Inheritance201.cpp */; };
@@ -306,6 +308,8 @@
 		3A6D150022428FDE000D4C47 /* DerivedClass01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DerivedClass01.cpp; sourceTree = "<group>"; };
 		3A6D150122428FDE000D4C47 /* DerivedClass01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DerivedClass01.hpp; sourceTree = "<group>"; };
 		3A6D1503224292D3000D4C47 /* Inheritance101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inheritance101.cpp; sourceTree = "<group>"; };
+		3A6E05D6227B308500826C16 /* Worker02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Worker02.cpp; sourceTree = "<group>"; };
+		3A6E05D7227B308500826C16 /* Worker02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Worker02.hpp; sourceTree = "<group>"; };
 		3A716432216520B00068432A /* FuncArray301.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray301.cpp; sourceTree = "<group>"; };
 		3A716433216520B00068432A /* FuncArray301.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncArray301.hpp; sourceTree = "<group>"; };
 		3A79488021BFF57200A7C123 /* OpOverload102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpOverload102.cpp; sourceTree = "<group>"; };
@@ -389,6 +393,7 @@
 		3ADD3A55212AF5B300476E00 /* CommaOperator101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommaOperator101.hpp; sourceTree = "<group>"; };
 		3AE4BD032152AF16004851E6 /* Switch101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Switch101.cpp; sourceTree = "<group>"; };
 		3AE4BD042152AF16004851E6 /* Switch101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Switch101.hpp; sourceTree = "<group>"; };
+		3AE516B2227B3E6200D3F562 /* MultipleInheritance101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MultipleInheritance101.cpp; sourceTree = "<group>"; };
 		3AE72551225219DE00A0CBD8 /* Inheritance202.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inheritance202.cpp; sourceTree = "<group>"; };
 		3AE89767224D129800F722C8 /* BrassAccount01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BrassAccount01.cpp; sourceTree = "<group>"; };
 		3AE89768224D129800F722C8 /* BrassAccount01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BrassAccount01.hpp; sourceTree = "<group>"; };
@@ -1029,6 +1034,9 @@
 				3AFF10BE2270AF8D006890A0 /* Worker01.cpp */,
 				3AFF10BF2270AF8D006890A0 /* Worker01.hpp */,
 				3AFF10C12270C87D006890A0 /* WorkerTest01.cpp */,
+				3A6E05D6227B308500826C16 /* Worker02.cpp */,
+				3A6E05D7227B308500826C16 /* Worker02.hpp */,
+				3AE516B2227B3E6200D3F562 /* MultipleInheritance101.cpp */,
 			);
 			path = Inheritance500;
 			sourceTree = "<group>";
@@ -1111,6 +1119,7 @@
 				3AFCB146212C68DC00275E64 /* LegacyTime101.cpp in Sources */,
 				3A3BE27F221C4A5C003CB4DA /* PlacementNew202.cpp in Sources */,
 				3A41645621947EA90027E2C7 /* StaticInternalVars101.cpp in Sources */,
+				3AE516B3227B3E6200D3F562 /* MultipleInheritance101.cpp in Sources */,
 				3A50018B2215834600CA6BC3 /* StringType01.cpp in Sources */,
 				3A61857521270217006E0C96 /* Expressions101.cpp in Sources */,
 				3A624BAB2100F7760098A2D3 /* StringFun101.cpp in Sources */,
@@ -1150,6 +1159,7 @@
 				3AFCB149212C718000275E64 /* RangeLoops101.cpp in Sources */,
 				3AFDB3032177622C00532DF2 /* Reference103.cpp in Sources */,
 				3A1B0F00218B5D320084D0DA /* coord.cpp in Sources */,
+				3A6E05D8227B308500826C16 /* Worker02.cpp in Sources */,
 				3A9A164E2105FF87002A31B6 /* BitFields101.cpp in Sources */,
 				3A931FE221108377009AB0EB /* Pointers102.cpp in Sources */,
 				3A3A28952156979600CA9545 /* Switch102.cpp in Sources */,

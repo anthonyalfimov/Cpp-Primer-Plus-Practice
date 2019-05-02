@@ -52,6 +52,7 @@ void showInheritance301();
 void showContainment101();
 void showPrivateInheritance101();
 void showWorkerTest01();
+void showMultipleInheritance101();
 
 //   ===================================
 //   |       Abstract Data Types       |

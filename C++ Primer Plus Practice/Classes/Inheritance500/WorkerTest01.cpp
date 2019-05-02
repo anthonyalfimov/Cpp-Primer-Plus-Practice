@@ -23,10 +23,7 @@ void showWorkerTest01()
     Waiter w_temp;
     Singer s_temp;
     
-    Worker* pw[size] =
-    {
-        &bob, &bev, &w_temp, &s_temp
-    };
+    Worker* pw[size] = {&bob, &bev, &w_temp, &s_temp};
     
     int i;
     for (i = 2; i < size; i++)

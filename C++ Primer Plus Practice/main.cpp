@@ -6,5 +6,5 @@
 
 int main()
 {
-    showWorkerTest01();
+    showMultipleInheritance101();
 }

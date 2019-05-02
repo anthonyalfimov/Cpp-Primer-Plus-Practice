@@ -36,7 +36,7 @@ namespace Inheritance501
             : Worker(fullName, id), m_panache(panache) {}
         Waiter(const Worker& w, int panache = 0) : Worker(w), m_panache(panache) {}
         
-        void set() override;
+        void set() override;            // not putting `virtual` here is a stylistic choice
         void show() const override;
         
     private:
