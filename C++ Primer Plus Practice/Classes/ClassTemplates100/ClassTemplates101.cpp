@@ -18,7 +18,7 @@ namespace
 
 void showClassTemplates101()
 {
-    using namespace ClassTemplates100;
+    using namespace ClassTemplates101;
     
     Stack<std::string> st;                  // create an empty stack
     char ch;

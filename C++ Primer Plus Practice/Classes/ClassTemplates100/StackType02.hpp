@@ -5,11 +5,13 @@
 //  Created by Anthony on 06/05/2019.
 //  Copyright © 2019 Anthony. All rights reserved.
 //
+//  Basic class template example
+//
 
 #ifndef StackType02_h
 #define StackType02_h
 
-namespace ClassTemplates100
+namespace ClassTemplates101
 {
     template <typename Type>
     class Stack
@@ -65,7 +67,6 @@ namespace ClassTemplates100
         
         return false;
     }
-    
-    
-}   // end namespace ClassTemplates100
+}   // end namespace ClassTemplates101
+
 #endif /* StackType02_h */
