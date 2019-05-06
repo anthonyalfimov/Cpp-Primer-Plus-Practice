@@ -51,12 +51,12 @@ void showClassTemplates102()
     {
         if (inBasket.isEmpty())
         {
-            inBasket.push(cart[nextIn]);
+            inBasket.push(cart[nextIn]);            // only address is pushed, strings never move!
             nextIn++;
         }
         else if (inBasket.isFull())
         {
-            inBasket.pop(outBasket[processed]);
+            inBasket.pop(outBasket[processed]);     // only address is popped, strings never move!
             processed++;
         }
         else if (nextIn < NUM && std::rand() % 2)   // something's left in cart and 50-50 chance
