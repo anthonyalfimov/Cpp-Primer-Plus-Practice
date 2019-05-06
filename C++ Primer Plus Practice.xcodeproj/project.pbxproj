@@ -120,6 +120,7 @@
 		3AA6B1292211BE6400507FD5 /* DynamicClasses102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6B1282211BE6400507FD5 /* DynamicClasses102.cpp */; };
 		3AA6B12D2211C9B700507FD5 /* MagicNumber01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6B12B2211C9B700507FD5 /* MagicNumber01.cpp */; };
 		3AA6B12F2211CB1600507FD5 /* SpecialMethods101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6B12E2211CB1600507FD5 /* SpecialMethods101.cpp */; };
+		3AA7CCAE2280639F0001A854 /* ClassTemplates101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA7CCAD2280639F0001A854 /* ClassTemplates101.cpp */; };
 		3AAC7147210A4DF7000C8090 /* Enums101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AAC7145210A4DF7000C8090 /* Enums101.cpp */; };
 		3AAE8DCE2118A85E004DE731 /* PointersAndStrings101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE8DCC2118A85E004DE731 /* PointersAndStrings101.cpp */; };
 		3AAE8DD12118AE80004DE731 /* PointersAndStrings102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE8DCF2118AE80004DE731 /* PointersAndStrings102.cpp */; };
@@ -366,6 +367,8 @@
 		3AA6B12B2211C9B700507FD5 /* MagicNumber01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MagicNumber01.cpp; sourceTree = "<group>"; };
 		3AA6B12C2211C9B700507FD5 /* MagicNumber01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MagicNumber01.hpp; sourceTree = "<group>"; };
 		3AA6B12E2211CB1600507FD5 /* SpecialMethods101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpecialMethods101.cpp; sourceTree = "<group>"; };
+		3AA7CCAC228061570001A854 /* StackType02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackType02.hpp; sourceTree = "<group>"; };
+		3AA7CCAD2280639F0001A854 /* ClassTemplates101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClassTemplates101.cpp; sourceTree = "<group>"; };
 		3AAC7145210A4DF7000C8090 /* Enums101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Enums101.cpp; sourceTree = "<group>"; };
 		3AAC7146210A4DF7000C8090 /* Enums101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Enums101.hpp; sourceTree = "<group>"; };
 		3AAE8DCC2118A85E004DE731 /* PointersAndStrings101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointersAndStrings101.cpp; sourceTree = "<group>"; };
@@ -897,6 +900,15 @@
 			path = SpecialMethods101;
 			sourceTree = "<group>";
 		};
+		3AA7CCAB228061220001A854 /* ClassTemplates101 */ = {
+			isa = PBXGroup;
+			children = (
+				3AA7CCAC228061570001A854 /* StackType02.hpp */,
+				3AA7CCAD2280639F0001A854 /* ClassTemplates101.cpp */,
+			);
+			path = ClassTemplates101;
+			sourceTree = "<group>";
+		};
 		3AB0122F2257A7EA00D157D0 /* Inheritance301 */ = {
 			isa = PBXGroup;
 			children = (
@@ -938,6 +950,7 @@
 				3A69DEA422676C3900A7D98E /* Containment101 */,
 				3AC0CA0D226F54FA004FF2C5 /* Inheritance401 */,
 				3AFF10BD2270AEB9006890A0 /* Inheritance500 */,
+				3AA7CCAB228061220001A854 /* ClassTemplates101 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1189,6 +1202,7 @@
 				3A57427221F8C31D00B4CC84 /* ClassTypeCasts101.cpp in Sources */,
 				3AF757FD222EB1CD006F9815 /* BaseClass01.cpp in Sources */,
 				3A24FC2321BEB72300EB1EB2 /* myTime01.cpp in Sources */,
+				3AA7CCAE2280639F0001A854 /* ClassTemplates101.cpp in Sources */,
 				3A26693821515695009CAB96 /* CharacterFunctions101.cpp in Sources */,
 				3A97FA4720EFD1740062D7D1 /* TypeLimits101.cpp in Sources */,
 				3A9C597521C28238003D3F49 /* Vector2Type01.cpp in Sources */,

@@ -6,5 +6,5 @@
 
 int main()
 {
-    showMultipleInheritance101();
+    showClassTemplates101();
 }
