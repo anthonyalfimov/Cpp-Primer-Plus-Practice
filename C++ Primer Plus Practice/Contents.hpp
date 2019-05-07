@@ -56,6 +56,7 @@ void showMultipleInheritance101();
 void showClassTemplates101();
 void showClassTemplates102();
 void showClassTemplates201();
+void showClassTemplates202();
 
 //   ===================================
 //   |       Abstract Data Types       |
