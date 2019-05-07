@@ -149,6 +149,7 @@
 		3AF757FF222EBB83006F9815 /* UseBaseClass01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF757FE222EBB83006F9815 /* UseBaseClass01.cpp */; };
 		3AF7CFEF219DD90700FC359D /* Namespaces101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7CFED219DD90700FC359D /* Namespaces101.cpp */; };
 		3AF7CFF2219DD98000FC359D /* namesp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7CFF0219DD98000FC359D /* namesp.cpp */; };
+		3AF902FE2281EC0700B00847 /* ClassTemplates103.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF902FD2281EC0700B00847 /* ClassTemplates103.cpp */; };
 		3AFCB140212C351900275E64 /* StringComparison101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCB13E212C351900275E64 /* StringComparison101.cpp */; };
 		3AFCB143212C382100275E64 /* StringComparison102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCB141212C382100275E64 /* StringComparison102.cpp */; };
 		3AFCB146212C68DC00275E64 /* LegacyTime101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCB144212C68DC00275E64 /* LegacyTime101.cpp */; };
@@ -420,6 +421,8 @@
 		3AF7CFED219DD90700FC359D /* Namespaces101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Namespaces101.cpp; sourceTree = "<group>"; };
 		3AF7CFF0219DD98000FC359D /* namesp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = namesp.cpp; sourceTree = "<group>"; };
 		3AF7CFF1219DD98000FC359D /* namesp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = namesp.hpp; sourceTree = "<group>"; };
+		3AF902FC2281EBCD00B00847 /* StackType04.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackType04.hpp; sourceTree = "<group>"; };
+		3AF902FD2281EC0700B00847 /* ClassTemplates103.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClassTemplates103.cpp; sourceTree = "<group>"; };
 		3AFCB13E212C351900275E64 /* StringComparison101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringComparison101.cpp; sourceTree = "<group>"; };
 		3AFCB13F212C351900275E64 /* StringComparison101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringComparison101.hpp; sourceTree = "<group>"; };
 		3AFCB141212C382100275E64 /* StringComparison102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringComparison102.cpp; sourceTree = "<group>"; };
@@ -927,6 +930,8 @@
 				3AA7CCAD2280639F0001A854 /* ClassTemplates101.cpp */,
 				3AA7CCAF22806F210001A854 /* StackType03.hpp */,
 				3AA7CCB022806F3C0001A854 /* ClassTemplates102.cpp */,
+				3AF902FC2281EBCD00B00847 /* StackType04.hpp */,
+				3AF902FD2281EC0700B00847 /* ClassTemplates103.cpp */,
 			);
 			path = ClassTemplates100;
 			sourceTree = "<group>";
@@ -1275,6 +1280,7 @@
 				3AC4DEF8219AEAC300BE989B /* PlacementNew101.cpp in Sources */,
 				3A4ADDA120FE169100C95277 /* TypeCasts101.cpp in Sources */,
 				3A2A58C3211B3CD0009FB737 /* PointersAndStrings103.cpp in Sources */,
+				3AF902FE2281EC0700B00847 /* ClassTemplates103.cpp in Sources */,
 				3A818055216623E700BABE7D /* Recursion102.cpp in Sources */,
 				3AD1F34D215A56EA004CFE88 /* ReadingFile101.cpp in Sources */,
 				3A4CAD8221C0188300ED6305 /* FriendFunctions101.cpp in Sources */,

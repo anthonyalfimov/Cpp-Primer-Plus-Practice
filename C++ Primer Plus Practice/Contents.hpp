@@ -55,6 +55,7 @@ void showWorkerTest01();
 void showMultipleInheritance101();
 void showClassTemplates101();
 void showClassTemplates102();
+void showClassTemplates103();
 void showClassTemplates201();
 void showClassTemplates202();
 
