@@ -97,6 +97,7 @@
 		3A7D07922182032F00101B33 /* ForcedResolution101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D07902182032F00101B33 /* ForcedResolution101.cpp */; };
 		3A7D0795218217E000101B33 /* AutoVSdecltype101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0793218217E000101B33 /* AutoVSdecltype101.cpp */; };
 		3A7D07982182277100101B33 /* TrailingReturn101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D07962182277100101B33 /* TrailingReturn101.cpp */; };
+		3A7F42BF228ADC2A0035CAC0 /* ParameterTemplates101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F42BE228ADC2A0035CAC0 /* ParameterTemplates101.cpp */; };
 		3A81805221661D9D00BABE7D /* Recursion101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A81805021661D9D00BABE7D /* Recursion101.cpp */; };
 		3A818055216623E700BABE7D /* Recursion102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A818053216623E700BABE7D /* Recursion102.cpp */; };
 		3A844F1721AED10F00181FE6 /* Reference203.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A844F1621AED10F00181FE6 /* Reference203.cpp */; };
@@ -332,6 +333,7 @@
 		3A7D0794218217E000101B33 /* AutoVSdecltype101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AutoVSdecltype101.hpp; sourceTree = "<group>"; };
 		3A7D07962182277100101B33 /* TrailingReturn101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TrailingReturn101.cpp; sourceTree = "<group>"; };
 		3A7D07972182277100101B33 /* TrailingReturn101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TrailingReturn101.hpp; sourceTree = "<group>"; };
+		3A7F42BE228ADC2A0035CAC0 /* ParameterTemplates101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ParameterTemplates101.cpp; sourceTree = "<group>"; };
 		3A81805021661D9D00BABE7D /* Recursion101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Recursion101.cpp; sourceTree = "<group>"; };
 		3A81805121661D9D00BABE7D /* Recursion101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Recursion101.hpp; sourceTree = "<group>"; };
 		3A818053216623E700BABE7D /* Recursion102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Recursion102.cpp; sourceTree = "<group>"; };
@@ -793,6 +795,7 @@
 				3AA3AD222281D479009F0D96 /* ClassTemplates202.cpp */,
 				3A76A58A228326B50027518F /* NestedTemplate01.hpp */,
 				3A76A58B228326CA0027518F /* ClassTemplates203.cpp */,
+				3A7F42BE228ADC2A0035CAC0 /* ParameterTemplates101.cpp */,
 			);
 			path = ClassTemplates200;
 			sourceTree = "<group>";
@@ -1256,6 +1259,7 @@
 				3A97452F2165025E00F62A56 /* FuncStruct101.cpp in Sources */,
 				3A3EB72A21639E6A00C6773C /* Arrays201.cpp in Sources */,
 				3A8F6590216B755300B26D43 /* FuncPointer102.cpp in Sources */,
+				3A7F42BF228ADC2A0035CAC0 /* ParameterTemplates101.cpp in Sources */,
 				3A844F1F21AF062F00181FE6 /* ClassArray101.cpp in Sources */,
 				3AFE3822213D9C7700291779 /* TextInput102.cpp in Sources */,
 				3A0D8F0722551A94007E2E5A /* BrassAccount02.cpp in Sources */,
