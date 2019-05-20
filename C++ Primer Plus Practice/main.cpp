@@ -6,5 +6,5 @@
 
 int main()
 {
-    showParameterTemplates101();
+    showTemplateFriends101();
 }
