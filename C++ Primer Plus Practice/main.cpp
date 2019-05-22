@@ -6,5 +6,5 @@
 
 int main()
 {
-    showTemplateFriends101();
+    showTemplateFriends102();
 }

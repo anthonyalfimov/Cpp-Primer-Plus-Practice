@@ -6,6 +6,7 @@
 //  Copyright © 2019 Anthony. All rights reserved.
 //
 //  Template class with non-template friends
+//
 
 #include <iostream>
 
@@ -18,8 +19,8 @@ namespace
         HasFriend(const Type& item) : m_item(item) { ++s_count; }
         ~HasFriend() { --s_count; }
         
-        friend void counts();                       // non-template friend with no template parameters
-        friend void reports(HasFriend<Type>&);      // non-template friend with template parameter
+        friend void count();                       // non-template friend with no template parameters
+        friend void report(HasFriend<Type>&);      // non-template friend with template parameter
         
     private:
         Type m_item;
@@ -31,21 +32,21 @@ namespace
     int HasFriend<Type>::s_count = 0;
     
     // Non-template friend function to all HasFriend<Type> classes
-    void counts()
+    void count()
     {
         // Explicitely specify template specialisations to use
         std::cout << "<int> count: " << HasFriend<int>::s_count << "\n";
         std::cout << "<double> count: " << HasFriend<double>::s_count << "\n";
     }
     
-    // Non-template friend function to HasFriend<int> class
-    void reports(HasFriend<int>& hf)
+    // Non-template friend to HasFriend<int> function overload
+    void report(HasFriend<int>& hf)
     {
         std::cout << "HasFriend<int>: " << hf.m_item << "\n";
     }
     
-    // Non-template friend function to HasFriend<double> class
-    void reports(HasFriend<double>& hf)
+    // Non-template friend to HasFriend<double> function overload
+    void report(HasFriend<double>& hf)
     {
         std::cout << "HasFriend<double>: " << hf.m_item << "\n";
     }
@@ -54,25 +55,25 @@ namespace
 void showTemplateFriends101()
 {
     std::cout << "No objects declared:\n";
-    counts();
+    count();
     std::cout << "\n";
     
     HasFriend<int> hfi1(10);
     std::cout << "After hfi1 declared:\n";
-    counts();
+    count();
     std::cout << "\n";
     
     HasFriend<int> hfi2(20);
     std::cout << "After hfi2 declared:\n";
-    counts();
+    count();
     std::cout << "\n";
     
     HasFriend<double> hfd1(10.5);
     std::cout << "After hfd1 declared:\n";
-    counts();
+    count();
     std::cout << "\n";
     
-    reports(hfi1);
-    reports(hfi2);
-    reports(hfd1);
+    report(hfi1);
+    report(hfi2);
+    report(hfd1);
 }
