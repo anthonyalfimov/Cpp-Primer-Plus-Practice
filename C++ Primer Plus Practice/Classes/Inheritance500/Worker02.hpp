@@ -53,7 +53,6 @@ namespace Inheritance502
     
     class Singer : virtual public Worker
     {
-    //  TODO: change over to a named enum or enum class
     public:
         Singer() : Worker(), m_voice(other) {}
         Singer(const std::string& fullName, long id, int voice = other)

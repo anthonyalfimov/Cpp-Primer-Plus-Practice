@@ -133,6 +133,7 @@
 		3AB012322257A82100D157D0 /* DMA01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AB012302257A82100D157D0 /* DMA01.cpp */; };
 		3AB012342257B99600D157D0 /* Inheritance301.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AB012332257B99600D157D0 /* Inheritance301.cpp */; };
 		3AB75E9E229C377E00B607D0 /* TemplateFriends103.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AB75E9D229C377E00B607D0 /* TemplateFriends103.cpp */; };
+		3ABBA71E22CE3BA600333B2C /* MultipleInheritance102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBA71D22CE3BA600333B2C /* MultipleInheritance102.cpp */; };
 		3ABE5CF82165108C00C6F869 /* FuncStruct102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE5CF62165108C00C6F869 /* FuncStruct102.cpp */; };
 		3AC0CA10226F551C004FF2C5 /* Student02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0CA0E226F551C004FF2C5 /* Student02.cpp */; };
 		3AC0CA12226F626D004FF2C5 /* PrivateInheritance101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0CA11226F626D004FF2C5 /* PrivateInheritance101.cpp */; };
@@ -398,6 +399,7 @@
 		3AB012312257A82100D157D0 /* DMA01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DMA01.hpp; sourceTree = "<group>"; };
 		3AB012332257B99600D157D0 /* Inheritance301.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inheritance301.cpp; sourceTree = "<group>"; };
 		3AB75E9D229C377E00B607D0 /* TemplateFriends103.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TemplateFriends103.cpp; sourceTree = "<group>"; };
+		3ABBA71D22CE3BA600333B2C /* MultipleInheritance102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MultipleInheritance102.cpp; sourceTree = "<group>"; };
 		3ABE5CF62165108C00C6F869 /* FuncStruct102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncStruct102.cpp; sourceTree = "<group>"; };
 		3ABE5CF72165108C00C6F869 /* FuncStruct102.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncStruct102.hpp; sourceTree = "<group>"; };
 		3AC0CA0E226F551C004FF2C5 /* Student02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student02.cpp; sourceTree = "<group>"; };
@@ -1103,6 +1105,7 @@
 				3A6E05D6227B308500826C16 /* Worker02.cpp */,
 				3A6E05D7227B308500826C16 /* Worker02.hpp */,
 				3AE516B2227B3E6200D3F562 /* MultipleInheritance101.cpp */,
+				3ABBA71D22CE3BA600333B2C /* MultipleInheritance102.cpp */,
 			);
 			path = Inheritance500;
 			sourceTree = "<group>";
@@ -1265,6 +1268,7 @@
 				3A97FA4720EFD1740062D7D1 /* TypeLimits101.cpp in Sources */,
 				3A9C597521C28238003D3F49 /* Vector2Type01.cpp in Sources */,
 				3A3FB92722203183004B265B /* Customer01.cpp in Sources */,
+				3ABBA71E22CE3BA600333B2C /* MultipleInheritance102.cpp in Sources */,
 				3AB75E9E229C377E00B607D0 /* TemplateFriends103.cpp in Sources */,
 				3A3A289821569EA100CA9545 /* ControlFlow101.cpp in Sources */,
 				3A81805221661D9D00BABE7D /* Recursion101.cpp in Sources */,
