@@ -18,5 +18,7 @@ void showMultipleInheritance102()
     std::cout << "\n";
     
     SingingWaiter destination(source);      // use implicit copy-ctor
-    destination.show();                     // works!
+    destination.show();                     // implicit copy-ctor works here,
+                                            //     but it is safer to provide explicit copy-ctor
+                                            //     when using virtual inheritance
 }
