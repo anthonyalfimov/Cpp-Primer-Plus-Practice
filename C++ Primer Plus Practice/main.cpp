@@ -6,5 +6,5 @@
 
 int main()
 {
-    showMultipleInheritance102();
+    showFriendClasses101();
 }

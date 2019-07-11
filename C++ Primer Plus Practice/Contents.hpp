@@ -64,6 +64,7 @@ void showParameterTemplates101();
 void showTemplateFriends101();
 void showTemplateFriends102();
 void showTemplateFriends103();
+void showFriendClasses101();
 
 //   ===================================
 //   |       Abstract Data Types       |

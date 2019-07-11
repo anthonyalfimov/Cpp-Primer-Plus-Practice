@@ -61,6 +61,8 @@
 		3A41645821947F2E0027E2C7 /* SupportSIV101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A41645721947F2E0027E2C7 /* SupportSIV101.cpp */; };
 		3A41645B2194855F0027E2C7 /* LocalStaticVars101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A4164592194855F0027E2C7 /* LocalStaticVars101.cpp */; };
 		3A41645E21948BEF0027E2C7 /* LocalStaticVars102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A41645C21948BEF0027E2C7 /* LocalStaticVars102.cpp */; };
+		3A4569D022D786E500C31142 /* TvType01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A4569CE22D786E500C31142 /* TvType01.cpp */; };
+		3A4569D222D78FEE00C31142 /* FriendClasses101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A4569D122D78FEE00C31142 /* FriendClasses101.cpp */; };
 		3A468E822167BE1E00126DE9 /* FuncPointer101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A468E802167BE1E00126DE9 /* FuncPointer101.cpp */; };
 		3A4ADDA120FE169100C95277 /* TypeCasts101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ADD9F20FE169100C95277 /* TypeCasts101.cpp */; };
 		3A4CAD7F21C0160000ED6305 /* myTime02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A4CAD7D21C0160000ED6305 /* myTime02.cpp */; };
@@ -270,6 +272,9 @@
 		3A41645721947F2E0027E2C7 /* SupportSIV101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SupportSIV101.cpp; sourceTree = "<group>"; };
 		3A4164592194855F0027E2C7 /* LocalStaticVars101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LocalStaticVars101.cpp; sourceTree = "<group>"; };
 		3A41645C21948BEF0027E2C7 /* LocalStaticVars102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LocalStaticVars102.cpp; sourceTree = "<group>"; };
+		3A4569CE22D786E500C31142 /* TvType01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TvType01.cpp; sourceTree = "<group>"; };
+		3A4569CF22D786E500C31142 /* TvType01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TvType01.hpp; sourceTree = "<group>"; };
+		3A4569D122D78FEE00C31142 /* FriendClasses101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FriendClasses101.cpp; sourceTree = "<group>"; };
 		3A468E802167BE1E00126DE9 /* FuncPointer101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncPointer101.cpp; sourceTree = "<group>"; };
 		3A468E812167BE1E00126DE9 /* FuncPointer101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncPointer101.hpp; sourceTree = "<group>"; };
 		3A4ADD9F20FE169100C95277 /* TypeCasts101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TypeCasts101.cpp; sourceTree = "<group>"; };
@@ -763,6 +768,16 @@
 			path = StaticInternalVars101;
 			sourceTree = "<group>";
 		};
+		3A4569CD22D786A400C31142 /* FriendClasses100 */ = {
+			isa = PBXGroup;
+			children = (
+				3A4569CE22D786E500C31142 /* TvType01.cpp */,
+				3A4569CF22D786E500C31142 /* TvType01.hpp */,
+				3A4569D122D78FEE00C31142 /* FriendClasses101.cpp */,
+			);
+			path = FriendClasses100;
+			sourceTree = "<group>";
+		};
 		3A4CAD7C21C015DC00ED6305 /* FriendFunctions101 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1006,6 +1021,7 @@
 				3AA7CCAB228061220001A854 /* ClassTemplates100 */,
 				3A5DAC292281C1B00083B8BF /* ClassTemplates200 */,
 				3A9F26E32292F1600046A018 /* TemplateFriends100 */,
+				3A4569CD22D786A400C31142 /* FriendClasses100 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1262,6 +1278,7 @@
 				3A57427221F8C31D00B4CC84 /* ClassTypeCasts101.cpp in Sources */,
 				3A5DAC2C2281C2310083B8BF /* ClassTemplates201.cpp in Sources */,
 				3AF757FD222EB1CD006F9815 /* BaseClass01.cpp in Sources */,
+				3A4569D022D786E500C31142 /* TvType01.cpp in Sources */,
 				3A24FC2321BEB72300EB1EB2 /* myTime01.cpp in Sources */,
 				3AA7CCAE2280639F0001A854 /* ClassTemplates101.cpp in Sources */,
 				3A26693821515695009CAB96 /* CharacterFunctions101.cpp in Sources */,
@@ -1287,6 +1304,7 @@
 				3A844F1F21AF062F00181FE6 /* ClassArray101.cpp in Sources */,
 				3AFE3822213D9C7700291779 /* TextInput102.cpp in Sources */,
 				3A0D8F0722551A94007E2E5A /* BrassAccount02.cpp in Sources */,
+				3A4569D222D78FEE00C31142 /* FriendClasses101.cpp in Sources */,
 				3A3EB7302163B31200C6773C /* FuncString101.cpp in Sources */,
 				3A39AB3D210237740011AC89 /* Struct101.cpp in Sources */,
 				3A3EB72D2163B12600C6773C /* FuncArray201.cpp in Sources */,
