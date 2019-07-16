@@ -6,5 +6,5 @@
 
 int main()
 {
-    showFriendClasses101();
+    showFriendMethods101();
 }

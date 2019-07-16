@@ -65,6 +65,7 @@ void showTemplateFriends101();
 void showTemplateFriends102();
 void showTemplateFriends103();
 void showFriendClasses101();
+void showFriendMethods101();
 
 //   ===================================
 //   |       Abstract Data Types       |
