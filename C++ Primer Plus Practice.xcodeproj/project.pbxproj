@@ -144,6 +144,7 @@
 		3AC21C22217A386D00FA5529 /* FuncOverload101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC21C20217A386D00FA5529 /* FuncOverload101.cpp */; };
 		3AC4DEF8219AEAC300BE989B /* PlacementNew101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4DEF6219AEAC300BE989B /* PlacementNew101.cpp */; };
 		3AC842E021A456E400DAF50D /* Classes101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC842DF21A456E400DAF50D /* Classes101.cpp */; };
+		3ACE05812373303B00247E81 /* QueueTest02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE05802373303B00247E81 /* QueueTest02.cpp */; };
 		3AD1F34D215A56EA004CFE88 /* ReadingFile101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1F34B215A56EA004CFE88 /* ReadingFile101.cpp */; };
 		3AD3ED9620EBD8F3008D28BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3ED9520EBD8F3008D28BF /* main.cpp */; };
 		3ADD3A56212AF5B300476E00 /* CommaOperator101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD3A54212AF5B300476E00 /* CommaOperator101.cpp */; };
@@ -420,6 +421,8 @@
 		3AC4DEF6219AEAC300BE989B /* PlacementNew101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlacementNew101.cpp; sourceTree = "<group>"; };
 		3AC842DD21A455B300DAF50D /* Contents.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Contents.hpp; sourceTree = "<group>"; };
 		3AC842DF21A456E400DAF50D /* Classes101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Classes101.cpp; sourceTree = "<group>"; };
+		3ACE057F23732CED00247E81 /* Queue02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue02.hpp; sourceTree = "<group>"; };
+		3ACE05802373303B00247E81 /* QueueTest02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QueueTest02.cpp; sourceTree = "<group>"; };
 		3AD1F34B215A56EA004CFE88 /* ReadingFile101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReadingFile101.cpp; sourceTree = "<group>"; };
 		3AD1F34C215A56EA004CFE88 /* ReadingFile101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReadingFile101.hpp; sourceTree = "<group>"; };
 		3AD3ED9220EBD8F3008D28BF /* C++ Primer Plus Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Primer Plus Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -655,6 +658,7 @@
 				3A3410A721B021150063572B /* Stack101 */,
 				3A9C597221C28209003D3F49 /* Vector100 */,
 				3A3FB92322203064004B265B /* Queue101 */,
+				3ACE057E23732CB300247E81 /* Queue201 */,
 			);
 			path = "Abstract Data Types";
 			sourceTree = "<group>";
@@ -1042,6 +1046,15 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		3ACE057E23732CB300247E81 /* Queue201 */ = {
+			isa = PBXGroup;
+			children = (
+				3ACE057F23732CED00247E81 /* Queue02.hpp */,
+				3ACE05802373303B00247E81 /* QueueTest02.cpp */,
+			);
+			path = Queue201;
+			sourceTree = "<group>";
+		};
 		3AD3ED8920EBD8F3008D28BF = {
 			isa = PBXGroup;
 			children = (
@@ -1329,6 +1342,7 @@
 				3A39AB3921021F970011AC89 /* StringFun104.cpp in Sources */,
 				3A3410AA21B021390063572B /* StackType01.cpp in Sources */,
 				3A095BB021C807E20076C7EA /* RandomWalk01.cpp in Sources */,
+				3ACE05812373303B00247E81 /* QueueTest02.cpp in Sources */,
 				3AE72552225219DE00A0CBD8 /* Inheritance202.cpp in Sources */,
 				3AB012342257B99600D157D0 /* Inheritance301.cpp in Sources */,
 				3A68488221512C0F004C5F68 /* example02.cpp in Sources */,

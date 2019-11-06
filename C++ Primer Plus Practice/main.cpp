@@ -6,5 +6,5 @@
 
 int main()
 {
-    showFriendMethods101();
+    showQueue201();
 }
