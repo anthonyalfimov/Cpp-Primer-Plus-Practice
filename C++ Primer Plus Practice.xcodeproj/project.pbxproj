@@ -104,6 +104,8 @@
 		3A7F42BF228ADC2A0035CAC0 /* ParameterTemplates101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F42BE228ADC2A0035CAC0 /* ParameterTemplates101.cpp */; };
 		3A81805221661D9D00BABE7D /* Recursion101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A81805021661D9D00BABE7D /* Recursion101.cpp */; };
 		3A818055216623E700BABE7D /* Recursion102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A818053216623E700BABE7D /* Recursion102.cpp */; };
+		3A827F222375ABC900CFBBB6 /* Error101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A827F212375ABC900CFBBB6 /* Error101.cpp */; };
+		3A827F242375AEEF00CFBBB6 /* Error102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A827F232375AEEF00CFBBB6 /* Error102.cpp */; };
 		3A844F1721AED10F00181FE6 /* Reference203.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A844F1621AED10F00181FE6 /* Reference203.cpp */; };
 		3A844F1B21AEF7E700181FE6 /* Stock02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A844F1921AEF7E700181FE6 /* Stock02.cpp */; };
 		3A844F1D21AF027A00181FE6 /* Classes102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A844F1C21AF027A00181FE6 /* Classes102.cpp */; };
@@ -353,6 +355,8 @@
 		3A81805121661D9D00BABE7D /* Recursion101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Recursion101.hpp; sourceTree = "<group>"; };
 		3A818053216623E700BABE7D /* Recursion102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Recursion102.cpp; sourceTree = "<group>"; };
 		3A818054216623E700BABE7D /* Recursion102.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Recursion102.hpp; sourceTree = "<group>"; };
+		3A827F212375ABC900CFBBB6 /* Error101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Error101.cpp; sourceTree = "<group>"; };
+		3A827F232375AEEF00CFBBB6 /* Error102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Error102.cpp; sourceTree = "<group>"; };
 		3A844F1621AED10F00181FE6 /* Reference203.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Reference203.cpp; sourceTree = "<group>"; };
 		3A844F1921AEF7E700181FE6 /* Stock02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stock02.cpp; sourceTree = "<group>"; };
 		3A844F1A21AEF7E700181FE6 /* Stock02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stock02.hpp; sourceTree = "<group>"; };
@@ -927,6 +931,15 @@
 			path = Containment101;
 			sourceTree = "<group>";
 		};
+		3A827F202375ABA400CFBBB6 /* Basic Error Handling */ = {
+			isa = PBXGroup;
+			children = (
+				3A827F212375ABC900CFBBB6 /* Error101.cpp */,
+				3A827F232375AEEF00CFBBB6 /* Error102.cpp */,
+			);
+			path = "Basic Error Handling";
+			sourceTree = "<group>";
+		};
 		3A844F1821AEF7BB00181FE6 /* Classes102 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1088,6 +1101,7 @@
 				3A1B0EF9218B5C220084D0DA /* Separate Compilation */,
 				3A1327512191E6BB004E9B92 /* Memory Models */,
 				3AC842DE21A456CE00DAF50D /* Classes */,
+				3A827F202375ABA400CFBBB6 /* Basic Error Handling */,
 				3A3410A621B020FD0063572B /* Abstract Data Types */,
 				3A68487C215126EB004C5F68 /* Simple Examples */,
 				3AD3ED9520EBD8F3008D28BF /* main.cpp */,
@@ -1348,6 +1362,8 @@
 				3A68488221512C0F004C5F68 /* example02.cpp in Sources */,
 				3A844F1D21AF027A00181FE6 /* Classes102.cpp in Sources */,
 				3AC0CA12226F626D004FF2C5 /* PrivateInheritance101.cpp in Sources */,
+				3A827F222375ABC900CFBBB6 /* Error101.cpp in Sources */,
+				3A827F242375AEEF00CFBBB6 /* Error102.cpp in Sources */,
 				3AF757FF222EBB83006F9815 /* UseBaseClass01.cpp in Sources */,
 				3A79488121BFF57200A7C123 /* OpOverload102.cpp in Sources */,
 				3A1B0EFD218B5CF20084D0DA /* Headers101.cpp in Sources */,

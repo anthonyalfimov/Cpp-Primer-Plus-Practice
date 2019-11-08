@@ -67,6 +67,12 @@ void showTemplateFriends103();
 void showFriendClasses101();
 void showFriendMethods101();
 
+//   ====================================
+//   |       Basic Error Handling       |
+//   ====================================
+void showError101();
+void showError102();
+
 //   ===================================
 //   |       Abstract Data Types       |
 //   ===================================

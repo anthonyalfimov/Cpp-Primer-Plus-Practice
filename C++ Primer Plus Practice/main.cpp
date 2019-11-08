@@ -6,5 +6,5 @@
 
 int main()
 {
-    showQueue201();
+    showError102();
 }
