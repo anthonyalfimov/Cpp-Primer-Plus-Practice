@@ -73,6 +73,11 @@ void showFriendMethods101();
 void showError101();
 void showError102();
 
+//   ==========================
+//   |       Exceptions       |
+//   ==========================
+void showExceptions101();
+
 //   ===================================
 //   |       Abstract Data Types       |
 //   ===================================
