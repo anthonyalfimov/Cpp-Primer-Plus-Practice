@@ -23,7 +23,8 @@ void showExceptions101()
     {
         try                                 // begin try block
         {
-            z = harmonicMean (x, y);
+            z = harmonicMean (x, y);        // throwing an exception interrupts execution of the try block
+            std::cout << "Success!\n";
         }                                   // end try block
         catch (const char* errorString)     // begin exception handler
         {

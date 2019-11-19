@@ -77,6 +77,7 @@ void showError102();
 //   |       Exceptions       |
 //   ==========================
 void showExceptions101();
+void showExceptions201();
 
 //   ===================================
 //   |       Abstract Data Types       |
