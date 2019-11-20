@@ -91,6 +91,7 @@
 		3A68488221512C0F004C5F68 /* example02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A68488021512C0F004C5F68 /* example02.cpp */; };
 		3A69DEA722676C7000A7D98E /* Student01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A69DEA522676C7000A7D98E /* Student01.cpp */; };
 		3A69DEA922677E4300A7D98E /* Containment101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A69DEA822677E4300A7D98E /* Containment101.cpp */; };
+		3A6CEA7423857ED100E0813A /* Exceptions202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CEA7323857ED100E0813A /* Exceptions202.cpp */; };
 		3A6D150222428FDE000D4C47 /* DerivedClass01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D150022428FDE000D4C47 /* DerivedClass01.cpp */; };
 		3A6D1504224292D3000D4C47 /* Inheritance101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D1503224292D3000D4C47 /* Inheritance101.cpp */; };
 		3A6E05D8227B308500826C16 /* Worker02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A6E05D6227B308500826C16 /* Worker02.cpp */; };
@@ -334,6 +335,7 @@
 		3A69DEA522676C7000A7D98E /* Student01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student01.cpp; sourceTree = "<group>"; };
 		3A69DEA622676C7000A7D98E /* Student01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Student01.hpp; sourceTree = "<group>"; };
 		3A69DEA822677E4300A7D98E /* Containment101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Containment101.cpp; sourceTree = "<group>"; };
+		3A6CEA7323857ED100E0813A /* Exceptions202.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Exceptions202.cpp; sourceTree = "<group>"; };
 		3A6D150022428FDE000D4C47 /* DerivedClass01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DerivedClass01.cpp; sourceTree = "<group>"; };
 		3A6D150122428FDE000D4C47 /* DerivedClass01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DerivedClass01.hpp; sourceTree = "<group>"; };
 		3A6D1503224292D3000D4C47 /* Inheritance101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inheritance101.cpp; sourceTree = "<group>"; };
@@ -419,7 +421,7 @@
 		3AB75E9D229C377E00B607D0 /* TemplateFriends103.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TemplateFriends103.cpp; sourceTree = "<group>"; };
 		3ABBA71D22CE3BA600333B2C /* MultipleInheritance102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MultipleInheritance102.cpp; sourceTree = "<group>"; };
 		3ABD4B46238427E800663AE9 /* Exceptions201.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Exceptions201.cpp; sourceTree = "<group>"; };
-		3ABD4B47238427E800663AE9 /* Exceptions201.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Exceptions201.hpp; sourceTree = "<group>"; };
+		3ABD4B47238427E800663AE9 /* Exceptions200.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Exceptions200.hpp; sourceTree = "<group>"; };
 		3ABE5CF62165108C00C6F869 /* FuncStruct102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncStruct102.cpp; sourceTree = "<group>"; };
 		3ABE5CF72165108C00C6F869 /* FuncStruct102.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncStruct102.hpp; sourceTree = "<group>"; };
 		3AC0CA0E226F551C004FF2C5 /* Student02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student02.cpp; sourceTree = "<group>"; };
@@ -949,8 +951,9 @@
 			isa = PBXGroup;
 			children = (
 				3A58E678237C5CB40029C032 /* Exceptions101.cpp */,
-				3ABD4B47238427E800663AE9 /* Exceptions201.hpp */,
+				3ABD4B47238427E800663AE9 /* Exceptions200.hpp */,
 				3ABD4B46238427E800663AE9 /* Exceptions201.cpp */,
+				3A6CEA7323857ED100E0813A /* Exceptions202.cpp */,
 			);
 			path = Exceptions;
 			sourceTree = "<group>";
@@ -1340,6 +1343,7 @@
 				3A57427221F8C31D00B4CC84 /* ClassTypeCasts101.cpp in Sources */,
 				3A5DAC2C2281C2310083B8BF /* ClassTemplates201.cpp in Sources */,
 				3AF757FD222EB1CD006F9815 /* BaseClass01.cpp in Sources */,
+				3A6CEA7423857ED100E0813A /* Exceptions202.cpp in Sources */,
 				3A4569D022D786E500C31142 /* TvType01.cpp in Sources */,
 				3A24FC2321BEB72300EB1EB2 /* myTime01.cpp in Sources */,
 				3AA7CCAE2280639F0001A854 /* ClassTemplates101.cpp in Sources */,
