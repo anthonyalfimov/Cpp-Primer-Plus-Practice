@@ -10,7 +10,7 @@
 
 namespace
 {
-    double harmonicMean (double, double);
+    double getHarmonicMean (double, double);
 }
 
 void showExceptions101()
@@ -23,7 +23,7 @@ void showExceptions101()
     {
         try                                 // begin try block
         {
-            z = harmonicMean (x, y);        // throwing an exception interrupts execution of the try block
+            z = getHarmonicMean (x, y);        // throwing an exception interrupts execution of the try block
             std::cout << "Success!\n";
         }                                   // end try block
         catch (const char* errorString)     // begin exception handler
@@ -42,7 +42,7 @@ void showExceptions101()
 
 namespace
 {
-    double harmonicMean (double a, double b)
+    double getHarmonicMean (double a, double b)
     {
         if (a == -b)
             throw "bad harmonicMean() arguments: a = -b not allowed";

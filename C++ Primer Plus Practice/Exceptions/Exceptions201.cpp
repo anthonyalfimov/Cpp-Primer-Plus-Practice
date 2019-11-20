@@ -8,18 +8,18 @@
 
 #include <iostream>
 #include <cmath>
-#include "Exceptions201.hpp"
+#include "Exceptions200.hpp"
 
-namespace Exceptions201
+namespace
 {
-    double harmonicMean (double, double);
-    double geometricMean (double, double);
+    using namespace Exceptions200;
+    
+    double getHarmonicMean (double, double);
+    double getGeometricMean (double, double);
 }
 
 void showExceptions201()
 {
-    using namespace Exceptions201;
-    
     double x, y ,z;
     
     std::cout << "Enter two numbers: ";
@@ -28,10 +28,10 @@ void showExceptions201()
     {
         try
         {
-            z = harmonicMean(x, y);
+            z = getHarmonicMean(x, y);
             std::cout << "Harmonic mean of " << x << " and " << y << " is " << z << "\n";
             
-            z = geometricMean(x, y);
+            z = getGeometricMean(x, y);
             std::cout << "Geometric mean of " << x << " and " << y << " is " << z << "\n";
             
             std::cout << "Enter next set of numbers <q to quit>: ";
@@ -54,9 +54,9 @@ void showExceptions201()
     std::cout << "\nDone.\n";
 }
 
-namespace Exceptions201
+namespace
 {
-    double harmonicMean (double a, double b)
+    double getHarmonicMean (double a, double b)
     {
         if (a == -b)
             throw BadHarmonicMean (a, b);
@@ -64,7 +64,7 @@ namespace Exceptions201
         return 2.0 * a * b / (a + b);
     }
     
-    double geometricMean (double a, double b)
+    double getGeometricMean (double a, double b)
     {
         if (a < 0 || b < 0)
             throw BadGeometricMean (a, b);
