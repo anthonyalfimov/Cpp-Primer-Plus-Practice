@@ -114,7 +114,7 @@ namespace
         {
             bhm.message();
             std::cout << "> caught in getArithmeticMeanOfMeans()\n";
-            throw;                      // rethrows the same exception
+            throw;                      // rethrows the same exception, terminating the function
         }
         
         dummy2.show();
