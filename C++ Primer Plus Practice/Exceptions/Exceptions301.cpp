@@ -25,7 +25,7 @@ void showExceptions301()
     try
     {
         std::cout << "Trying to get a big block of memory:\n";
-        ptr = new BigData[100000000];       // 100,600,000,000,000 bytes
+        ptr = new BigData[100000000];       // 160,000,000,000,000 bytes
         std::cout << "Execution continues past the memory allocation request\n";
     }
     catch (std::bad_alloc& badAllocException)
