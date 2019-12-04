@@ -25,6 +25,8 @@
 		3A1C7D3121078CFD00EFF72E /* Unions101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C7D2F21078CFD00EFF72E /* Unions101.cpp */; };
 		3A225A9C2146D0BF00A9997D /* TextInput104.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A225A9A2146D0BF00A9997D /* TextInput104.cpp */; };
 		3A225A9F2146DA4D00A9997D /* Arrays101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A225A9D2146DA4D00A9997D /* Arrays101.cpp */; };
+		3A2310872397EFD000E55AAC /* Sales01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A2310852397EFD000E55AAC /* Sales01.cpp */; };
+		3A231089239808B700E55AAC /* Exceptions302.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A231088239808B700E55AAC /* Exceptions302.cpp */; };
 		3A24FC2321BEB72300EB1EB2 /* myTime01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A24FC2121BEB72300EB1EB2 /* myTime01.cpp */; };
 		3A24FC2521BEBAC800EB1EB2 /* OpOverload101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A24FC2421BEBAC800EB1EB2 /* OpOverload101.cpp */; };
 		3A266935215146B7009CAB96 /* example03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A266933215146B7009CAB96 /* example03.cpp */; };
@@ -221,6 +223,9 @@
 		3A225A9B2146D0BF00A9997D /* TextInput104.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TextInput104.hpp; sourceTree = "<group>"; };
 		3A225A9D2146DA4D00A9997D /* Arrays101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Arrays101.cpp; sourceTree = "<group>"; };
 		3A225A9E2146DA4D00A9997D /* Arrays101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Arrays101.hpp; sourceTree = "<group>"; };
+		3A2310852397EFD000E55AAC /* Sales01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sales01.cpp; sourceTree = "<group>"; };
+		3A2310862397EFD000E55AAC /* Sales01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sales01.hpp; sourceTree = "<group>"; };
+		3A231088239808B700E55AAC /* Exceptions302.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Exceptions302.cpp; sourceTree = "<group>"; };
 		3A24FC2121BEB72300EB1EB2 /* myTime01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myTime01.cpp; sourceTree = "<group>"; };
 		3A24FC2221BEB72300EB1EB2 /* myTime01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = myTime01.hpp; sourceTree = "<group>"; };
 		3A24FC2421BEBAC800EB1EB2 /* OpOverload101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpOverload101.cpp; sourceTree = "<group>"; };
@@ -957,6 +962,9 @@
 				3ABD4B46238427E800663AE9 /* Exceptions201.cpp */,
 				3A6CEA7323857ED100E0813A /* Exceptions202.cpp */,
 				3AF7BF4023969B6A00795156 /* Exceptions301.cpp */,
+				3A2310852397EFD000E55AAC /* Sales01.cpp */,
+				3A2310862397EFD000E55AAC /* Sales01.hpp */,
+				3A231088239808B700E55AAC /* Exceptions302.cpp */,
 			);
 			path = Exceptions;
 			sourceTree = "<group>";
@@ -1300,6 +1308,7 @@
 				3AD3ED9620EBD8F3008D28BF /* main.cpp in Sources */,
 				3A8E6FF52209CDD200B01D70 /* StringBad01.cpp in Sources */,
 				3AC21C22217A386D00FA5529 /* FuncOverload101.cpp in Sources */,
+				3A231089239808B700E55AAC /* Exceptions302.cpp in Sources */,
 				3AFCB140212C351900275E64 /* StringComparison101.cpp in Sources */,
 				3AB012322257A82100D157D0 /* DMA01.cpp in Sources */,
 				3A892C3F213EEB670060498A /* TextInput103.cpp in Sources */,
@@ -1307,6 +1316,7 @@
 				3A225A9C2146D0BF00A9997D /* TextInput104.cpp in Sources */,
 				3AA6B1292211BE6400507FD5 /* DynamicClasses102.cpp in Sources */,
 				3A3940C72178D25D003A54A0 /* DefaultArg101.cpp in Sources */,
+				3A2310872397EFD000E55AAC /* Sales01.cpp in Sources */,
 				3A26693B21515AC1009CAB96 /* ConditionalOperator101.cpp in Sources */,
 				3A9BD2312111DCBD00BB73F6 /* DynamicArrays101.cpp in Sources */,
 				3A1C7D3121078CFD00EFF72E /* Unions101.cpp in Sources */,

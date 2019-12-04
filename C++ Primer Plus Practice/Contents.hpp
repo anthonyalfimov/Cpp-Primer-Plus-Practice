@@ -80,6 +80,7 @@ void showExceptions101();
 void showExceptions201();
 void showExceptions202();
 void showExceptions301();
+void showExceptions302();
 
 //   ===================================
 //   |       Abstract Data Types       |
