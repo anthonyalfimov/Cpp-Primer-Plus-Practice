@@ -60,13 +60,13 @@ void showExceptions302()
         
         std::cout << "\nEnd try block 1\n\n";
     }
-    catch (LabeledSales::labeled_bad_index& except)
+    catch (LabeledSales::labeled_bad_index& except)     // catch starting form more specific, ...
     {
         std::cout << except.what();
         std::cout << "> Label: " << except.getLabel() << "\n";
         std::cout << "> Bad index: " << except.getBadIndexValue() << "\n";
     }
-    catch (Sales::bad_index& except)
+    catch (Sales::bad_index& except)                    // ... going to more global
     {
         std::cout << except.what();
         std::cout << "> Bad index: " << except.getBadIndexValue() << "\n";

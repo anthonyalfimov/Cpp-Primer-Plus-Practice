@@ -36,7 +36,7 @@ namespace Exceptions302
             int getBadIndexValue() const { return mBadIndexValue; }
         
         private:
-            int mBadIndexValue;
+            const int mBadIndexValue;
         };
         
     protected:
@@ -69,7 +69,7 @@ namespace Exceptions302
             ~labeled_bad_index() {}
             
         private:
-            std::string mLabel;
+            const std::string mLabel;
         };
         
     private:
