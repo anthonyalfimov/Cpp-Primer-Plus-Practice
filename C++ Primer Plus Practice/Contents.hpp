@@ -81,6 +81,7 @@ void showExceptions201();
 void showExceptions202();
 void showExceptions301();
 void showExceptions302();
+void showExceptions401();
 
 //   ===================================
 //   |       Abstract Data Types       |
