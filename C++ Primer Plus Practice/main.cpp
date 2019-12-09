@@ -6,5 +6,5 @@
 
 int main()
 {
-    showExceptions401();
+    showRTTI101();
 }
