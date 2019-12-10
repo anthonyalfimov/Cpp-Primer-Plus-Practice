@@ -7,8 +7,8 @@
 //
 
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
+#include <cstdlib>      // for rand(), srand()
+#include <ctime>        // for time()
 
 namespace
 {
