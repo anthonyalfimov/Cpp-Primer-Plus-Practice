@@ -53,6 +53,7 @@ namespace RTTI100
     inline Grand* newRandomObject()     // inline to define in header and keep things compact
     {
         // NB! Poor memory management - allocated memory has to be manually freed!
+        // TODO: rewrite with automatic memory management
         
         Grand* ptr;
         
