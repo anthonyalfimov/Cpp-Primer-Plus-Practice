@@ -63,8 +63,9 @@ void showRTTI101()
     {
         grandPtr = getRandomObject();   // create object
         grandPtr->speak();              // common method for all class hierarchy
+        superbPtr = dynamic_cast<Superb*> (grandPtr);
         
-        if ((superbPtr = dynamic_cast<Superb*> (grandPtr)) != nullptr)
+        if (superbPtr != nullptr)
             superbPtr->say();           // method unique to Superb and Magnificent classes
         
         std::cout << "\n";
