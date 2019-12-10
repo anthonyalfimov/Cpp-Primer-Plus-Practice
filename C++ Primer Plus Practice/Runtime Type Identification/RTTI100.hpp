@@ -43,14 +43,14 @@ namespace RTTI100
         void say() const override
         {
             std::cout << "I hold the magnificent character " << mCharacter
-            << " and the value of " << getValue() << "!\n";
+                      << " and the value of " << getValue() << "!\n";
         }
         
     private:
         char mCharacter;
     };
     
-    inline Grand* getRandomObject()     // inline to define in header and keep things compact
+    inline Grand* newRandomObject()     // inline to define in header and keep things compact
     {
         // NB! Poor memory management - allocated memory has to be manually freed!
         
@@ -59,9 +59,9 @@ namespace RTTI100
         switch (std::rand() % 3)
         {
             case 0  : ptr = new Grand (std::rand() % 100);
-                break;
+                      break;
             case 1  : ptr = new Superb (std::rand() % 100);
-                break;
+                      break;
             default : ptr = new Magnificent (std::rand() % 100, 'A' + (std::rand() % 26));
         }
         

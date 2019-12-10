@@ -23,7 +23,7 @@ void showRTTI102()
     
     for (int i = 0; i < 5; ++i)
     {
-        grandPtr = getRandomObject();   // create object - NB! Needs manual destruction!
+        grandPtr = newRandomObject();   // create object - NB! Needs manual destruction!
         std::cout << "Now processing type " << typeid (*grandPtr).name() << ".\n";  // get type name
         grandPtr->speak();
         superbPtr = dynamic_cast<Superb*> (grandPtr);

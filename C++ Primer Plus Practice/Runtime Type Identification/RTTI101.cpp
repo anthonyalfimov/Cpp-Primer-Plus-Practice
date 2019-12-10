@@ -22,7 +22,7 @@ void showRTTI101()
     
     for (int i = 0; i < 5; ++i)
     {
-        grandPtr = getRandomObject();   // create object - NB! Needs manual destruction!
+        grandPtr = newRandomObject();   // create object - NB! Needs manual destruction!
         grandPtr->speak();              // common method for all class hierarchy
         superbPtr = dynamic_cast<Superb*> (grandPtr);
         

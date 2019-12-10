@@ -551,9 +551,9 @@
 		3A0C9AC2239E884000E78562 /* Runtime Type Identification */ = {
 			isa = PBXGroup;
 			children = (
+				3A85DB86239FD64300F5A0BC /* RTTI100.hpp */,
 				3A0C9AC3239E886C00E78562 /* RTTI101.cpp */,
 				3A85DB84239FD3D700F5A0BC /* RTTI102.cpp */,
-				3A85DB86239FD64300F5A0BC /* RTTI100.hpp */,
 			);
 			path = "Runtime Type Identification";
 			sourceTree = "<group>";
