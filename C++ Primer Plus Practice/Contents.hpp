@@ -87,6 +87,7 @@ void showExceptions401();
 //   |       Runtime Type Identification       |
 //   ===========================================
 void showRTTI101();
+void showRTTI102();
 
 //   ===================================
 //   |       Abstract Data Types       |

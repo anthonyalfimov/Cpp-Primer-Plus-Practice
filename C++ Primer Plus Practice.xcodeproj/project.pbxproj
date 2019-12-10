@@ -116,6 +116,7 @@
 		3A844F1B21AEF7E700181FE6 /* Stock02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A844F1921AEF7E700181FE6 /* Stock02.cpp */; };
 		3A844F1D21AF027A00181FE6 /* Classes102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A844F1C21AF027A00181FE6 /* Classes102.cpp */; };
 		3A844F1F21AF062F00181FE6 /* ClassArray101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A844F1E21AF062F00181FE6 /* ClassArray101.cpp */; };
+		3A85DB85239FD3D700F5A0BC /* RTTI102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A85DB84239FD3D700F5A0BC /* RTTI102.cpp */; };
 		3A85EE892170F9A500DD89EE /* Reference101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A85EE872170F9A500DD89EE /* Reference101.cpp */; };
 		3A892C3F213EEB670060498A /* TextInput103.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A892C3D213EEB670060498A /* TextInput103.cpp */; };
 		3A8D4B39212340C900AD8A30 /* CombinationOfTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D4B37212340C900AD8A30 /* CombinationOfTypes.cpp */; };
@@ -377,6 +378,8 @@
 		3A844F1A21AEF7E700181FE6 /* Stock02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stock02.hpp; sourceTree = "<group>"; };
 		3A844F1C21AF027A00181FE6 /* Classes102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Classes102.cpp; sourceTree = "<group>"; };
 		3A844F1E21AF062F00181FE6 /* ClassArray101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClassArray101.cpp; sourceTree = "<group>"; };
+		3A85DB84239FD3D700F5A0BC /* RTTI102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RTTI102.cpp; sourceTree = "<group>"; };
+		3A85DB86239FD64300F5A0BC /* RTTI100.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RTTI100.hpp; sourceTree = "<group>"; };
 		3A85EE872170F9A500DD89EE /* Reference101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Reference101.cpp; sourceTree = "<group>"; };
 		3A85EE882170F9A500DD89EE /* Reference101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Reference101.hpp; sourceTree = "<group>"; };
 		3A892C3D213EEB670060498A /* TextInput103.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextInput103.cpp; sourceTree = "<group>"; };
@@ -549,6 +552,8 @@
 			isa = PBXGroup;
 			children = (
 				3A0C9AC3239E886C00E78562 /* RTTI101.cpp */,
+				3A85DB84239FD3D700F5A0BC /* RTTI102.cpp */,
+				3A85DB86239FD64300F5A0BC /* RTTI100.hpp */,
 			);
 			path = "Runtime Type Identification";
 			sourceTree = "<group>";
@@ -1321,6 +1326,7 @@
 				3AA6B1272211BD7100507FD5 /* StringGood01.cpp in Sources */,
 				3AD3ED9620EBD8F3008D28BF /* main.cpp in Sources */,
 				3A8E6FF52209CDD200B01D70 /* StringBad01.cpp in Sources */,
+				3A85DB85239FD3D700F5A0BC /* RTTI102.cpp in Sources */,
 				3AC21C22217A386D00FA5529 /* FuncOverload101.cpp in Sources */,
 				3A231089239808B700E55AAC /* Exceptions302.cpp in Sources */,
 				3AFCB140212C351900275E64 /* StringComparison101.cpp in Sources */,

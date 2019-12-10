@@ -6,5 +6,5 @@
 
 int main()
 {
-    showRTTI101();
+    showRTTI102();
 }

@@ -1,17 +1,18 @@
 //
-//  RTTI101.cpp
+//  RTTI102.cpp
 //  C++ Primer Plus Practice
 //
-//  Created by Anthony on 09/12/2019.
+//  Created by Anthony on 10/12/2019.
 //  Copyright © 2019 Anthony. All rights reserved.
 //
 
 #include <iostream>
 #include <cstdlib>      // for rand(), srand()
 #include <ctime>        // for time()
+#include <typeinfo>     // for type_info class
 #include "RTTI100.hpp"
 
-void showRTTI101()
+void showRTTI102()
 {
     using namespace RTTI100;
     
@@ -23,11 +24,15 @@ void showRTTI101()
     for (int i = 0; i < 5; ++i)
     {
         grandPtr = getRandomObject();   // create object - NB! Needs manual destruction!
-        grandPtr->speak();              // common method for all class hierarchy
+        std::cout << "Now processing type " << typeid (*grandPtr).name() << ".\n";  // get type name
+        grandPtr->speak();
         superbPtr = dynamic_cast<Superb*> (grandPtr);
         
         if (superbPtr != nullptr)
-            superbPtr->say();           // method unique to Superb and Magnificent classes
+            superbPtr->say();
+        
+        if (typeid (Magnificent) == typeid (*grandPtr))         // perform type-dependent action that is not a method
+            std::cout << "Yes, you are truly magnificent!\n";
         
         std::cout << "\n";
         delete grandPtr;                // destroy object
