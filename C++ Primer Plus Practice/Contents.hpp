@@ -89,6 +89,11 @@ void showExceptions401();
 void showRTTI101();
 void showRTTI102();
 
+//   ==========================
+//   |       Type Casts       |
+//   ==========================
+void showConstCast101();
+
 //   ===================================
 //   |       Abstract Data Types       |
 //   ===================================

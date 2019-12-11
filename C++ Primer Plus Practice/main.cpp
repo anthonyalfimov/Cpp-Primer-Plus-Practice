@@ -6,5 +6,5 @@
 
 int main()
 {
-    showRTTI102();
+    showConstCast101();
 }
