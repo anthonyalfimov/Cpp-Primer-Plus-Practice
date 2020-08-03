@@ -36,7 +36,7 @@ namespace Exceptions302
         return mMonthlySales[i];
     }
     
-    double &Sales::operator[] (int i)
+    double& Sales::operator[] (int i)
     {
         if (i < 0 || i >= sMonths)
             throw bad_index(i);
