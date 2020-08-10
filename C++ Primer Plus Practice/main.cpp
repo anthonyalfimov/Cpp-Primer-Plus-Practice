@@ -6,5 +6,5 @@
 
 int main()
 {
-    showConstCast101();
+    showStdString101();
 }

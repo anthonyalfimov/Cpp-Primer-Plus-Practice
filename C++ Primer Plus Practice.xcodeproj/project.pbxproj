@@ -84,6 +84,7 @@
 		3A58E679237C5CB40029C032 /* Exceptions101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A58E678237C5CB40029C032 /* Exceptions101.cpp */; };
 		3A5D24FA21777A4C00F92633 /* Reference202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5D24F821777A4C00F92633 /* Reference202.cpp */; };
 		3A5DAC2C2281C2310083B8BF /* ClassTemplates201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5DAC2B2281C2310083B8BF /* ClassTemplates201.cpp */; };
+		3A5DD91124E1A71900BE4CD0 /* StdString101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5DD91024E1A71900BE4CD0 /* StdString101.cpp */; };
 		3A61857521270217006E0C96 /* Expressions101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A61857321270217006E0C96 /* Expressions101.cpp */; };
 		3A61857821271F8E006E0C96 /* Loops101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A61857621271F8E006E0C96 /* Loops101.cpp */; };
 		3A624BAB2100F7760098A2D3 /* StringFun101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A624BA92100F7760098A2D3 /* StringFun101.cpp */; };
@@ -323,6 +324,7 @@
 		3A5D24F921777A4C00F92633 /* Reference202.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Reference202.hpp; sourceTree = "<group>"; };
 		3A5DAC2A2281C1E70083B8BF /* ArrayType01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayType01.hpp; sourceTree = "<group>"; };
 		3A5DAC2B2281C2310083B8BF /* ClassTemplates201.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClassTemplates201.cpp; sourceTree = "<group>"; };
+		3A5DD91024E1A71900BE4CD0 /* StdString101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StdString101.cpp; sourceTree = "<group>"; };
 		3A61857321270217006E0C96 /* Expressions101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Expressions101.cpp; sourceTree = "<group>"; };
 		3A61857421270217006E0C96 /* Expressions101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Expressions101.hpp; sourceTree = "<group>"; };
 		3A61857621271F8E006E0C96 /* Loops101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Loops101.cpp; sourceTree = "<group>"; };
@@ -889,6 +891,7 @@
 		3A5DD90F24E1A53D00BE4CD0 /* std string */ = {
 			isa = PBXGroup;
 			children = (
+				3A5DD91024E1A71900BE4CD0 /* StdString101.cpp */,
 			);
 			path = "std string";
 			sourceTree = "<group>";
@@ -1326,6 +1329,7 @@
 				3AFF10C22270C87D006890A0 /* WorkerTest01.cpp in Sources */,
 				3A2A58C0211B1D8E009FB737 /* DynamicStructs101.cpp in Sources */,
 				3AA3AD232281D479009F0D96 /* ClassTemplates202.cpp in Sources */,
+				3A5DD91124E1A71900BE4CD0 /* StdString101.cpp in Sources */,
 				3A39AB33210207FD0011AC89 /* StringFun102.cpp in Sources */,
 				3A4E1AB6215E7BD600F9AEB3 /* Combinatorics01.cpp in Sources */,
 				3A5D24FA21777A4C00F92633 /* Reference202.cpp in Sources */,
