@@ -98,6 +98,7 @@ void showConstCast101();
 //   |       std::string       |
 //   ===========================
 void showStdString101();
+void showStdString102();
 
 //   ===================
 //   |       STL       |

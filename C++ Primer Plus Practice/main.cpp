@@ -6,5 +6,5 @@
 
 int main()
 {
-    showStdString101();
+    showStdString102();
 }
