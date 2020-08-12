@@ -100,6 +100,7 @@ void showConstCast101();
 void showStdString101();
 void showStdString102();
 void showStdString103();
+void showStdString104();
 
 //   ===================
 //   |       STL       |

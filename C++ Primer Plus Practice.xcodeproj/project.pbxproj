@@ -158,6 +158,7 @@
 		3AC21C22217A386D00FA5529 /* FuncOverload101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC21C20217A386D00FA5529 /* FuncOverload101.cpp */; };
 		3AC4DEF8219AEAC300BE989B /* PlacementNew101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4DEF6219AEAC300BE989B /* PlacementNew101.cpp */; };
 		3AC842E021A456E400DAF50D /* Classes101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC842DF21A456E400DAF50D /* Classes101.cpp */; };
+		3ACA439E24E424B900935E82 /* StdString104.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA439D24E424B900935E82 /* StdString104.cpp */; };
 		3ACE05812373303B00247E81 /* QueueTest02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE05802373303B00247E81 /* QueueTest02.cpp */; };
 		3AD1F34D215A56EA004CFE88 /* ReadingFile101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1F34B215A56EA004CFE88 /* ReadingFile101.cpp */; };
 		3AD3ED9620EBD8F3008D28BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3ED9520EBD8F3008D28BF /* main.cpp */; };
@@ -453,6 +454,7 @@
 		3AC4DEF6219AEAC300BE989B /* PlacementNew101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlacementNew101.cpp; sourceTree = "<group>"; };
 		3AC842DD21A455B300DAF50D /* Contents.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Contents.hpp; sourceTree = "<group>"; };
 		3AC842DF21A456E400DAF50D /* Classes101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Classes101.cpp; sourceTree = "<group>"; };
+		3ACA439D24E424B900935E82 /* StdString104.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StdString104.cpp; sourceTree = "<group>"; };
 		3ACE057F23732CED00247E81 /* Queue02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue02.hpp; sourceTree = "<group>"; };
 		3ACE05802373303B00247E81 /* QueueTest02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QueueTest02.cpp; sourceTree = "<group>"; };
 		3AD1F34B215A56EA004CFE88 /* ReadingFile101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReadingFile101.cpp; sourceTree = "<group>"; };
@@ -908,6 +910,7 @@
 				3A5DD91024E1A71900BE4CD0 /* StdString101.cpp */,
 				3A391A7124E2DCD50020979C /* StdString102.cpp */,
 				3A391A7424E2E6350020979C /* StdString103.cpp */,
+				3ACA439D24E424B900935E82 /* StdString104.cpp */,
 			);
 			path = "std string";
 			sourceTree = "<group>";
@@ -1484,6 +1487,7 @@
 				3A4CAD8221C0188300ED6305 /* FriendFunctions101.cpp in Sources */,
 				3A66AE132170BFE40060E80B /* InlineFunc101.cpp in Sources */,
 				3A69DEA722676C7000A7D98E /* Student01.cpp in Sources */,
+				3ACA439E24E424B900935E82 /* StdString104.cpp in Sources */,
 				3A0FFAEB21FA075A00B5223B /* ConversionFunctions101.cpp in Sources */,
 				3A3DEFB521776C7100F4E33B /* Reference201.cpp in Sources */,
 				3A6D150222428FDE000D4C47 /* DerivedClass01.cpp in Sources */,
