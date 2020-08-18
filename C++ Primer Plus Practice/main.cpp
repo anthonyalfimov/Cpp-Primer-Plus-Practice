@@ -6,5 +6,5 @@
 
 int main()
 {
-    showSmartPtrs101();
+    showSmartPtrs102();
 }
