@@ -113,6 +113,7 @@ void showStdString104();
 //   ===================
 void showStlVectorAndArray101();
 void showStlVector101();
+void showStlVector201();
 
 //   ===================================
 //   |       Abstract Data Types       |
