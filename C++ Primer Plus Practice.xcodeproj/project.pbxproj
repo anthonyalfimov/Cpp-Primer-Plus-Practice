@@ -96,7 +96,7 @@
 		3A65668A21591F0000ACDA13 /* NumberInput102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A65668821591F0000ACDA13 /* NumberInput102.cpp */; };
 		3A65669121593E2000ACDA13 /* WritingFile101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A65668F21593E2000ACDA13 /* WritingFile101.cpp */; };
 		3A66AE132170BFE40060E80B /* InlineFunc101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A66AE112170BFE40060E80B /* InlineFunc101.cpp */; };
-		3A677D2F212447CE0007EB0F /* VectorAndArray101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A677D2D212447CE0007EB0F /* VectorAndArray101.cpp */; };
+		3A677D2F212447CE0007EB0F /* STLVectorAndArray101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A677D2D212447CE0007EB0F /* STLVectorAndArray101.cpp */; };
 		3A68487F21512719004C5F68 /* example01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A68487D21512719004C5F68 /* example01.cpp */; };
 		3A68488221512C0F004C5F68 /* example02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A68488021512C0F004C5F68 /* example02.cpp */; };
 		3A69DEA722676C7000A7D98E /* Student01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A69DEA522676C7000A7D98E /* Student01.cpp */; };
@@ -163,6 +163,7 @@
 		3ACA439E24E424B900935E82 /* StdString104.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA439D24E424B900935E82 /* StdString104.cpp */; };
 		3ACE05812373303B00247E81 /* QueueTest02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE05802373303B00247E81 /* QueueTest02.cpp */; };
 		3AD1F34D215A56EA004CFE88 /* ReadingFile101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1F34B215A56EA004CFE88 /* ReadingFile101.cpp */; };
+		3AD351C424ED62E600C8E951 /* STLVector101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD351C324ED62E600C8E951 /* STLVector101.cpp */; };
 		3AD3ED9620EBD8F3008D28BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3ED9520EBD8F3008D28BF /* main.cpp */; };
 		3ADD3A56212AF5B300476E00 /* CommaOperator101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD3A54212AF5B300476E00 /* CommaOperator101.cpp */; };
 		3AE29A852295851800BC6F5F /* TemplateFriends102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE29A842295851800BC6F5F /* TemplateFriends102.cpp */; };
@@ -351,7 +352,7 @@
 		3A65669021593E2000ACDA13 /* WritingFile101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WritingFile101.hpp; sourceTree = "<group>"; };
 		3A66AE112170BFE40060E80B /* InlineFunc101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InlineFunc101.cpp; sourceTree = "<group>"; };
 		3A66AE122170BFE40060E80B /* InlineFunc101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InlineFunc101.hpp; sourceTree = "<group>"; };
-		3A677D2D212447CE0007EB0F /* VectorAndArray101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VectorAndArray101.cpp; sourceTree = "<group>"; };
+		3A677D2D212447CE0007EB0F /* STLVectorAndArray101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STLVectorAndArray101.cpp; sourceTree = "<group>"; };
 		3A68487D21512719004C5F68 /* example01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example01.cpp; sourceTree = "<group>"; };
 		3A68487E21512719004C5F68 /* example01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = example01.hpp; sourceTree = "<group>"; };
 		3A68488021512C0F004C5F68 /* example02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example02.cpp; sourceTree = "<group>"; };
@@ -463,6 +464,7 @@
 		3ACE05802373303B00247E81 /* QueueTest02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QueueTest02.cpp; sourceTree = "<group>"; };
 		3AD1F34B215A56EA004CFE88 /* ReadingFile101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReadingFile101.cpp; sourceTree = "<group>"; };
 		3AD1F34C215A56EA004CFE88 /* ReadingFile101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReadingFile101.hpp; sourceTree = "<group>"; };
+		3AD351C324ED62E600C8E951 /* STLVector101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STLVector101.cpp; sourceTree = "<group>"; };
 		3AD3ED9220EBD8F3008D28BF /* C++ Primer Plus Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Primer Plus Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD3ED9520EBD8F3008D28BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3ADD3A54212AF5B300476E00 /* CommaOperator101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommaOperator101.cpp; sourceTree = "<group>"; };
@@ -982,7 +984,8 @@
 		3A677D2C2124479D0007EB0F /* STL */ = {
 			isa = PBXGroup;
 			children = (
-				3A677D2D212447CE0007EB0F /* VectorAndArray101.cpp */,
+				3A677D2D212447CE0007EB0F /* STLVectorAndArray101.cpp */,
+				3AD351C324ED62E600C8E951 /* STLVector101.cpp */,
 			);
 			path = STL;
 			sourceTree = "<group>";
@@ -1424,7 +1427,7 @@
 				3A7D07922182032F00101B33 /* ForcedResolution101.cpp in Sources */,
 				3A3EA9FB220081ED00F047B8 /* StonewtType03.cpp in Sources */,
 				3A844F1B21AEF7E700181FE6 /* Stock02.cpp in Sources */,
-				3A677D2F212447CE0007EB0F /* VectorAndArray101.cpp in Sources */,
+				3A677D2F212447CE0007EB0F /* STLVectorAndArray101.cpp in Sources */,
 				3A41645E21948BEF0027E2C7 /* LocalStaticVars102.cpp in Sources */,
 				3A65669121593E2000ACDA13 /* WritingFile101.cpp in Sources */,
 				3A095BB221C80F510076C7EA /* Vector102.cpp in Sources */,
@@ -1486,6 +1489,7 @@
 				3A1B0EFD218B5CF20084D0DA /* Headers101.cpp in Sources */,
 				3A3EB7332163B83100C6773C /* FuncString102.cpp in Sources */,
 				3A094319210F67CE00170020 /* Pointers101.cpp in Sources */,
+				3AD351C424ED62E600C8E951 /* STLVector101.cpp in Sources */,
 				3A69DEA922677E4300A7D98E /* Containment101.cpp in Sources */,
 				3A61857821271F8E006E0C96 /* Loops101.cpp in Sources */,
 				3AE4BD052152AF16004851E6 /* Switch101.cpp in Sources */,

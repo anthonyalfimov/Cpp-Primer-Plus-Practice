@@ -6,5 +6,5 @@
 
 int main()
 {
-    showSmartPtrs102();
+    showStlVector101();
 }
