@@ -87,6 +87,7 @@
 		3A57427221F8C31D00B4CC84 /* ClassTypeCasts101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A57427121F8C31D00B4CC84 /* ClassTypeCasts101.cpp */; };
 		3A58E679237C5CB40029C032 /* Exceptions101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A58E678237C5CB40029C032 /* Exceptions101.cpp */; };
 		3A5BE58A24EEC55C00D76DD1 /* STLVector203.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BE58924EEC55C00D76DD1 /* STLVector203.cpp */; };
+		3A5BE58C24EECFA600D76DD1 /* STLVector202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BE58B24EECFA600D76DD1 /* STLVector202.cpp */; };
 		3A5D24FA21777A4C00F92633 /* Reference202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5D24F821777A4C00F92633 /* Reference202.cpp */; };
 		3A5DAC2C2281C2310083B8BF /* ClassTemplates201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5DAC2B2281C2310083B8BF /* ClassTemplates201.cpp */; };
 		3A5DD91124E1A71900BE4CD0 /* StdString101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5DD91024E1A71900BE4CD0 /* StdString101.cpp */; };
@@ -334,6 +335,7 @@
 		3A57427121F8C31D00B4CC84 /* ClassTypeCasts101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClassTypeCasts101.cpp; sourceTree = "<group>"; };
 		3A58E678237C5CB40029C032 /* Exceptions101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Exceptions101.cpp; sourceTree = "<group>"; };
 		3A5BE58924EEC55C00D76DD1 /* STLVector203.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STLVector203.cpp; sourceTree = "<group>"; };
+		3A5BE58B24EECFA600D76DD1 /* STLVector202.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STLVector202.cpp; sourceTree = "<group>"; };
 		3A5D24F821777A4C00F92633 /* Reference202.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Reference202.cpp; sourceTree = "<group>"; };
 		3A5D24F921777A4C00F92633 /* Reference202.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Reference202.hpp; sourceTree = "<group>"; };
 		3A5DAC2A2281C1E70083B8BF /* ArrayType01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayType01.hpp; sourceTree = "<group>"; };
@@ -991,6 +993,7 @@
 				3A677D2D212447CE0007EB0F /* STLVectorAndArray101.cpp */,
 				3AD351C324ED62E600C8E951 /* STLVector101.cpp */,
 				3A76103924ED7CF800FA904C /* STLVector201.cpp */,
+				3A5BE58B24EECFA600D76DD1 /* STLVector202.cpp */,
 				3A5BE58924EEC55C00D76DD1 /* STLVector203.cpp */,
 			);
 			path = STL;
@@ -1403,6 +1406,7 @@
 				3A225A9C2146D0BF00A9997D /* TextInput104.cpp in Sources */,
 				3AA6B1292211BE6400507FD5 /* DynamicClasses102.cpp in Sources */,
 				3A3940C72178D25D003A54A0 /* DefaultArg101.cpp in Sources */,
+				3A5BE58C24EECFA600D76DD1 /* STLVector202.cpp in Sources */,
 				3A2310872397EFD000E55AAC /* Sales01.cpp in Sources */,
 				3A26693B21515AC1009CAB96 /* ConditionalOperator101.cpp in Sources */,
 				3A9BD2312111DCBD00BB73F6 /* DynamicArrays101.cpp in Sources */,

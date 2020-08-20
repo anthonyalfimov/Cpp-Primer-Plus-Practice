@@ -114,6 +114,7 @@ void showStdString104();
 void showStlVectorAndArray101();
 void showStlVector101();
 void showStlVector201();
+void showStlVector202();
 void showStlVector203();
 
 //   ===================================
