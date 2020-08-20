@@ -40,10 +40,10 @@ void showStlVector202()
     {
         std::cout << "\nThank you. You entered the following:\nRating\tBook\n";
         
-        for (BookReview review : bookReviews)
+        for (BookReview& review : bookReviews)  // without using the reference, a copy of each element is made
             review.show();
         
-        std::vector<BookReview> oldBookReviews (bookReviews);       // use copy ctor
+        std::vector<BookReview> oldBookReviews (bookReviews);
         
         if (bookReviews.size() > 3)
         {
@@ -51,7 +51,7 @@ void showStlVector202()
             
             std::cout << "\nAfter erasure:\nRating\tBook\n";
             
-            for (auto review : bookReviews)         // using auto is shorter
+            for (auto& review : bookReviews)         // using auto is shorter; use & to avoid copying
                 review.show();
             
             bookReviews.insert(bookReviews.begin(), oldBookReviews.begin() + 1,
@@ -59,7 +59,7 @@ void showStlVector202()
             
             std::cout << "\nAfter insertion:\nRating\tBook\n";
             
-            for (auto review : bookReviews)
+            for (auto& review : bookReviews)
                 review.show();
         }
         
@@ -67,7 +67,7 @@ void showStlVector202()
         
         std::cout << "\nSwapping oldBookReviews with bookReviews:\nRating\tBook\n";
         
-        for (auto review : bookReviews)
+        for (auto& review : bookReviews)
             review.show();
     }
     else
