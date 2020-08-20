@@ -49,7 +49,7 @@ void showStlVector202()
         {
             bookReviews.erase(bookReviews.begin() + 1, bookReviews.begin() + 3);    // remove 2 items
             
-            std::cout << "\nAfter erasure:\n";
+            std::cout << "\nAfter erasure:\nRating\tBook\n";
             
             for (auto review : bookReviews)         // using auto is shorter
                 review.show();
@@ -57,7 +57,7 @@ void showStlVector202()
             bookReviews.insert(bookReviews.begin(), oldBookReviews.begin() + 1,
                                oldBookReviews.begin() + 2);                         // insert 1 item
             
-            std::cout << "\nAfter insertion:\n";
+            std::cout << "\nAfter insertion:\nRating\tBook\n";
             
             for (auto review : bookReviews)
                 review.show();
@@ -65,7 +65,7 @@ void showStlVector202()
         
         bookReviews.swap(oldBookReviews);
         
-        std::cout << "\nSwapping oldBookReviews with bookReviews:\n";
+        std::cout << "\nSwapping oldBookReviews with bookReviews:\nRating\tBook\n";
         
         for (auto review : bookReviews)
             review.show();
