@@ -25,7 +25,6 @@ namespace
     private:
         std::string mTitle;
         int mRating;
-
     };
 }
 
@@ -35,7 +34,7 @@ void showStlVector201()
     BookReview reviewInput;
     
     while (reviewInput.fill())
-        bookReviews.push_back(reviewInput);
+        bookReviews.push_back (reviewInput);
     
     int reviewCount = static_cast<int> (bookReviews.size());
     
