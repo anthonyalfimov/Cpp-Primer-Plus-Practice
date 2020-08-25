@@ -116,6 +116,7 @@ void showStlVector101();
 void showStlVector201();
 void showStlVector202();
 void showStlVector203();
+void showStlIterator101();
 
 //   ===================================
 //   |       Abstract Data Types       |
