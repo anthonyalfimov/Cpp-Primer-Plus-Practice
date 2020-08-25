@@ -6,11 +6,15 @@
 //  Copyright © 2020 Anthony. All rights reserved.
 //
 
+//==================================================================================================
+// iterators, std::copy, reverse_iterator and ostream_iterator
+//==================================================================================================
+
 #include <iostream>
 #include <iterator>
 #include <vector>
 
-void showStlIterator101()
+void showStlIterators101()
 {
     constexpr int size = 10;
     int casts[size] { 6, 7, 2, 9, 4, 11, 8, 7, 10, 5 };
