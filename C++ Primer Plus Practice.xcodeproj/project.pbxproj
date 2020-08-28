@@ -86,8 +86,8 @@
 		3A57427021F8B2C700B4CC84 /* StonewtType01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A57426E21F8B2C700B4CC84 /* StonewtType01.cpp */; };
 		3A57427221F8C31D00B4CC84 /* ClassTypeCasts101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A57427121F8C31D00B4CC84 /* ClassTypeCasts101.cpp */; };
 		3A58E679237C5CB40029C032 /* Exceptions101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A58E678237C5CB40029C032 /* Exceptions101.cpp */; };
-		3A5BE58A24EEC55C00D76DD1 /* STLVector203.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BE58924EEC55C00D76DD1 /* STLVector203.cpp */; };
-		3A5BE58C24EECFA600D76DD1 /* STLVector202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BE58B24EECFA600D76DD1 /* STLVector202.cpp */; };
+		3A5BE58A24EEC55C00D76DD1 /* StlVector203.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BE58924EEC55C00D76DD1 /* StlVector203.cpp */; };
+		3A5BE58C24EECFA600D76DD1 /* StlVector202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BE58B24EECFA600D76DD1 /* StlVector202.cpp */; };
 		3A5D24FA21777A4C00F92633 /* Reference202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5D24F821777A4C00F92633 /* Reference202.cpp */; };
 		3A5DAC2C2281C2310083B8BF /* ClassTemplates201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5DAC2B2281C2310083B8BF /* ClassTemplates201.cpp */; };
 		3A5DD91124E1A71900BE4CD0 /* StdString101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5DD91024E1A71900BE4CD0 /* StdString101.cpp */; };
@@ -98,7 +98,7 @@
 		3A65668A21591F0000ACDA13 /* NumberInput102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A65668821591F0000ACDA13 /* NumberInput102.cpp */; };
 		3A65669121593E2000ACDA13 /* WritingFile101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A65668F21593E2000ACDA13 /* WritingFile101.cpp */; };
 		3A66AE132170BFE40060E80B /* InlineFunc101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A66AE112170BFE40060E80B /* InlineFunc101.cpp */; };
-		3A677D2F212447CE0007EB0F /* STLVectorAndArray101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A677D2D212447CE0007EB0F /* STLVectorAndArray101.cpp */; };
+		3A677D2F212447CE0007EB0F /* StlVectorAndArray101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A677D2D212447CE0007EB0F /* StlVectorAndArray101.cpp */; };
 		3A68487F21512719004C5F68 /* example01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A68487D21512719004C5F68 /* example01.cpp */; };
 		3A68488221512C0F004C5F68 /* example02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A68488021512C0F004C5F68 /* example02.cpp */; };
 		3A69DEA722676C7000A7D98E /* Student01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A69DEA522676C7000A7D98E /* Student01.cpp */; };
@@ -108,7 +108,7 @@
 		3A6D1504224292D3000D4C47 /* Inheritance101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D1503224292D3000D4C47 /* Inheritance101.cpp */; };
 		3A6E05D8227B308500826C16 /* Worker02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A6E05D6227B308500826C16 /* Worker02.cpp */; };
 		3A716434216520B00068432A /* FuncArray301.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A716432216520B00068432A /* FuncArray301.cpp */; };
-		3A76103A24ED7CF800FA904C /* STLVector201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A76103924ED7CF800FA904C /* STLVector201.cpp */; };
+		3A76103A24ED7CF800FA904C /* StlVector201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A76103924ED7CF800FA904C /* StlVector201.cpp */; };
 		3A76A58C228326CA0027518F /* ClassTemplates203.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A76A58B228326CA0027518F /* ClassTemplates203.cpp */; };
 		3A79488121BFF57200A7C123 /* OpOverload102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A79488021BFF57200A7C123 /* OpOverload102.cpp */; };
 		3A79AFD7221C1A9100E25CE4 /* DynamicClasses202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A79AFD6221C1A9100E25CE4 /* DynamicClasses202.cpp */; };
@@ -166,7 +166,7 @@
 		3ACA439E24E424B900935E82 /* StdString104.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA439D24E424B900935E82 /* StdString104.cpp */; };
 		3ACE05812373303B00247E81 /* QueueTest02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE05802373303B00247E81 /* QueueTest02.cpp */; };
 		3AD1F34D215A56EA004CFE88 /* ReadingFile101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1F34B215A56EA004CFE88 /* ReadingFile101.cpp */; };
-		3AD351C424ED62E600C8E951 /* STLVector101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD351C324ED62E600C8E951 /* STLVector101.cpp */; };
+		3AD351C424ED62E600C8E951 /* StlVector101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD351C324ED62E600C8E951 /* StlVector101.cpp */; };
 		3AD3ED9620EBD8F3008D28BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3ED9520EBD8F3008D28BF /* main.cpp */; };
 		3ADD3A56212AF5B300476E00 /* CommaOperator101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD3A54212AF5B300476E00 /* CommaOperator101.cpp */; };
 		3AE29A852295851800BC6F5F /* TemplateFriends102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE29A842295851800BC6F5F /* TemplateFriends102.cpp */; };
@@ -176,8 +176,8 @@
 		3AE89769224D129800F722C8 /* BrassAccount01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE89767224D129800F722C8 /* BrassAccount01.cpp */; };
 		3AE8976B224D3B8300F722C8 /* Inheritance201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8976A224D3B8300F722C8 /* Inheritance201.cpp */; };
 		3AF4162D2162596900A079C9 /* FuncArray103.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF4162B2162596900A079C9 /* FuncArray103.cpp */; };
-		3AF569DC24F56C1200EC9420 /* STLIterators101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF569DB24F56C1200EC9420 /* STLIterators101.cpp */; };
-		3AF569DE24F57E6F00EC9420 /* STLIterators102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF569DD24F57E6F00EC9420 /* STLIterators102.cpp */; };
+		3AF569DC24F56C1200EC9420 /* StlIterators101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF569DB24F56C1200EC9420 /* StlIterators101.cpp */; };
+		3AF569DE24F57E6F00EC9420 /* StlIterators102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF569DD24F57E6F00EC9420 /* StlIterators102.cpp */; };
 		3AF59D4C21A5C26900BA3EBD /* Stock01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF59D4A21A5C26900BA3EBD /* Stock01.cpp */; };
 		3AF757FD222EB1CD006F9815 /* BaseClass01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF757FB222EB1CD006F9815 /* BaseClass01.cpp */; };
 		3AF757FF222EBB83006F9815 /* UseBaseClass01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF757FE222EBB83006F9815 /* UseBaseClass01.cpp */; };
@@ -336,8 +336,8 @@
 		3A57426F21F8B2C700B4CC84 /* StonewtType01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StonewtType01.hpp; sourceTree = "<group>"; };
 		3A57427121F8C31D00B4CC84 /* ClassTypeCasts101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClassTypeCasts101.cpp; sourceTree = "<group>"; };
 		3A58E678237C5CB40029C032 /* Exceptions101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Exceptions101.cpp; sourceTree = "<group>"; };
-		3A5BE58924EEC55C00D76DD1 /* STLVector203.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STLVector203.cpp; sourceTree = "<group>"; };
-		3A5BE58B24EECFA600D76DD1 /* STLVector202.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STLVector202.cpp; sourceTree = "<group>"; };
+		3A5BE58924EEC55C00D76DD1 /* StlVector203.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StlVector203.cpp; sourceTree = "<group>"; };
+		3A5BE58B24EECFA600D76DD1 /* StlVector202.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StlVector202.cpp; sourceTree = "<group>"; };
 		3A5D24F821777A4C00F92633 /* Reference202.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Reference202.cpp; sourceTree = "<group>"; };
 		3A5D24F921777A4C00F92633 /* Reference202.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Reference202.hpp; sourceTree = "<group>"; };
 		3A5DAC2A2281C1E70083B8BF /* ArrayType01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayType01.hpp; sourceTree = "<group>"; };
@@ -359,7 +359,7 @@
 		3A65669021593E2000ACDA13 /* WritingFile101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WritingFile101.hpp; sourceTree = "<group>"; };
 		3A66AE112170BFE40060E80B /* InlineFunc101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InlineFunc101.cpp; sourceTree = "<group>"; };
 		3A66AE122170BFE40060E80B /* InlineFunc101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InlineFunc101.hpp; sourceTree = "<group>"; };
-		3A677D2D212447CE0007EB0F /* STLVectorAndArray101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STLVectorAndArray101.cpp; sourceTree = "<group>"; };
+		3A677D2D212447CE0007EB0F /* StlVectorAndArray101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StlVectorAndArray101.cpp; sourceTree = "<group>"; };
 		3A68487D21512719004C5F68 /* example01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example01.cpp; sourceTree = "<group>"; };
 		3A68487E21512719004C5F68 /* example01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = example01.hpp; sourceTree = "<group>"; };
 		3A68488021512C0F004C5F68 /* example02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example02.cpp; sourceTree = "<group>"; };
@@ -375,7 +375,7 @@
 		3A6E05D7227B308500826C16 /* Worker02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Worker02.hpp; sourceTree = "<group>"; };
 		3A716432216520B00068432A /* FuncArray301.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray301.cpp; sourceTree = "<group>"; };
 		3A716433216520B00068432A /* FuncArray301.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncArray301.hpp; sourceTree = "<group>"; };
-		3A76103924ED7CF800FA904C /* STLVector201.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STLVector201.cpp; sourceTree = "<group>"; };
+		3A76103924ED7CF800FA904C /* StlVector201.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StlVector201.cpp; sourceTree = "<group>"; };
 		3A76A58A228326B50027518F /* NestedTemplate01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NestedTemplate01.hpp; sourceTree = "<group>"; };
 		3A76A58B228326CA0027518F /* ClassTemplates203.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClassTemplates203.cpp; sourceTree = "<group>"; };
 		3A79488021BFF57200A7C123 /* OpOverload102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpOverload102.cpp; sourceTree = "<group>"; };
@@ -472,7 +472,7 @@
 		3ACE05802373303B00247E81 /* QueueTest02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QueueTest02.cpp; sourceTree = "<group>"; };
 		3AD1F34B215A56EA004CFE88 /* ReadingFile101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReadingFile101.cpp; sourceTree = "<group>"; };
 		3AD1F34C215A56EA004CFE88 /* ReadingFile101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReadingFile101.hpp; sourceTree = "<group>"; };
-		3AD351C324ED62E600C8E951 /* STLVector101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STLVector101.cpp; sourceTree = "<group>"; };
+		3AD351C324ED62E600C8E951 /* StlVector101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StlVector101.cpp; sourceTree = "<group>"; };
 		3AD3ED9220EBD8F3008D28BF /* C++ Primer Plus Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Primer Plus Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD3ED9520EBD8F3008D28BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3ADD3A54212AF5B300476E00 /* CommaOperator101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommaOperator101.cpp; sourceTree = "<group>"; };
@@ -487,8 +487,8 @@
 		3AE8976A224D3B8300F722C8 /* Inheritance201.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inheritance201.cpp; sourceTree = "<group>"; };
 		3AF4162B2162596900A079C9 /* FuncArray103.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FuncArray103.cpp; sourceTree = "<group>"; };
 		3AF4162C2162596900A079C9 /* FuncArray103.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FuncArray103.hpp; sourceTree = "<group>"; };
-		3AF569DB24F56C1200EC9420 /* STLIterators101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STLIterators101.cpp; sourceTree = "<group>"; };
-		3AF569DD24F57E6F00EC9420 /* STLIterators102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STLIterators102.cpp; sourceTree = "<group>"; };
+		3AF569DB24F56C1200EC9420 /* StlIterators101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StlIterators101.cpp; sourceTree = "<group>"; };
+		3AF569DD24F57E6F00EC9420 /* StlIterators102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StlIterators102.cpp; sourceTree = "<group>"; };
 		3AF59D4A21A5C26900BA3EBD /* Stock01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stock01.cpp; sourceTree = "<group>"; };
 		3AF59D4B21A5C26900BA3EBD /* Stock01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stock01.hpp; sourceTree = "<group>"; };
 		3AF757FB222EB1CD006F9815 /* BaseClass01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseClass01.cpp; sourceTree = "<group>"; };
@@ -994,13 +994,13 @@
 		3A677D2C2124479D0007EB0F /* STL */ = {
 			isa = PBXGroup;
 			children = (
-				3A677D2D212447CE0007EB0F /* STLVectorAndArray101.cpp */,
-				3AD351C324ED62E600C8E951 /* STLVector101.cpp */,
-				3A76103924ED7CF800FA904C /* STLVector201.cpp */,
-				3A5BE58B24EECFA600D76DD1 /* STLVector202.cpp */,
-				3A5BE58924EEC55C00D76DD1 /* STLVector203.cpp */,
-				3AF569DB24F56C1200EC9420 /* STLIterators101.cpp */,
-				3AF569DD24F57E6F00EC9420 /* STLIterators102.cpp */,
+				3A677D2D212447CE0007EB0F /* StlVectorAndArray101.cpp */,
+				3AD351C324ED62E600C8E951 /* StlVector101.cpp */,
+				3A76103924ED7CF800FA904C /* StlVector201.cpp */,
+				3A5BE58B24EECFA600D76DD1 /* StlVector202.cpp */,
+				3A5BE58924EEC55C00D76DD1 /* StlVector203.cpp */,
+				3AF569DB24F56C1200EC9420 /* StlIterators101.cpp */,
+				3AF569DD24F57E6F00EC9420 /* StlIterators102.cpp */,
 			);
 			path = STL;
 			sourceTree = "<group>";
@@ -1355,10 +1355,10 @@
 				3AF7CFEF219DD90700FC359D /* Namespaces101.cpp in Sources */,
 				3A16DE3424EC2AB00014812D /* SmartPtrs102.cpp in Sources */,
 				3A8E6FF72209E8F700B01D70 /* DynamicClasses101.cpp in Sources */,
-				3A76103A24ED7CF800FA904C /* STLVector201.cpp in Sources */,
+				3A76103A24ED7CF800FA904C /* StlVector201.cpp in Sources */,
 				3AF7BF4123969B6A00795156 /* Exceptions301.cpp in Sources */,
 				3ABE5CF82165108C00C6F869 /* FuncStruct102.cpp in Sources */,
-				3AF569DE24F57E6F00EC9420 /* STLIterators102.cpp in Sources */,
+				3AF569DE24F57E6F00EC9420 /* StlIterators102.cpp in Sources */,
 				3A57427021F8B2C700B4CC84 /* StonewtType01.cpp in Sources */,
 				3A416452219471D80027E2C7 /* SupportEV101.cpp in Sources */,
 				3A7D078F2181F41C00101B33 /* PartialOrdering101.cpp in Sources */,
@@ -1413,7 +1413,7 @@
 				3A225A9C2146D0BF00A9997D /* TextInput104.cpp in Sources */,
 				3AA6B1292211BE6400507FD5 /* DynamicClasses102.cpp in Sources */,
 				3A3940C72178D25D003A54A0 /* DefaultArg101.cpp in Sources */,
-				3A5BE58C24EECFA600D76DD1 /* STLVector202.cpp in Sources */,
+				3A5BE58C24EECFA600D76DD1 /* StlVector202.cpp in Sources */,
 				3A2310872397EFD000E55AAC /* Sales01.cpp in Sources */,
 				3A26693B21515AC1009CAB96 /* ConditionalOperator101.cpp in Sources */,
 				3A9BD2312111DCBD00BB73F6 /* DynamicArrays101.cpp in Sources */,
@@ -1437,7 +1437,7 @@
 				3A3BE27D221C3CC5003CB4DA /* PlacementNew201.cpp in Sources */,
 				3A656687215919A900ACDA13 /* NumberInput101.cpp in Sources */,
 				3A844F1721AED10F00181FE6 /* Reference203.cpp in Sources */,
-				3AF569DC24F56C1200EC9420 /* STLIterators101.cpp in Sources */,
+				3AF569DC24F56C1200EC9420 /* StlIterators101.cpp in Sources */,
 				3A7D07982182277100101B33 /* TrailingReturn101.cpp in Sources */,
 				3A65668A21591F0000ACDA13 /* NumberInput102.cpp in Sources */,
 				3A3410AC21B026A20063572B /* Stack101.cpp in Sources */,
@@ -1446,7 +1446,7 @@
 				3A7D07922182032F00101B33 /* ForcedResolution101.cpp in Sources */,
 				3A3EA9FB220081ED00F047B8 /* StonewtType03.cpp in Sources */,
 				3A844F1B21AEF7E700181FE6 /* Stock02.cpp in Sources */,
-				3A677D2F212447CE0007EB0F /* STLVectorAndArray101.cpp in Sources */,
+				3A677D2F212447CE0007EB0F /* StlVectorAndArray101.cpp in Sources */,
 				3A41645E21948BEF0027E2C7 /* LocalStaticVars102.cpp in Sources */,
 				3A65669121593E2000ACDA13 /* WritingFile101.cpp in Sources */,
 				3A095BB221C80F510076C7EA /* Vector102.cpp in Sources */,
@@ -1476,7 +1476,7 @@
 				3AAC7147210A4DF7000C8090 /* Enums101.cpp in Sources */,
 				3A39AB412102434B0011AC89 /* Struct102.cpp in Sources */,
 				3A4D2423217632B90055DB97 /* Reference102.cpp in Sources */,
-				3A5BE58A24EEC55C00D76DD1 /* STLVector203.cpp in Sources */,
+				3A5BE58A24EEC55C00D76DD1 /* StlVector203.cpp in Sources */,
 				3AE29A852295851800BC6F5F /* TemplateFriends102.cpp in Sources */,
 				3A41645821947F2E0027E2C7 /* SupportSIV101.cpp in Sources */,
 				3A1CB4D223993C89001C6969 /* Exceptions401.cpp in Sources */,
@@ -1509,7 +1509,7 @@
 				3A1B0EFD218B5CF20084D0DA /* Headers101.cpp in Sources */,
 				3A3EB7332163B83100C6773C /* FuncString102.cpp in Sources */,
 				3A094319210F67CE00170020 /* Pointers101.cpp in Sources */,
-				3AD351C424ED62E600C8E951 /* STLVector101.cpp in Sources */,
+				3AD351C424ED62E600C8E951 /* StlVector101.cpp in Sources */,
 				3A69DEA922677E4300A7D98E /* Containment101.cpp in Sources */,
 				3A61857821271F8E006E0C96 /* Loops101.cpp in Sources */,
 				3AE4BD052152AF16004851E6 /* Switch101.cpp in Sources */,
