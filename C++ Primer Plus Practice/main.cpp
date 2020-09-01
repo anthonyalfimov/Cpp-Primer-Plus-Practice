@@ -6,5 +6,5 @@
 
 int main()
 {
-    showStlList101();
+    showStdSet101();
 }

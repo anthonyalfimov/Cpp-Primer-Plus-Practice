@@ -113,6 +113,7 @@
 		3A76A58C228326CA0027518F /* ClassTemplates203.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A76A58B228326CA0027518F /* ClassTemplates203.cpp */; };
 		3A79488121BFF57200A7C123 /* OpOverload102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A79488021BFF57200A7C123 /* OpOverload102.cpp */; };
 		3A79AFD7221C1A9100E25CE4 /* DynamicClasses202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A79AFD6221C1A9100E25CE4 /* DynamicClasses202.cpp */; };
+		3A7BD49724FEBB0200C41B8C /* StlSet101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7BD49624FEBB0200C41B8C /* StlSet101.cpp */; };
 		3A7D078F2181F41C00101B33 /* PartialOrdering101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D078D2181F41C00101B33 /* PartialOrdering101.cpp */; };
 		3A7D07922182032F00101B33 /* ForcedResolution101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D07902182032F00101B33 /* ForcedResolution101.cpp */; };
 		3A7D0795218217E000101B33 /* AutoVSdecltype101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0793218217E000101B33 /* AutoVSdecltype101.cpp */; };
@@ -382,6 +383,7 @@
 		3A76A58B228326CA0027518F /* ClassTemplates203.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClassTemplates203.cpp; sourceTree = "<group>"; };
 		3A79488021BFF57200A7C123 /* OpOverload102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpOverload102.cpp; sourceTree = "<group>"; };
 		3A79AFD6221C1A9100E25CE4 /* DynamicClasses202.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicClasses202.cpp; sourceTree = "<group>"; };
+		3A7BD49624FEBB0200C41B8C /* StlSet101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StlSet101.cpp; sourceTree = "<group>"; };
 		3A7D078D2181F41C00101B33 /* PartialOrdering101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PartialOrdering101.cpp; sourceTree = "<group>"; };
 		3A7D078E2181F41C00101B33 /* PartialOrdering101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PartialOrdering101.hpp; sourceTree = "<group>"; };
 		3A7D07902182032F00101B33 /* ForcedResolution101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ForcedResolution101.cpp; sourceTree = "<group>"; };
@@ -1004,6 +1006,7 @@
 				3AF569DB24F56C1200EC9420 /* StlIterators101.cpp */,
 				3AF569DD24F57E6F00EC9420 /* StlIterators102.cpp */,
 				3A3DF62024F957CD004FDD8F /* StlList101.cpp */,
+				3A7BD49624FEBB0200C41B8C /* StlSet101.cpp */,
 			);
 			path = STL;
 			sourceTree = "<group>";
@@ -1403,6 +1406,7 @@
 				3A1327542191E6E1004E9B92 /* AutomaticVars101.cpp in Sources */,
 				3AF59D4C21A5C26900BA3EBD /* Stock01.cpp in Sources */,
 				3AC0CA10226F551C004FF2C5 /* Student02.cpp in Sources */,
+				3A7BD49724FEBB0200C41B8C /* StlSet101.cpp in Sources */,
 				3AA6B1272211BD7100507FD5 /* StringGood01.cpp in Sources */,
 				3AD3ED9620EBD8F3008D28BF /* main.cpp in Sources */,
 				3A8E6FF52209CDD200B01D70 /* StringBad01.cpp in Sources */,
