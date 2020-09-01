@@ -28,7 +28,7 @@ namespace
     };
 }
 
-void showStlVector202()
+void showStdVector202()
 {
     std::vector<BookReview> bookReviews;        // create an empty vector
     BookReview reviewInput;

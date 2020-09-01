@@ -9,7 +9,7 @@
 #include <vector>
 #include <array>
 
-void showStlVectorAndArray101()
+void showStdVectorAndArray101()
 {
 // built-in array
     double a1[4] {1.2, 2.4, 3.6, 4.8};

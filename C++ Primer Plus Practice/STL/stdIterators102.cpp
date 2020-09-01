@@ -15,7 +15,7 @@
 #include <iterator>
 #include <vector>
 
-void showStlIterators102()
+void showStdIterators102()
 {
     std::string alpha[4] { "fine", "fish", "fashion", "fate" };
     std::string beta[2] { "busy", "bats" };

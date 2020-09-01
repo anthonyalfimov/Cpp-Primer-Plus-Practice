@@ -31,7 +31,7 @@ namespace
     void showBookReview (BookReview&);
 }
 
-void showStlVector203()
+void showStdVector203()
 {
     std::vector<BookReview> bookReviews;        // create an empty vector
     BookReview reviewInput;

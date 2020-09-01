@@ -14,7 +14,7 @@
 #include <iterator>
 #include <vector>
 
-void showStlIterators101()
+void showStdIterators101()
 {
     constexpr int size = 10;
     int casts[size] { 6, 7, 2, 9, 4, 11, 8, 7, 10, 5 };

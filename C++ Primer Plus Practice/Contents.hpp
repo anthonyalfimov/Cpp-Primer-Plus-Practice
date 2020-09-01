@@ -111,14 +111,14 @@ void showStdString104();
 //   ===================
 //   |       STL       |
 //   ===================
-void showStlVectorAndArray101();
-void showStlVector101();
-void showStlVector201();
-void showStlVector202();
-void showStlVector203();
-void showStlIterators101();
-void showStlIterators102();
-void showStlList101();
+void showStdVectorAndArray101();
+void showStdVector101();
+void showStdVector201();
+void showStdVector202();
+void showStdVector203();
+void showStdIterators101();
+void showStdIterators102();
+void showStdList101();
 void showStdSet101();
 
 //   ===================================

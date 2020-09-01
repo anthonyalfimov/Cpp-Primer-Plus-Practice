@@ -16,7 +16,7 @@
 
 static const int bookCount = 5;
 
-void showStlVector101()
+void showStdVector101()
 {
     std::vector<int> bookRatings (bookCount);
     std::vector<std::string> bookTitles (bookCount);

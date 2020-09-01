@@ -19,7 +19,7 @@ namespace
     void printInt (int n) { std::cout << n << " "; }
 }
 
-void showStlList101()
+void showStdList101()
 {
     std::list<int> alpha (5, 2);    // list of five 2s
     
