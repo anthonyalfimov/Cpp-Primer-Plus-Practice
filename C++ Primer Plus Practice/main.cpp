@@ -6,5 +6,5 @@
 
 int main()
 {
-    showStdSet101();
+    showStdMultimap101();
 }

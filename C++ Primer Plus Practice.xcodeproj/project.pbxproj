@@ -171,6 +171,7 @@
 		3AD351C424ED62E600C8E951 /* stdVector101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD351C324ED62E600C8E951 /* stdVector101.cpp */; };
 		3AD3ED9620EBD8F3008D28BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3ED9520EBD8F3008D28BF /* main.cpp */; };
 		3ADD3A56212AF5B300476E00 /* CommaOperator101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD3A54212AF5B300476E00 /* CommaOperator101.cpp */; };
+		3AE01AA324FFD57F00B3182E /* stdMultimap101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE01AA224FFD57F00B3182E /* stdMultimap101.cpp */; };
 		3AE29A852295851800BC6F5F /* TemplateFriends102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE29A842295851800BC6F5F /* TemplateFriends102.cpp */; };
 		3AE4BD052152AF16004851E6 /* Switch101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4BD032152AF16004851E6 /* Switch101.cpp */; };
 		3AE516B3227B3E6200D3F562 /* MultipleInheritance101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE516B2227B3E6200D3F562 /* MultipleInheritance101.cpp */; };
@@ -481,6 +482,7 @@
 		3AD3ED9520EBD8F3008D28BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3ADD3A54212AF5B300476E00 /* CommaOperator101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommaOperator101.cpp; sourceTree = "<group>"; };
 		3ADD3A55212AF5B300476E00 /* CommaOperator101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommaOperator101.hpp; sourceTree = "<group>"; };
+		3AE01AA224FFD57F00B3182E /* stdMultimap101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stdMultimap101.cpp; sourceTree = "<group>"; };
 		3AE29A842295851800BC6F5F /* TemplateFriends102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TemplateFriends102.cpp; sourceTree = "<group>"; };
 		3AE4BD032152AF16004851E6 /* Switch101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Switch101.cpp; sourceTree = "<group>"; };
 		3AE4BD042152AF16004851E6 /* Switch101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Switch101.hpp; sourceTree = "<group>"; };
@@ -1007,6 +1009,7 @@
 				3AF569DD24F57E6F00EC9420 /* stdIterators102.cpp */,
 				3A3DF62024F957CD004FDD8F /* stdList101.cpp */,
 				3A7BD49624FEBB0200C41B8C /* stdSet101.cpp */,
+				3AE01AA224FFD57F00B3182E /* stdMultimap101.cpp */,
 			);
 			path = STL;
 			sourceTree = "<group>";
@@ -1500,6 +1503,7 @@
 				3A4569D222D78FEE00C31142 /* FriendClasses101.cpp in Sources */,
 				3A3EB7302163B31200C6773C /* FuncString101.cpp in Sources */,
 				3A39AB3D210237740011AC89 /* Struct101.cpp in Sources */,
+				3AE01AA324FFD57F00B3182E /* stdMultimap101.cpp in Sources */,
 				3A3EB72D2163B12600C6773C /* FuncArray201.cpp in Sources */,
 				3A39AB3921021F970011AC89 /* StringFun104.cpp in Sources */,
 				3A3410AA21B021390063572B /* StackType01.cpp in Sources */,
