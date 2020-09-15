@@ -6,5 +6,5 @@
 
 int main()
 {
-    showStdMultimap101();
+    showFunctionObjects101();
 }
