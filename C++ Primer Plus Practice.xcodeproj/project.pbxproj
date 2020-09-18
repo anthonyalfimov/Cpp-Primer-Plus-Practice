@@ -131,6 +131,7 @@
 		3A85DB85239FD3D700F5A0BC /* RTTI102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A85DB84239FD3D700F5A0BC /* RTTI102.cpp */; };
 		3A85EE892170F9A500DD89EE /* Reference101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A85EE872170F9A500DD89EE /* Reference101.cpp */; };
 		3A892C3F213EEB670060498A /* TextInput103.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A892C3D213EEB670060498A /* TextInput103.cpp */; };
+		3A8CF195251528A900D4392F /* functionObjects102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CF194251528A900D4392F /* functionObjects102.cpp */; };
 		3A8D4B39212340C900AD8A30 /* CombinationOfTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D4B37212340C900AD8A30 /* CombinationOfTypes.cpp */; };
 		3A8E6FF52209CDD200B01D70 /* StringBad01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E6FF32209CDD200B01D70 /* StringBad01.cpp */; };
 		3A8E6FF72209E8F700B01D70 /* DynamicClasses101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E6FF62209E8F700B01D70 /* DynamicClasses101.cpp */; };
@@ -413,6 +414,7 @@
 		3A85EE882170F9A500DD89EE /* Reference101.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Reference101.hpp; sourceTree = "<group>"; };
 		3A892C3D213EEB670060498A /* TextInput103.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextInput103.cpp; sourceTree = "<group>"; };
 		3A892C3E213EEB670060498A /* TextInput103.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TextInput103.hpp; sourceTree = "<group>"; };
+		3A8CF194251528A900D4392F /* functionObjects102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionObjects102.cpp; sourceTree = "<group>"; };
 		3A8D4B37212340C900AD8A30 /* CombinationOfTypes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CombinationOfTypes.cpp; sourceTree = "<group>"; };
 		3A8D4B38212340C900AD8A30 /* CombinationOfTypes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CombinationOfTypes.hpp; sourceTree = "<group>"; };
 		3A8E6FF32209CDD200B01D70 /* StringBad01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringBad01.cpp; sourceTree = "<group>"; };
@@ -1013,6 +1015,7 @@
 				3A7BD49624FEBB0200C41B8C /* stdSet101.cpp */,
 				3AE01AA224FFD57F00B3182E /* stdMultimap101.cpp */,
 				3A6EAC4E2511233C00A555E1 /* functionObjects101.cpp */,
+				3A8CF194251528A900D4392F /* functionObjects102.cpp */,
 			);
 			path = STL;
 			sourceTree = "<group>";
@@ -1393,6 +1396,7 @@
 				3A97FA4A20EFD98D0062D7D1 /* TypeLimits102.cpp in Sources */,
 				3ABD4B48238427E800663AE9 /* Exceptions201.cpp in Sources */,
 				3AFF10C22270C87D006890A0 /* WorkerTest01.cpp in Sources */,
+				3A8CF195251528A900D4392F /* functionObjects102.cpp in Sources */,
 				3A2A58C0211B1D8E009FB737 /* DynamicStructs101.cpp in Sources */,
 				3AA3AD232281D479009F0D96 /* ClassTemplates202.cpp in Sources */,
 				3A5DD91124E1A71900BE4CD0 /* StdString101.cpp in Sources */,

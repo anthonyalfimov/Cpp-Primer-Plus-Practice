@@ -122,6 +122,7 @@ void showStdList101();
 void showStdSet101();
 void showStdMultimap101();
 void showFunctionObjects101();
+void showFunctionObjects102();
 
 //   ===================================
 //   |       Abstract Data Types       |
