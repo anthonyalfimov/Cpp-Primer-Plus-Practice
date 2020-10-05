@@ -6,5 +6,5 @@
 
 int main()
 {
-    showFunctionObjects102();
+    showSTLandString101();
 }
