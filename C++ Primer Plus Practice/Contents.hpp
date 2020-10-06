@@ -124,6 +124,7 @@ void showStdMultimap101();
 void showFunctionObjects101();
 void showFunctionObjects102();
 void showSTLandString101();
+void showStdAlgorithm101();
 
 //   ===================================
 //   |       Abstract Data Types       |

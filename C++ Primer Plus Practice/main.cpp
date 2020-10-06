@@ -6,5 +6,5 @@
 
 int main()
 {
-    showSTLandString101();
+    showStdAlgorithm101();
 }
