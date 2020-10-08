@@ -57,7 +57,8 @@ void showSTL102()
         performing an insertion if such key does not already exist.
     */
         wordFrequencyMap[word] = std::count_if(inputWordList.cbegin(), inputWordList.cend(),
-            [word, stringToLowerCase] (auto item) { return stringToLowerCase (item) == word; });
+                                               [word, stringToLowerCase] (const std::string& item)
+                                               { return stringToLowerCase (item) == word; });
     
     std::cout << "\n\nWord frequency:\n";
     
@@ -65,7 +66,7 @@ void showSTL102()
         std::cout << word << ": " << wordFrequencyMap[word] << "\n";
     
     std::cout << "\nConfirm that input was not modified:\n";
-    std::for_each(inputWordList.cbegin(), inputWordList.cend(), printString);
+    std::for_each (inputWordList.cbegin(), inputWordList.cend(), printString);
     
     std::cout << "\n\nDone.\n";
 }
