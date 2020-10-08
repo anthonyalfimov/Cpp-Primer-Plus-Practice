@@ -6,5 +6,5 @@
 
 int main()
 {
-    showSTL101();
+    showSTL102();
 }

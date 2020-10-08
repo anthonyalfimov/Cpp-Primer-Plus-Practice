@@ -158,6 +158,7 @@
 		3AAE8DCE2118A85E004DE731 /* PointersAndStrings101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE8DCC2118A85E004DE731 /* PointersAndStrings101.cpp */; };
 		3AAE8DD12118AE80004DE731 /* PointersAndStrings102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE8DCF2118AE80004DE731 /* PointersAndStrings102.cpp */; };
 		3AAED456252F3BF5003260DB /* STL101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AAED455252F3BF4003260DB /* STL101.cpp */; };
+		3AAED458252F5154003260DB /* STL102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AAED457252F5154003260DB /* STL102.cpp */; };
 		3AB012322257A82100D157D0 /* DMA01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AB012302257A82100D157D0 /* DMA01.cpp */; };
 		3AB012342257B99600D157D0 /* Inheritance301.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AB012332257B99600D157D0 /* Inheritance301.cpp */; };
 		3AB75E9E229C377E00B607D0 /* TemplateFriends103.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AB75E9D229C377E00B607D0 /* TemplateFriends103.cpp */; };
@@ -464,6 +465,7 @@
 		3AAE8DCF2118AE80004DE731 /* PointersAndStrings102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointersAndStrings102.cpp; sourceTree = "<group>"; };
 		3AAE8DD02118AE80004DE731 /* PointersAndStrings102.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PointersAndStrings102.hpp; sourceTree = "<group>"; };
 		3AAED455252F3BF4003260DB /* STL101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STL101.cpp; sourceTree = "<group>"; };
+		3AAED457252F5154003260DB /* STL102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STL102.cpp; sourceTree = "<group>"; };
 		3AB012302257A82100D157D0 /* DMA01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DMA01.cpp; sourceTree = "<group>"; };
 		3AB012312257A82100D157D0 /* DMA01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DMA01.hpp; sourceTree = "<group>"; };
 		3AB012332257B99600D157D0 /* Inheritance301.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inheritance301.cpp; sourceTree = "<group>"; };
@@ -1025,6 +1027,7 @@
 				3AEB09A5252B8A4C008735A9 /* STLandString101.cpp */,
 				3A5E1743252C9183009898D1 /* stdAlgorithms101.cpp */,
 				3AAED455252F3BF4003260DB /* STL101.cpp */,
+				3AAED457252F5154003260DB /* STL102.cpp */,
 			);
 			path = STL;
 			sourceTree = "<group>";
@@ -1452,6 +1455,7 @@
 				3A1B0F00218B5D320084D0DA /* coord.cpp in Sources */,
 				3A6E05D8227B308500826C16 /* Worker02.cpp in Sources */,
 				3A9A164E2105FF87002A31B6 /* BitFields101.cpp in Sources */,
+				3AAED458252F5154003260DB /* STL102.cpp in Sources */,
 				3A931FE221108377009AB0EB /* Pointers102.cpp in Sources */,
 				3A3A28952156979600CA9545 /* Switch102.cpp in Sources */,
 				3A4CAD7F21C0160000ED6305 /* myTime02.cpp in Sources */,
