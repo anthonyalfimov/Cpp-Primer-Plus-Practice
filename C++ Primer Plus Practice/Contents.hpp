@@ -125,6 +125,7 @@ void showFunctionObjects101();
 void showFunctionObjects102();
 void showSTLandString101();
 void showStdAlgorithm101();
+void showSTL101();
 
 //   ===================================
 //   |       Abstract Data Types       |
