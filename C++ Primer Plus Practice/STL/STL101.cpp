@@ -30,28 +30,28 @@ void showSTL101()
     
     std::cout << "\nYou entered the following words:\n";
     auto printString = [] (const std::string& s) { std::cout << s << " "; };
-    std::for_each(inputWordList.cbegin(), inputWordList.cend(), printString);
+    std::for_each (inputWordList.cbegin(), inputWordList.cend(), printString);
     
     // Convert words to lowercase
     auto stringToLowerCase = [] (std::string& s) -> std::string&
     {
         // For referece: https://en.cppreference.com/w/cpp/string/byte/tolower
-        std::transform(s.begin(), s.end(), s.begin(), [] (unsigned char c) { return std::tolower(c); });
+        std::transform (s.begin(), s.end(), s.begin(), [] (unsigned char c) { return std::tolower(c); });
         return s;
     };
     
-    std::for_each(inputWordList.begin(), inputWordList.end(), stringToLowerCase);
+    std::for_each (inputWordList.begin(), inputWordList.end(), stringToLowerCase);
     std::cout << "\n\nInput converted to lower case:\n";
-    std::for_each(inputWordList.cbegin(), inputWordList.cend(), printString);
+    std::for_each (inputWordList.cbegin(), inputWordList.cend(), printString);
     
     // Sort alphabetically and remove duplicates by storing in a set
     std::set<std::string> uniqueAlphabeticWordList;
     using setInsertIterator = std::insert_iterator<std::set<std::string>>;
-    std::copy(inputWordList.cbegin(), inputWordList.cend(),
+    std::copy (inputWordList.cbegin(), inputWordList.cend(),
               setInsertIterator (uniqueAlphabeticWordList, uniqueAlphabeticWordList.begin()));
     
     std::cout << "\n\nAlphabetic list of words:\n";
-    std::for_each(uniqueAlphabeticWordList.cbegin(), uniqueAlphabeticWordList.cend(), printString);
+    std::for_each (uniqueAlphabeticWordList.cbegin(), uniqueAlphabeticWordList.cend(), printString);
     
     // Calculate word frequency and store it in a map
     std::map<std::string, long> wordFrequencyMap;
@@ -60,7 +60,7 @@ void showSTL101()
     /* std::map operator[] returns a reference to the value that is mapped to a key,
         performing an insertion if such key does not already exist.
     */
-        wordFrequencyMap[word] = std::count(inputWordList.cbegin(), inputWordList.cend(), word);
+        wordFrequencyMap[word] = std::count (inputWordList.cbegin(), inputWordList.cend(), word);
     
     std::cout << "\n\nWord frequency:\n";
     
