@@ -6,5 +6,5 @@
 
 int main()
 {
-    showSTLandValarray101();
+    showSTLandValarray102();
 }
