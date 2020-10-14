@@ -127,6 +127,7 @@ void showSTLandString101();
 void showStdAlgorithm101();
 void showSTL101();
 void showSTL102();
+void showSTLandValarray101();
 
 //   ===================================
 //   |       Abstract Data Types       |

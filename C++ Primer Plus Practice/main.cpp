@@ -6,5 +6,5 @@
 
 int main()
 {
-    showSTL102();
+    showSTLandValarray101();
 }

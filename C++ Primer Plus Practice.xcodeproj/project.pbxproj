@@ -188,6 +188,7 @@
 		3AF569DC24F56C1200EC9420 /* stdIterators101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF569DB24F56C1200EC9420 /* stdIterators101.cpp */; };
 		3AF569DE24F57E6F00EC9420 /* stdIterators102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF569DD24F57E6F00EC9420 /* stdIterators102.cpp */; };
 		3AF59D4C21A5C26900BA3EBD /* Stock01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF59D4A21A5C26900BA3EBD /* Stock01.cpp */; };
+		3AF7160625372C42002B1C81 /* STLandValarray101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7160525372C42002B1C81 /* STLandValarray101.cpp */; };
 		3AF757FD222EB1CD006F9815 /* BaseClass01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF757FB222EB1CD006F9815 /* BaseClass01.cpp */; };
 		3AF757FF222EBB83006F9815 /* UseBaseClass01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF757FE222EBB83006F9815 /* UseBaseClass01.cpp */; };
 		3AF7BF4123969B6A00795156 /* Exceptions301.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7BF4023969B6A00795156 /* Exceptions301.cpp */; };
@@ -509,6 +510,7 @@
 		3AF569DD24F57E6F00EC9420 /* stdIterators102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stdIterators102.cpp; sourceTree = "<group>"; };
 		3AF59D4A21A5C26900BA3EBD /* Stock01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stock01.cpp; sourceTree = "<group>"; };
 		3AF59D4B21A5C26900BA3EBD /* Stock01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stock01.hpp; sourceTree = "<group>"; };
+		3AF7160525372C42002B1C81 /* STLandValarray101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STLandValarray101.cpp; sourceTree = "<group>"; };
 		3AF757FB222EB1CD006F9815 /* BaseClass01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseClass01.cpp; sourceTree = "<group>"; };
 		3AF757FC222EB1CD006F9815 /* BaseClass01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BaseClass01.hpp; sourceTree = "<group>"; };
 		3AF757FE222EBB83006F9815 /* UseBaseClass01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UseBaseClass01.cpp; sourceTree = "<group>"; };
@@ -1028,6 +1030,7 @@
 				3A5E1743252C9183009898D1 /* stdAlgorithms101.cpp */,
 				3AAED455252F3BF4003260DB /* STL101.cpp */,
 				3AAED457252F5154003260DB /* STL102.cpp */,
+				3AF7160525372C42002B1C81 /* STLandValarray101.cpp */,
 			);
 			path = STL;
 			sourceTree = "<group>";
@@ -1372,6 +1375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF7160625372C42002B1C81 /* STLandValarray101.cpp in Sources */,
 				3A3EA9FD2200849700F047B8 /* ClassTypeCasts103.cpp in Sources */,
 				3A79AFD7221C1A9100E25CE4 /* DynamicClasses202.cpp in Sources */,
 				3A266935215146B7009CAB96 /* example03.cpp in Sources */,
