@@ -1,7 +1,5 @@
-// PrimerPlus.cpp   -   C++ Primer Plus exercises file
-//
+// PrimerPlus.cpp   -   C++ Primer Plus practice file
 
-//#include <iostream>
 #include "Contents.hpp"
 
 int main()
