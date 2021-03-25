@@ -30,7 +30,7 @@ void showStdString103()
 
     char playChoice;
     
-    std::cout << "Will you a word game? <y/n> ";
+    std::cout << "Will you play a word game? <y/n> ";
     std::cin >> playChoice;
     playChoice = std::tolower (playChoice);
     
