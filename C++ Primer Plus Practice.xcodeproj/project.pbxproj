@@ -86,6 +86,7 @@
 		3A50018D2215836200CA6BC3 /* DynamicClasses201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A50018C2215836200CA6BC3 /* DynamicClasses201.cpp */; };
 		3A57427021F8B2C700B4CC84 /* StonewtType01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A57426E21F8B2C700B4CC84 /* StonewtType01.cpp */; };
 		3A57427221F8C31D00B4CC84 /* ClassTypeCasts101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A57427121F8C31D00B4CC84 /* ClassTypeCasts101.cpp */; };
+		3A5899832603DA6900CF3132 /* initializerList101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5899822603DA6900CF3132 /* initializerList101.cpp */; };
 		3A58E679237C5CB40029C032 /* Exceptions101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A58E678237C5CB40029C032 /* Exceptions101.cpp */; };
 		3A5BE58A24EEC55C00D76DD1 /* stdVector203.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BE58924EEC55C00D76DD1 /* stdVector203.cpp */; };
 		3A5BE58C24EECFA600D76DD1 /* stdVector202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BE58B24EECFA600D76DD1 /* stdVector202.cpp */; };
@@ -347,6 +348,7 @@
 		3A57426E21F8B2C700B4CC84 /* StonewtType01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StonewtType01.cpp; sourceTree = "<group>"; };
 		3A57426F21F8B2C700B4CC84 /* StonewtType01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StonewtType01.hpp; sourceTree = "<group>"; };
 		3A57427121F8C31D00B4CC84 /* ClassTypeCasts101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClassTypeCasts101.cpp; sourceTree = "<group>"; };
+		3A5899822603DA6900CF3132 /* initializerList101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = initializerList101.cpp; sourceTree = "<group>"; };
 		3A58E678237C5CB40029C032 /* Exceptions101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Exceptions101.cpp; sourceTree = "<group>"; };
 		3A5BE58924EEC55C00D76DD1 /* stdVector203.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stdVector203.cpp; sourceTree = "<group>"; };
 		3A5BE58B24EECFA600D76DD1 /* stdVector202.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stdVector202.cpp; sourceTree = "<group>"; };
@@ -1034,6 +1036,7 @@
 				3AAED457252F5154003260DB /* STL102.cpp */,
 				3AF7160525372C42002B1C81 /* STLandValarray101.cpp */,
 				3AF716072537476B002B1C81 /* STLandValarray102.cpp */,
+				3A5899822603DA6900CF3132 /* initializerList101.cpp */,
 			);
 			path = STL;
 			sourceTree = "<group>";
@@ -1479,6 +1482,7 @@
 				3AF569DC24F56C1200EC9420 /* stdIterators101.cpp in Sources */,
 				3A7D07982182277100101B33 /* TrailingReturn101.cpp in Sources */,
 				3A65668A21591F0000ACDA13 /* NumberInput102.cpp in Sources */,
+				3A5899832603DA6900CF3132 /* initializerList101.cpp in Sources */,
 				3A3410AC21B026A20063572B /* Stack101.cpp in Sources */,
 				3A0C9AC4239E886C00E78562 /* RTTI101.cpp in Sources */,
 				3A3FB92A22203339004B265B /* Queue01.cpp in Sources */,

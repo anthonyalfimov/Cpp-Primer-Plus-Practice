@@ -4,5 +4,5 @@
 
 int main()
 {
-    showSTLandValarray102();
+    showInitializerList101();
 }
