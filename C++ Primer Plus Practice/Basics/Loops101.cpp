@@ -11,11 +11,12 @@ void showLoops101()
 {
     constexpr int size {20};
     char word[size];
-    char * pc {word};
     
     std::cout << "Enter a word: ";
-    std::cin >> pc;
-    
+    std::cin >> word;
+
+    char* pc {word};
+
     for(int i = 0; *(pc + i); ++i)
         std::cout << pc[i];
     std::cout << "\n";
